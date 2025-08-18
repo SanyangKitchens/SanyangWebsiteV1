@@ -8,18 +8,12 @@ const Header = () => {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Phone size={16} />
-              <span>888-860-0880</span>
+              <a href="tel:+447955170009">+44 (0)7 9551 7009</a>
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Mail size={16} />
-              <span>sales@sanyangcabinetry.com</span>
+              <a href="mailto:sales@sanyang.co.uk">sales@sanyang.co.uk</a>
             </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <a href="#" className="text-gold hover:underline font-medium">
-              Become Dealer
-            </a>
-            <ShoppingCart size={20} className="text-muted-foreground hover:text-foreground cursor-pointer" />
           </div>
         </div>
       </div>
