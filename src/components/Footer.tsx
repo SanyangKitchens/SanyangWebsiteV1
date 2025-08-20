@@ -16,7 +16,6 @@ const Footer = () => {
                 <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Products</a></li>
                 <li><a href="/about" className="text-muted-foreground hover:text-gold transition-colors">About Us</a></li>
                 <li><a href="/contact" className="text-muted-foreground hover:text-gold transition-colors">Contact Us</a></li>
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">FAQ</a></li>
                 <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Sitemap</a></li>
               </ul>
             </div>
@@ -24,8 +23,6 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Our Policies</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Shipping & Returns</a></li>
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Privacy Notice</a></li>
                 <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Conditions of Use</a></li>
                 <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Warranty</a></li>
               </ul>

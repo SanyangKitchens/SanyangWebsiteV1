@@ -171,20 +171,7 @@ const Contact = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
-
-            <Card className="bg-background border-border">
-              <CardHeader>
-                <CardTitle className="text-xl font-bold text-foreground">Business Hours</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-muted-foreground">
-                  <p><span className="font-medium">Monday - Friday:</span> 8:00 AM - 6:00 PM</p>
-                  <p><span className="font-medium">Saturday:</span> 9:00 AM - 4:00 PM</p>
-                  <p><span className="font-medium">Sunday:</span> Closed</p>
-                </div>
-              </CardContent>
-            </Card>
+            </Card>                      
           </div>
         </div>
         </main>

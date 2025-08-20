@@ -51,15 +51,10 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
-              Gallery
-            </a>
+            
             
             <a href="/about" className="text-foreground hover:text-gold transition-colors font-medium">
               About Us
-            </a>
-            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
-              Assembly Videos
             </a>
             <a href="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
               Contact Us
