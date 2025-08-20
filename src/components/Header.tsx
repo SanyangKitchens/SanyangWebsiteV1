@@ -1,7 +1,12 @@
-import { Phone, Mail, ShoppingCart, ChevronDown } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { Phone, Mail, ChevronDown, Menu, X } from "lucide-react";
+
 const Header = () => {
-  return <div className="w-full">
+  // State to manage mobile menu visibility
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <div className="w-full">
       {/* Top Bar */}
       <div className="bg-light-gray py-2 px-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
@@ -20,16 +25,18 @@ const Header = () => {
 
       {/* Main Navigation */}
       <nav className="bg-background shadow-elegant py-4 px-4 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-7xl mx-auto flex justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <a className="flex items-center gap-4" href="/">
+            <img src="/sanyang logo without text.png" alt="Sanyang Logo" className="w-24" />
             <h1 className="text-2xl font-bold">
               <span className="text-foreground">Sanyang</span>
-              <span className="text-gold ml-2">Cabinetry</span>
+              <span className="text-gold"> Cabinetry</span>
             </h1>
-          </div>
+          </a>
+          
 
-          {/* Navigation Menu */}
+          {/* Desktop Navigation Menu */}
           <div className="hidden lg:flex items-center space-x-8">
             <a href="/" className="text-foreground hover:text-gold transition-colors font-medium">
               Home
@@ -51,6 +58,9 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
+              Gallery
+            </a>
             
             
             <a href="/about" className="text-foreground hover:text-gold transition-colors font-medium">
@@ -60,8 +70,42 @@ const Header = () => {
               Contact Us
             </a>
           </div>
+
+          {/* Hamburger Menu Button */}
+          <div className="lg:hidden">
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {isMenuOpen && (
+          <div className="lg:hidden mt-4 flex flex-col space-y-4">
+            <a href="/" className="text-foreground hover:text-gold transition-colors font-medium">
+              Home
+            </a>
+            {/* Note: Dropdowns in mobile can be complex. This is a simplified version. */}
+            <a href="/products/kitchen-cabinets" className="text-foreground hover:text-gold transition-colors font-medium">
+              Products
+            </a>
+            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
+              Gallery
+            </a>
+            <a href="/about" className="text-foreground hover:text-gold transition-colors font-medium">
+              About Us
+            </a>
+            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
+              Assembly Videos
+            </a>
+            <a href="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
+              Contact Us
+            </a>
+          </div>
+        )}
       </nav>
-    </div>;
+    </div>
+  );
 };
+
 export default Header;

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-kitchen.jpg";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -18,11 +19,14 @@ const HeroSection = () => {
           SANYANG CABINETRY
         </h1>
         <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light">
-          Elevating spaces through exceptional cabinetry! Your premier destination for wholesale cabinets.
+          The Standard of Quality for British Homes.
         </p>
-        <Button variant="hero" className="animate-fade-in">
-          VIEW OUR PRODUCTS
-        </Button>
+
+        <Link to="/products/kitchen-cabinets">
+          <Button variant="hero" className="animate-fade-in">
+            VIEW OUR PRODUCTS
+          </Button>
+        </Link>
       </div>
     </section>
   );
