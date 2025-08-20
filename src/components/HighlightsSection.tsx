@@ -1,21 +1,21 @@
-import { Award, Clock, Truck } from "lucide-react";
+import { Award, Clock, PoundSterling } from "lucide-react";
 
 const HighlightsSection = () => {
   const highlights = [
     {
       icon: Award,
       title: "Great Plywood RTA Cabinets with Low Price",
-      description: "Premium quality materials at unbeatable wholesale prices"
+      description: "Get premium quality materials at unbeatable wholesale prices"
     },
     {
       icon: Clock,
-      title: "Short Lead Time From 2 to 5 Business Days", 
-      description: "Fast processing and quick delivery to meet your project deadlines"
+      title: "24/7 Dedicated Support", 
+      description: "Get peace of mind with expert assistance available anytime you need it, 24/7."
     },
     {
-      icon: Truck,
-      title: "Professional Assembly And Shipping Service",
-      description: "Expert installation and reliable shipping nationwide"
+      icon: PoundSterling,
+      title: "Flexible Financing Options",
+      description: "Get the right financing options built around your specific requirements."
     }
   ];
 
