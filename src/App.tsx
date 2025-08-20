@@ -1,3 +1,5 @@
+// src/App.tsx (Updated)
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -8,6 +10,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import KitchenCabinets from "./pages/KitchenCabinets";
 import NotFound from "./pages/NotFound";
+import CookieConsent from "./components/ui/CookieConsent"; // Import the new component
 
 const queryClient = new QueryClient();
 
@@ -22,9 +25,9 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products/kitchen-cabinets" element={<KitchenCabinets />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookieConsent /> {/* Add the component here */}
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
