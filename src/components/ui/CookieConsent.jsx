@@ -90,7 +90,7 @@ const CookieConsent = () => {
           </button>
           <button 
             onClick={() => handleAction('true')}
-            className="flex-1 px-4 py-3 rounded-lg text-base font-semibold text-white bg-gold hover:bg-gold/90 transition-colors"
+            className="flex-1 px-4 py-3 rounded-lg text-base font-semibold text-foreground bg-gradient-gold hover:bg-gold/90 transition-colors"
           >
             Accept All
           </button>
