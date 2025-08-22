@@ -6,42 +6,48 @@ const KitchenCabinets = () => {
     {
       title: "SHAKER STYLE ESSENTIAL COLLECTION",
       products: [
-        { name: "Shaker White", isNew: false },
-        { name: "Shaker Gray", isNew: false },
-        { name: "Shaker Espresso", isNew: false }
+        { name: "Shaker White", isNew: false, image: "/products/SW-SD-Front_1_1.jpg" },
+        { name: "Shaker Gray", isNew: false, image: "/products/GR-SD-Front_2.jpg" },
+        { name: "Shaker Espresso", isNew: false, image: "/products/SE-SD-Front_2.jpg" }
       ]
     },
     {
       title: "SHAKER STYLE CHARM COLLECTION", 
       products: [
-        { name: "Navy Blue", isNew: false },
-        { name: "Iron Black", isNew: true },
-        { name: "Treasure Chest", isNew: true },
-        { name: "Aston Green", isNew: true },
-        { name: "Smokey Ash", isNew: true }
+        { name: "Navy Blue", isNew: false, image: "/products/NB-SD-Front_3.jpg" },
+        { name: "Iron Black", isNew: false, image: "/products/IB_1.png" },
+        { name: "Treasure Chest", isNew: false, image: "/products/TC_1.png" },
+        { name: "Aston Green", isNew: false, image: "/products/AG_1.png" },
+        { name: "Smokey Ash", isNew: false, image: "/products/SA_1.png" }
       ]
     },
     {
       title: "SLIM SHAKER STYLE",
       products: [
-        { name: "Slim Dove White", isNew: false },
-        { name: "Slim White Oak", isNew: false },
-        { name: "Slim Aston Green", isNew: true }
-      ]
-    },
-    {
-      title: "DOUBLE SHAKER STYLE",
-      products: [
-        { name: "Double Smokey Grey", isNew: true },
-        { name: "Double Dove White", isNew: true }
+        { name: "Slim Dove White", isNew: false, image: "/products/SDW-SD_4.jpg" },
+        { name: "Slim White Oak", isNew: false, image: "/products/SWO-SD_3.jpg" },
+        { name: "Slim Aston Green", isNew: false, image: "/products/SAG_1.png" }
       ]
     },
     {
       title: "CLASSIC STYLE",
       products: [
-        { name: "Classic Door Style 1", isNew: false },
-        { name: "Classic Door Style 2", isNew: false },
-        { name: "Classic Door Style 3", isNew: false }
+        { name: "Charleston Whie", isNew: false, image: "/products/CW-SD-Front_2.jpg" },
+        { name: "Aspen White", isNew: false, image: "/products/AW-SD-Front_1__2.jpg" },
+        { name: "Aspen Charcoal Gray", isNew: false, image: "/products/AC-SD-Front_2.jpg" }
+      ]
+    },
+    {
+      title: "HIGH GLOSSY EUROPEAN STYLE",
+      products: [
+        { name: "High Gloss White", isNew: false, image: "/products/HW-SD-Front_1_1_1.jpg" },
+        { name: "High Gloss Grey", isNew: false, image: "/products/HG-SD-Front_1_1_1.jpg" },
+      ]
+    },
+    {
+      title: "SHAKER STLE - BUILDER GRADE",
+      products: [
+        { name: "High Gloss White", isNew: false, image: "/products/FW-SD-Front__2.jpg" },
       ]
     }
   ];
@@ -51,15 +57,22 @@ const KitchenCabinets = () => {
       <Header />
       
       {/* Banner Section */}
-      <section className="relative h-80 bg-muted overflow-hidden">
-        {/* Background Image Placeholder */}
-        <div className="absolute inset-0 bg-gradient-to-r from-muted to-muted-foreground/20">
-          {/* Insert blurred kitchen background image here */}
-        </div>
-        <div className="relative z-10 flex items-center justify-center h-full">
-          <h1 className="text-5xl font-bold text-foreground">OUR PRODUCTS</h1>
-        </div>
-      </section>
+    <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${'/products/our_products_hero.jpg'})` }}
+      >
+        <div className="absolute inset-0 bg-gradient-hero"></div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          Our Products
+        </h1>
+      </div>
+    </section>
 
       {/* Products Grid */}
       <section className="py-16 bg-background">
@@ -72,16 +85,23 @@ const KitchenCabinets = () => {
               </h2>
               
               {/* Products Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
                 {section.products.map((product, productIndex) => (
-                  <div key={productIndex} className="product-tile bg-card rounded-lg overflow-hidden shadow-elegant hover:shadow-gold transition-all duration-300">
+                  <div key={productIndex} className="product-tile bg-card rounded-lg overflow-hidden shadow-elegant">
                     {/* Product Image Container */}
-                    <div className="relative h-64 bg-muted flex items-center justify-center">
-                      {/* Insert image for {product.name} here */}
-                      <div className="text-muted-foreground text-center">
-                        <div className="text-lg font-medium">{product.name}</div>
-                        <div className="text-sm mt-2">Image Placeholder</div>
-                      </div>
+                    <div className="relative">
+                      {/* Display product image */}
+                      {product.image ? (
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                        />
+                      ) : (
+                        <div className="text-muted-foreground text-center">
+                          <div className="text-lg font-medium">{product.name}</div>
+                          <div className="text-sm mt-2">Image Placeholder</div>
+                        </div>
+                      )}
                       
                       {/* NEW Ribbon */}
                       {product.isNew && (

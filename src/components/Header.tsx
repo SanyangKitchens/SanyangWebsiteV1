@@ -56,7 +56,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <Link to="#" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link to="/gallery" className="text-foreground hover:text-gold transition-colors font-medium">
               Gallery
             </Link>
             <Link to="/about" className="text-foreground hover:text-gold transition-colors font-medium">
@@ -85,7 +85,7 @@ const Header = () => {
             <Link to="/products/kitchen-cabinets" className="text-foreground hover:text-gold transition-colors font-medium">
               Products
             </Link>
-            <Link to="#" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link to="/gallery" className="text-foreground hover:text-gold transition-colors font-medium">
               Gallery
             </Link>
             <Link to="/about" className="text-foreground hover:text-gold transition-colors font-medium">

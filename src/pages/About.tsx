@@ -6,10 +6,27 @@ const About = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="max-w-6xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-foreground mb-12 text-center">
+    <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${'/products/about_us_hero.JPG'})` }}
+      >
+        <div className="absolute inset-0 bg-gradient-hero"></div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
           About Us
         </h1>
+        <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light">
+          The Standard of Quality for British Homes.
+        </p>
+      </div>
+    </section>
+
+      <main className="max-w-6xl mx-auto px-4 py-16">
 
         {/* Two-column layout */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">

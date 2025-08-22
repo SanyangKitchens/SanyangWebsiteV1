@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import KitchenCabinets from "./pages/KitchenCabinets";
 import NotFound from "./pages/NotFound";
 import CookieConsent from "./components/ui/CookieConsent"; // Import the new component
+import Gallery from "./pages/Gallery";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products/kitchen-cabinets" element={<KitchenCabinets />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <CookieConsent /> {/* Add the component here */}

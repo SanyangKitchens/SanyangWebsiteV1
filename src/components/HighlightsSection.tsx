@@ -4,19 +4,20 @@ const HighlightsSection = () => {
   const highlights = [
     {
       icon: Award,
-      title: "Great Plywood RTA Cabinets with Low Price",
+      title: "Great Plywood RTA Cabinets at Affordable Prices",
       description: "Get premium quality materials at unbeatable wholesale prices"
+    },
+    {
+      icon: PoundSterling,
+      title: "Interest Free Financing Options",
+      description: "Get the right financing options built around your specific requirements."
     },
     {
       icon: Clock,
       title: "24/7 Dedicated Support", 
       description: "Get peace of mind with expert assistance available anytime you need it, 24/7."
-    },
-    {
-      icon: PoundSterling,
-      title: "Flexible Financing Options",
-      description: "Get the right financing options built around your specific requirements."
     }
+    
   ];
 
   return (
