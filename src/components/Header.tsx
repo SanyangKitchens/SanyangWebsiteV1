@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Phone, Mail, ChevronDown, Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   // State to manage mobile menu visibility
@@ -38,37 +39,32 @@ const Header = () => {
 
           {/* Desktop Navigation Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <a href="/" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link to="/" className="text-foreground hover:text-gold transition-colors font-medium">
               Home
-            </a>
+            </Link>
             <div className="relative group">
-              <a href="#" className="flex items-center text-foreground hover:text-gold transition-colors font-medium">
+              <Link to="#" className="flex items-center text-foreground hover:text-gold transition-colors font-medium">
                 Products
                 <ChevronDown size={16} className="ml-1" />
-              </a>
+              </Link>
               {/* Dropdown Menu */}
               <div className="absolute top-full left-0 mt-2 w-48 bg-background shadow-elegant rounded-lg border border-muted opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="py-2">
-                  <a 
-                    href="/products/kitchen-cabinets" 
-                    className="block px-4 py-2 text-foreground hover:text-gold hover:bg-muted/50 transition-colors"
-                  >
+                  <Link to="/products/kitchen-cabinets" className="block px-4 py-2 text-foreground hover:text-gold hover:bg-muted/50 transition-colors">
                     Kitchen Cabinets
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link to="#" className="text-foreground hover:text-gold transition-colors font-medium">
               Gallery
-            </a>
-            
-            
-            <a href="/about" className="text-foreground hover:text-gold transition-colors font-medium">
+            </Link>
+            <Link to="/about" className="text-foreground hover:text-gold transition-colors font-medium">
               About Us
-            </a>
-            <a href="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
+            </Link>
+            <Link to="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
               Contact Us
-            </a>
+            </Link>
           </div>
 
           {/* Hamburger Menu Button */}
@@ -82,25 +78,25 @@ const Header = () => {
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div className="lg:hidden mt-4 flex flex-col space-y-4">
-            <a href="/" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link to="/" className="text-foreground hover:text-gold transition-colors font-medium">
               Home
-            </a>
+            </Link>
             {/* Note: Dropdowns in mobile can be complex. This is a simplified version. */}
-            <a href="/products/kitchen-cabinets" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link to="/products/kitchen-cabinets" className="text-foreground hover:text-gold transition-colors font-medium">
               Products
-            </a>
-            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
+            </Link>
+            <Link to="#" className="text-foreground hover:text-gold transition-colors font-medium">
               Gallery
-            </a>
-            <a href="/about" className="text-foreground hover:text-gold transition-colors font-medium">
+            </Link>
+            <Link to="/about" className="text-foreground hover:text-gold transition-colors font-medium">
               About Us
-            </a>
-            <a href="#" className="text-foreground hover:text-gold transition-colors font-medium">
+            </Link>
+            <Link to="#" className="text-foreground hover:text-gold transition-colors font-medium">
               Assembly Videos
-            </a>
-            <a href="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
+            </Link>
+            <Link to="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
               Contact Us
-            </a>
+            </Link>
           </div>
         )}
       </nav>

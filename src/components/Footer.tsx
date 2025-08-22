@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return <footer className="bg-light-gray py-12 px-4 mt-16">
       <div className="max-w-7xl mx-auto">
@@ -13,18 +15,18 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Our Company</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Products</a></li>
-                <li><a href="/about" className="text-muted-foreground hover:text-gold transition-colors">About Us</a></li>
-                <li><a href="/contact" className="text-muted-foreground hover:text-gold transition-colors">Contact Us</a></li>
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Sitemap</a></li>
+                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Products</Link></li>
+                <li><Link to="/about" className="text-muted-foreground hover:text-gold transition-colors">About Us</Link></li>
+                <li><Link to="/contact" className="text-muted-foreground hover:text-gold transition-colors">Contact Us</Link></li>
+                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Sitemap</Link></li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-semibold text-foreground mb-4">Our Policies</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Conditions of Use</a></li>
-                <li><a href="#" className="text-muted-foreground hover:text-gold transition-colors">Warranty</a></li>
+                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Conditions of Use</Link></li>
+                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Warranty</Link></li>
               </ul>
             </div>
           </div>
