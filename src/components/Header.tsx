@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="w-full">
       {/* Top Bar */}
-      <div className="bg-light-gray py-2 px-4">
+      <div className="bg-secondary py-2 px-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-muted-foreground">
@@ -29,11 +29,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto flex justify-between">
           {/* Logo */}
           <a className="flex items-center gap-4" href="/">
-            <img src="/sanyang logo without text.png" alt="Sanyang Logo" className="w-24" />
-            <h1 className="text-2xl font-bold">
-              <span className="text-foreground">Sanyang</span>
-              <span className="text-gold"> Cabinetry</span>
-            </h1>
+            <img src="/SanyangCabinetry.png" alt="Sanyang Logo" className="w-80" />
           </a>
           
 

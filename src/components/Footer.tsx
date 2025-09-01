@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  return <footer className="bg-light-gray py-12 px-4 mt-16">
+  return <footer className="bg-secondary py-12 px-4 mt-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Column: About Us */}
