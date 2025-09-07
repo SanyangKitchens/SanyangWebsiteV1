@@ -87,9 +87,6 @@ const Header = () => {
             <Link to="/about" className="text-foreground hover:text-gold transition-colors font-medium">
               About Us
             </Link>
-            <Link to="#" className="text-foreground hover:text-gold transition-colors font-medium">
-              Assembly Videos
-            </Link>
             <Link to="/contact" className="text-foreground hover:text-gold transition-colors font-medium">
               Contact Us
             </Link>
