@@ -1,6 +1,14 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { galleryPhotos } from "@/lib/gallery_photos";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 const Gallery = () => {
   return (
@@ -8,18 +16,22 @@ const Gallery = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
-        <div
+      <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${'/products/gallery_hero.jpg'})` }}
+          style={{ backgroundImage: `url(${'/products/home_pro1.jpg'})` }}
         >
           <div className="absolute inset-0 bg-gradient-hero"></div>
         </div>
 
-        <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">Our Gallery</h1>
-          <p className="text-lg md:text-2xl font-light">
-            Explore our craftsmanship, creativity, and premium cabinetry designs.
+        {/* Content */}
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            Gallery
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light">
+            A perfect blend of elegance and functionality with premium solid wood cabinets.
           </p>
         </div>
       </section>
@@ -65,54 +77,36 @@ const Gallery = () => {
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-8">Product Showcase</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 auto-rows-[300px]">
-            <div className="col-span-1 row-span-2">
-              <img
-                src="/images/gallery1.jpg"
-                alt="Gallery 1"
-                className="w-full h-full object-cover rounded-xl shadow-lg"
-              />
-            </div>
-            <img
-              src="/images/gallery2.jpg"
-              alt="Gallery 2"
-              className="w-full h-full object-cover rounded-xl shadow-lg"
-            />
-            <img
-              src="/images/gallery3.jpg"
-              alt="Gallery 3"
-              className="w-full h-full object-cover rounded-xl shadow-lg"
-            />
-            <div className="col-span-1 row-span-2">
-              <img
-                src="/images/gallery4.jpg"
-                alt="Gallery 4"
-                className="w-full h-full object-cover rounded-xl shadow-lg"
-              />
-            </div>
-            <img
-              src="/images/gallery5.jpg"
-              alt="Gallery 5"
-              className="w-full h-full object-cover rounded-xl shadow-lg"
-            />
-            <img
-              src="/images/gallery6.jpg"
-              alt="Gallery 6"
-              className="w-full h-full object-cover rounded-xl shadow-lg"
-            />
+            {galleryPhotos.map((photo, index) => (
+              <div key={index} className={`${photo.colSpan} ${photo.rowSpan}`}>
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  className="w-full h-full object-cover rounded-xl shadow-lg"
+                />
+              </div>
+            ))}
           </div>
         </section>
 
         {/* Slideshow / Carousel Section */}
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-8">Inspiration Carousel</h2>
-          <div className="relative w-full overflow-hidden rounded-xl shadow-lg">
-            {/* Replace this block with a carousel/slider (e.g., Swiper.js or shadcn/ui carousel) */}
-            <img
-              src="/images/slider1.jpg"
-              alt="Slider Example"
-              className="w-full h-[400px] object-cover"
-            />
-          </div>
+          <Carousel className="w-full">
+            <CarouselContent>
+              {galleryPhotos.map((photo, index) => (
+                <CarouselItem key={index}>
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    className="w-full h-[400px] object-cover rounded-xl shadow-lg"
+                  />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </section>
       </main>
 

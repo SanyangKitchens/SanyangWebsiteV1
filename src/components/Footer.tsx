@@ -15,18 +15,18 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Our Company</h4>
               <ul className="space-y-2">
-                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Products</Link></li>
+                <li><Link to="/products/kitchen-cabinets" className="text-muted-foreground hover:text-gold transition-colors">Products</Link></li>
                 <li><Link to="/about" className="text-muted-foreground hover:text-gold transition-colors">About Us</Link></li>
                 <li><Link to="/contact" className="text-muted-foreground hover:text-gold transition-colors">Contact Us</Link></li>
-                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Sitemap</Link></li>
+                <li><Link to="/SanyangBrochure.pdf" className="text-muted-foreground hover:text-gold transition-colors">Brochure</Link></li>
+                <li><Link to="/sitemap.xml" className="text-muted-foreground hover:text-gold transition-colors">Sitemap</Link></li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-semibold text-foreground mb-4">Our Policies</h4>
               <ul className="space-y-2">
-                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Conditions of Use</Link></li>
-                <li><Link to="#" className="text-muted-foreground hover:text-gold transition-colors">Warranty</Link></li>
+                <li><Link to="/warranty" className="text-muted-foreground hover:text-gold transition-colors">Warranty</Link></li>
               </ul>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Sanyang Cabinetry. All rights reserved.
+            © 2025 Sanyang Cabinetry. All rights reserved.
           </p>
         </div>
       </div>

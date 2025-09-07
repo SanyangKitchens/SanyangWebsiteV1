@@ -63,41 +63,54 @@ const Contact = () => {
       >
         <div className="absolute inset-0 bg-gradient-hero"></div>
       </div>
-      
       {/* Content */}
       <div className="relative z-10 bg-background/95 backdrop-blur-sm min-h-screen">
         <Header />
+
+        <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+          {/* Background Image */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${'/products/home_pro1.jpg'})` }}
+          >
+            <div className="absolute inset-0 bg-gradient-hero"></div>
+          </div>
+
+          {/* Content */}
+          <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+              Contact Us
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light">
+              Let's build something great together. Get in touch with our team to start your project.
+            </p>
+          </div>
+        </section>
         
         <main className="max-w-6xl mx-auto px-4 py-16">
-          <h1 className="text-4xl font-bold text-foreground mb-8 text-center">Contact Us</h1>
-          
-          {/* Tagline */}
-          <p className="text-xl text-center text-muted-foreground mb-16">
-            Reach out to us to open your account today!
-          </p>
 
           {/* 3 Selling Points */}
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center p-6 border border-border rounded-lg hover-scale cursor-pointer bg-card hover:shadow-lg transition-shadow duration-200">
-              <h3 className="text-xl font-bold text-foreground mb-4">Account Management</h3>
-              <p className="text-muted-foreground">Dedicated account management so you can order whatever, whenever.</p>
-            </div>
-            
-            <div className="text-center p-6 border border-border rounded-lg hover-scale cursor-pointer bg-card hover:shadow-lg transition-shadow duration-200">
+            <div className="text-center p-6 border border-border rounded-lg bg-card">
               <h3 className="text-xl font-bold text-foreground mb-4">Dedicated Support</h3>
-              <p className="text-muted-foreground">Personalized support to fulfill your business needs.</p>
+              <p className="text-muted-foreground">Personalised support to fulfill your business needs.</p>
             </div>
-            
-            <div className="text-center p-6 border border-border rounded-lg hover-scale cursor-pointer bg-card hover:shadow-lg transition-shadow duration-200">
+            <div className="text-center p-6 border border-border rounded-lg bg-card">
               <h3 className="text-xl font-bold text-foreground mb-4">Financing Options</h3>
               <p className="text-muted-foreground">Custom financing options made just for your business.</p>
+            </div>
+            <div className="text-center p-6 border border-border rounded-lg bg-card">
+              <h3 className="text-xl font-bold text-foreground mb-4">Custom Designs, Low MOQ</h3>
+              <p className="text-muted-foreground">Get personalised cabinet designs tailored to your projects, with minimum order quantities that work for you.</p>
             </div>
           </div>
 
           {/* Download Brochure Button */}
           <div className="text-center mb-16">
             <Button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded">
-              Download Our Brochure
+              <a href="/SanyangBrochure.pdf" target="_blank" rel="noopener noreferrer">
+                Download Our Brochure
+              </a>
             </Button>
           </div>
           
