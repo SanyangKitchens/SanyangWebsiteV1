@@ -45,7 +45,7 @@ const Gallery = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="overflow-hidden shadow-elegant">
               <img
-                src="/images/showcase1.jpg"
+                src="/public/products/AG1.png"
                 alt="Showcase 1"
                 className="w-full h-64 object-cover"
               />
@@ -59,14 +59,14 @@ const Gallery = () => {
 
             <Card className="overflow-hidden shadow-elegant">
               <img
-                src="/images/showcase2.jpg"
+                src="/public/products/cabinets_page_hero.JPG"
                 alt="Showcase 2"
                 className="w-full h-64 object-cover"
               />
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-2">Luxury Wardrobe</h3>
                 <p className="text-muted-foreground">
-                  Custom-made wardrobes that combine style and practicality for every home.
+                  Custom-made cabinets that combine style and practicality for every home.
                 </p>
               </CardContent>
             </Card>
