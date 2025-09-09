@@ -18,19 +18,19 @@ export const galleryPhotos = [
     rowSpan: "row-span-1",
   },
   {
-    src: "/products/raise-panel-style.jpg",
+    src: "/products/kitchen_design2.jpg",
     alt: "Spacious kitchen with a dining area and stylish lighting.",
     colSpan: "col-span-1",
     rowSpan: "row-span-2",
   },
   {
-    src: "/images/gallery/5.jpg",
+    src: "/products/kitche_design1.jpg",
     alt: "Minimalist kitchen design with clean lines and a neutral color palette.",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
   },
   {
-    src: "/images/gallery/6.jpg",
+    src: "/products/kitchen_design5.jpg",
     alt: "Cozy kitchen featuring a breakfast bar and modern appliances.",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
@@ -42,7 +42,7 @@ export const galleryPhotos = [
     rowSpan: "row-span-1",
   },
   {
-    src: "/images/gallery/8.jpg",
+    src: "/products/kitchen_design4.jpg",
     alt: "Contemporary living room with custom built-in shelves.",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
