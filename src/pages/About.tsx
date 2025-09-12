@@ -62,7 +62,7 @@ const About = () => {
           <div>
             {/* Replace src with your image */}
             <img
-              src="/your-image.jpg"
+              src="/products/Sanyang_factory.webp"
               alt="Sanyang Production Facility"
               className="rounded-2xl shadow-lg w-full object-cover"
             />
@@ -143,42 +143,42 @@ const About = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             <img
-              src="/images/factory1.jpg"
+              src="/products/factory_display1.webp"
               alt="Factory 1"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory2.jpg"
+              src="/products/factory_display2.webp"
               alt="Factory 2"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory3.jpg"
+              src="/products/factory_display3.webp"
               alt="Factory 3"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory4.jpg"
+              src="/products/factory_display4.webp"
               alt="Factory 4"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory5.jpg"
+              src="/products/factory_display5.webp"
               alt="Factory 5"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory6.jpg"
+              src="/products/factory_display8.webp"
               alt="Factory 6"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory7.jpg"
+              src="/products/factory_display6.webp"
               alt="Factory 7"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
             <img
-              src="/images/factory8.jpg"
+              src="/products/factory_display7.webp"
               alt="Factory 8"
               className="rounded-xl shadow-lg object-cover w-full h-56"
             />
