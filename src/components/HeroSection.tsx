@@ -27,6 +27,12 @@ const HeroSection = () => {
             VIEW OUR PRODUCTS
           </Button>
         </Link>
+        <p></p>
+        <Link to="/contact" className="mt-4 inline-block">
+          <Button variant="hero" className="animate-fade-in">
+            Contact Us
+          </Button>
+        </Link>
       </div>
     </section>
   );
