@@ -45,7 +45,7 @@ const Gallery = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="overflow-hidden shadow-elegant">
               <img
-                src="/public/products/AG1.png"
+                src="/products/AG1.png"
                 alt="Showcase 1"
                 className="w-full h-64 object-cover"
               />
@@ -59,7 +59,7 @@ const Gallery = () => {
 
             <Card className="overflow-hidden shadow-elegant">
               <img
-                src="/public/products/cabinets_page_hero.JPG"
+                src="/products/cabinets_page_hero.JPG"
                 alt="Showcase 2"
                 className="w-full h-64 object-cover"
               />
