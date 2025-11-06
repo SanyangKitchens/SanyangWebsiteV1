@@ -20,6 +20,9 @@ All colors MUST be HSL.
     --primary: 24 38% 39%; /* Brown from logo */
     --primary-foreground: 40 100% 95%;
 
+    --trade: 24 38% 39%;
+    --trade-foreground: 80 100% 95%;
+
     --secondary: 40 50% 90%;
     --secondary-foreground: 21 21% 20%;
 

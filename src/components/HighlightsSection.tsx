@@ -1,25 +1,25 @@
 import { Award, Clock, PoundSterling } from "lucide-react";
 
-const HighlightsSection = () => {
-  const highlights = [
-    {
-      icon: Award,
-      title: "Great Plywood RTA Cabinets at Affordable Prices",
-      description: "Get premium quality materials at unbeatable wholesale prices"
-    },
-    {
-      icon: PoundSterling,
-      title: "Interest Free Financing Options",
-      description: "Get the right financing options built around your specific requirements."
-    },
-    {
-      icon: Clock,
-      title: "24/7 Dedicated Support", 
-      description: "Get peace of mind with expert assistance available anytime you need it, 24/7."
-    }
-    
-  ];
+const highlights = [
+  {
+    icon: Award,
+    title: "Uncompromising Quality. Unbeatable Value.",
+    description: "Premium, all-plywood construction at direct-from-manufacturer prices."
+  },
+  {
+    icon: PoundSterling,
+    title: "Flexible Financing",
+    description: "We provide financing options built around your specific business requirements."
+  },
+  {
+    icon: Clock,
+    title: "Your Dedicated UK Partner", 
+    description: "Get peace of mind with expert, local assistance available right when you need it."
+  }
+  
+];
 
+const HighlightsSection = () => {
   return (
     <section className="py-16 bg-secondary">
       <div className="max-w-7xl mx-auto px-4">

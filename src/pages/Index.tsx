@@ -5,14 +5,25 @@ import ProductsSection from "@/components/ProductsSection";
 import ReviewSection from "@/components/ReviewSection";
 import Footer from "@/components/Footer";
 
+// New sections for the upgraded homepage
+import OurProcess from "@/components/OurProcess"
+import GalleryTeaser from "@/components/GalleryTeaser";
+import TradeCTA from "@/components/TradeCTA";
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <HeroSection />
-      <HighlightsSection />
-      <ProductsSection />     
-      {/* <ReviewSection /> */}
+      <main>
+        <HeroSection />
+        <HighlightsSection />
+        <OurProcess />
+        <ProductsSection />
+        <TradeCTA />
+        <GalleryTeaser />
+        
+        {/* <ReviewSection /> */}
+      </main>
       <Footer />
     </div>
   );
