@@ -102,10 +102,10 @@ const Header = () => {
             asChild
           >
             {/* Changed Link to a */}
-            <a href="/contact">
+            <Link to="/contact">
               <Briefcase size={14} className="mr-2" />
               For Trade Professionals
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
