@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Phone, Mail, ChevronDown, Briefcase } from "lucide-react";
 // Removed Link and NavLink from react-router-dom
 import { Button } from "@/components/ui/button";
@@ -131,9 +132,9 @@ const Header = () => {
             <NavigationMenuList>
               <NavigationMenuItem>
                 {/* Changed NavLink to a */}
-                <a href="/" className={desktopNavLinkClass}>
+                <Link to="/" className={desktopNavLinkClass}>
                   Home
-                </a>
+                </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
@@ -143,11 +144,15 @@ const Header = () => {
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                     {/* ListItem already uses href and <a>, so it's fine */}
-                    <ListItem href="/products/kitchen-cabinets" title="Kitchens">
+                    <ListItem title="Kitchens">
+                    <Link to={"/products/kitchen-cabinets"}>
                       Explore our full range of solid wood kitchen cabinets.
+                    </Link>
                     </ListItem>
-                    <ListItem href="/products/bathrooms" title="Bathrooms">
-                      Discover elegant and durable bathroom vanities.
+                    <ListItem title="Bathrooms">
+                      <Link to={"/products/bathrooms"}>
+                        Discover elegant and durable bathroom vanities.
+                      </Link>
                     </ListItem>
                   </ul>
                 </NavigationMenuContent>
@@ -155,20 +160,20 @@ const Header = () => {
 
               <NavigationMenuItem>
                 {/* Changed NavLink to a */}
-                <a href="/gallery" className={desktopNavLinkClass}>
+                <Link to="/gallery" className={desktopNavLinkClass}>
                   Gallery
-                </a>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 {/* Changed NavLink to a */}
-                <a href="/about" className={desktopNavLinkClass}>
+                <Link to="/about" className={desktopNavLinkClass}>
                   About Us
-                </a>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Button variant="gold" size="sm" asChild>
                   {/* Changed Link to a */}
-                  <a href="/contact">Contact Us</a>
+                  <Link to="/contact">Contact Us</Link>
                 </Button>
               </NavigationMenuItem>
             </NavigationMenuList>
@@ -188,8 +193,8 @@ const Header = () => {
               <SheetContent side="right" className="w-[300px] bg-background p-0">
                 <SheetHeader className="p-4 border-b">
                   {/* Changed Link to a */}
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="flex items-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -198,15 +203,15 @@ const Header = () => {
                       alt="Sanyang Logo"
                       className="w-48"
                     />
-                  </a>
+                  </Link>
                 </SheetHeader>
                 <div className="flex flex-col h-full p-4">
                   <div className="flex-grow flex flex-col gap-y-2">
                     <SheetClose asChild>
                       {/* Changed NavLink to a and removed active styling */}
-                      <a href="/" className={mobileNavLinkClass}>
+                      <Link to="/" className={mobileNavLinkClass}>
                         Home
-                      </a>
+                      </Link>
                     </SheetClose>
 
                     <Accordion type="single" collapsible className="w-full">
@@ -217,21 +222,21 @@ const Header = () => {
                         <AccordionContent className="pl-6">
                           <SheetClose asChild>
                             {/* Changed NavLink to a and removed active styling */}
-                            <a
-                              href="/products/kitchen-cabinets"
+                            <Link
+                              to="/products/kitchen-cabinets"
                               className={mobileNavLinkClass}
                             >
                               Kitchens
-                            </a>
+                            </Link>
                           </SheetClose>
                           <SheetClose asChild>
                             {/* Changed NavLink to a and removed active styling */}
-                            <a
-                              href="/products/bathrooms"
+                            <Link
+                              to="/products/bathrooms"
                               className={mobileNavLinkClass}
                             >
                               Bathrooms
-                            </a>
+                            </Link>
                           </SheetClose>
                         </AccordionContent>
                       </AccordionItem>
@@ -239,22 +244,22 @@ const Header = () => {
 
                     <SheetClose asChild>
                       {/* Changed NavLink to a and removed active styling */}
-                      <a href="/gallery" className={mobileNavLinkClass}>
+                      <Link to="/gallery" className={mobileNavLinkClass}>
                         Gallery
-                      </a>
+                      </Link>
                     </SheetClose>
                     <SheetClose asChild>
                       {/* Changed NavLink to a and removed active styling */}
-                      <a href="/about" className={mobileNavLinkClass}>
+                      <Link to="/about" className={mobileNavLinkClass}>
                         About Us
-                      </a>
+                      </Link>
                     </SheetClose>
                   </div>
                   <Separator className="my-4" />
                   <Button variant="gold" size="lg" asChild>
                     <SheetClose asChild>
                       {/* Changed Link to a */}
-                      <a href="/contact">Contact Us</a>
+                      <Link to="/contact">Contact Us</Link>
                     </SheetClose>
                   </Button>
                 </div>
