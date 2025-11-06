@@ -7,7 +7,7 @@ const Footer = () => {
           {/* Left Column: About Us */}
           <div>
             <h3 className="text-xl font-bold text-foreground mb-4">About Us</h3>
-            <p className="text-muted-foreground leading-relaxed">Sanyang Cabinetry is a kitchen and bath cabinets wholesaler based in London, England that provides great products for contractors, stores, builders, and remodelers.</p>
+            <p className="text-muted-foreground leading-relaxed">Sanyang Cabinetry is a kitchen and bathroom cabinets wholesaler based in London, England that provides great products for contractors, stores, builders, and remodelers.</p>
           </div>
 
           {/* Right Column: Links */}
@@ -15,7 +15,8 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Our Company</h4>
               <ul className="space-y-2">
-                <li><Link to="/products/kitchen-cabinets" className="text-muted-foreground hover:text-gold transition-colors">Products</Link></li>
+                <li><Link to="/products/kitchen-cabinets" className="text-muted-foreground hover:text-gold transition-colors">Kitchens</Link></li>
+                <li><Link to="/products/bathrooms" className="text-muted-foreground hover:text-gold transition-colors">Bathrooms</Link></li>
                 <li><Link to="/about" className="text-muted-foreground hover:text-gold transition-colors">About Us</Link></li>
                 <li><Link to="/contact" className="text-muted-foreground hover:text-gold transition-colors">Contact Us</Link></li>
                 <li><Link to="/SanyangBrochure.pdf" className="text-muted-foreground hover:text-gold transition-colors">Brochure</Link></li>

@@ -47,7 +47,10 @@ const Header = () => {
               <div className="absolute top-full left-0 mt-2 w-48 bg-background shadow-elegant rounded-lg border border-muted opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="py-2">
                   <Link to="/products/kitchen-cabinets" className="block px-4 py-2 text-foreground hover:text-gold hover:bg-muted/50 transition-colors">
-                    Kitchen Cabinets
+                    Kitchens
+                  </Link>
+                  <Link to="/products/bathrooms" className="block px-4 py-2 text-foreground hover:text-gold hover:bg-muted/50 transition-colors">
+                    Bathrooms
                   </Link>
                 </div>
               </div>

@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import CookieConsent from "./components/ui/CookieConsent"; // Import the new component
 import Gallery from "./pages/Gallery";
 import Warranty from "./pages/Warranty";
+import Bathrooms from "./pages/Bathrooms";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products/kitchen-cabinets" element={<KitchenCabinets />} />
+          <Route path="/products/bathrooms" element={<Bathrooms />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/warranty" element={<Warranty />} />
           <Route path="*" element={<NotFound />} />
