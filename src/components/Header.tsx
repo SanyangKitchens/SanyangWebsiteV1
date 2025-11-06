@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Phone, Mail, ChevronDown, Briefcase } from "lucide-react";
-import { Link, NavLink } from "react-router-dom";
+// Removed Link and NavLink from react-router-dom
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
@@ -25,11 +25,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
-// Corrected relative path with .jsx extension
-import AnimatedHamburgerIcon from "./ui/AnimatedHamburgerIcon.jsx"; 
+// Corrected path to use the alias with the .jsx extension
+import AnimatedHamburgerIcon from "@/components/ui/AnimatedHamburgerIcon.jsx";
 import { cn } from "@/lib/utils";
 
 // Helper component for NavigationMenu
+// This component already renders an <a> tag, so it's fine.
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
   React.ComponentPropsWithoutRef<"a">
@@ -61,12 +62,15 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Helper for NavLink active state
-  const getNavLinkClass = ({ isActive }: { isActive: boolean }) =>
-    cn(
-      navigationMenuTriggerStyle(),
-      "bg-transparent font-medium", // Removed hover:text-gold
-      isActive ? "bg-accent/50" : "text-foreground" // Use text-foreground for non-active
-    );
+  // Removed `isActive` logic as <a> tags don't support it.
+  const desktopNavLinkClass = cn(
+    navigationMenuTriggerStyle(),
+    "bg-transparent font-medium text-foreground"
+  );
+
+  // Base class for mobile nav links
+  const mobileNavLinkClass =
+    "block p-3 rounded-md text-base font-medium text-foreground hover:bg-muted";
 
   return (
     <div className="w-full sticky top-0 z-50">
@@ -96,10 +100,11 @@ const Header = () => {
             className="text-primary-foreground/80 hover:text-gold h-auto p-0 text-xs sm:text-sm"
             asChild
           >
-            <Link to="/contact">
+            {/* Changed Link to a */}
+            <a href="/contact">
               <Briefcase size={14} className="mr-2" />
               For Trade Professionals
-            </Link>
+            </a>
           </Button>
         </div>
       </div>
@@ -108,8 +113,9 @@ const Header = () => {
       <nav className="bg-background/90 backdrop-blur-sm shadow-elegant py-3 px-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <Link
-            to="/"
+          {/* Changed Link to a */}
+          <a
+            href="/"
             className="flex items-center gap-4"
             onClick={() => setIsMenuOpen(false)}
           >
@@ -118,15 +124,16 @@ const Header = () => {
               alt="Sanyang Logo"
               className="w-64 md:w-72" // Reduced width for better proportion
             />
-          </Link>
+          </a>
 
           {/* Desktop Navigation Menu (shadcn NavigationMenu) */}
           <NavigationMenu className="hidden lg:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavLink to="/" className={getNavLinkClass}>
+                {/* Changed NavLink to a */}
+                <a href="/" className={desktopNavLinkClass}>
                   Home
-                </NavLink>
+                </a>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
@@ -135,6 +142,7 @@ const Header = () => {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                    {/* ListItem already uses href and <a>, so it's fine */}
                     <ListItem href="/products/kitchen-cabinets" title="Kitchens">
                       Explore our full range of solid wood kitchen cabinets.
                     </ListItem>
@@ -144,19 +152,23 @@ const Header = () => {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
+
               <NavigationMenuItem>
-                <NavLink to="/gallery" className={getNavLinkClass}>
+                {/* Changed NavLink to a */}
+                <a href="/gallery" className={desktopNavLinkClass}>
                   Gallery
-                </NavLink>
+                </a>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink to="/about" className={getNavLinkClass}>
+                {/* Changed NavLink to a */}
+                <a href="/about" className={desktopNavLinkClass}>
                   About Us
-                </NavLink>
+                </a>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Button variant="gold" size="sm" asChild>
-                  <Link to="/contact">Contact Us</Link>
+                  {/* Changed Link to a */}
+                  <a href="/contact">Contact Us</a>
                 </Button>
               </NavigationMenuItem>
             </NavigationMenuList>
@@ -175,8 +187,9 @@ const Header = () => {
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] bg-background p-0">
                 <SheetHeader className="p-4 border-b">
-                  <Link
-                    to="/"
+                  {/* Changed Link to a */}
+                  <a
+                    href="/"
                     className="flex items-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -185,22 +198,15 @@ const Header = () => {
                       alt="Sanyang Logo"
                       className="w-48"
                     />
-                  </Link>
+                  </a>
                 </SheetHeader>
                 <div className="flex flex-col h-full p-4">
                   <div className="flex-grow flex flex-col gap-y-2">
                     <SheetClose asChild>
-                      <NavLink
-                        to="/"
-                        className={({ isActive }) =>
-                          cn(
-                            "block p-3 rounded-md text-base font-medium text-foreground hover:bg-muted",
-                            isActive && "bg-muted text-gold"
-                          )
-                        }
-                      >
+                      {/* Changed NavLink to a and removed active styling */}
+                      <a href="/" className={mobileNavLinkClass}>
                         Home
-                      </NavLink>
+                      </a>
                     </SheetClose>
 
                     <Accordion type="single" collapsible className="w-full">
@@ -210,66 +216,45 @@ const Header = () => {
                         </AccordionTrigger>
                         <AccordionContent className="pl-6">
                           <SheetClose asChild>
-                            <NavLink
-                              to="/products/kitchen-cabinets"
-                              className={({ isActive }) =>
-                                cn(
-                                  "block p-3 rounded-md text-base font-medium text-foreground hover:bg-muted",
-                                  isActive && "bg-muted text-gold"
-                                )
-                              }
+                            {/* Changed NavLink to a and removed active styling */}
+                            <a
+                              href="/products/kitchen-cabinets"
+                              className={mobileNavLinkClass}
                             >
                               Kitchens
-                            </NavLink>
+                            </a>
                           </SheetClose>
                           <SheetClose asChild>
-                            <NavLink
-                              to="/products/bathrooms"
-                              className={({ isActive }) =>
-                                cn(
-                                  "block p-3 rounded-md text-base font-medium text-foreground hover:bg-muted",
-                                  isActive && "bg-muted text-gold"
-                                )
-                              }
+                            {/* Changed NavLink to a and removed active styling */}
+                            <a
+                              href="/products/bathrooms"
+                              className={mobileNavLinkClass}
                             >
                               Bathrooms
-                            </NavLink>
+                            </a>
                           </SheetClose>
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
 
                     <SheetClose asChild>
-                      <NavLink
-                        to="/gallery"
-                        className={({ isActive }) =>
-                          cn(
-                            "block p-3 rounded-md text-base font-medium text-foreground hover:bg-muted",
-                            isActive && "bg-muted text-gold"
-                          )
-                        }
-                      >
+                      {/* Changed NavLink to a and removed active styling */}
+                      <a href="/gallery" className={mobileNavLinkClass}>
                         Gallery
-                      </NavLink>
+                      </a>
                     </SheetClose>
                     <SheetClose asChild>
-                      <NavLink
-                        to="/about"
-                        className={({ isActive }) =>
-                          cn(
-                            "block p-3 rounded-md text-base font-medium text-foreground hover:bg-muted",
-                            isActive && "bg-muted text-gold"
-                          )
-                        }
-                      >
+                      {/* Changed NavLink to a and removed active styling */}
+                      <a href="/about" className={mobileNavLinkClass}>
                         About Us
-                      </NavLink>
+                      </a>
                     </SheetClose>
                   </div>
                   <Separator className="my-4" />
                   <Button variant="gold" size="lg" asChild>
                     <SheetClose asChild>
-                      <Link to="/contact">Contact Us</Link>
+                      {/* Changed Link to a */}
+                      <a href="/contact">Contact Us</a>
                     </SheetClose>
                   </Button>
                 </div>
