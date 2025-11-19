@@ -10,10 +10,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import KitchenCabinets from "./pages/KitchenCabinets";
 import NotFound from "./pages/NotFound";
-import CookieConsent from "./components/ui/CookieConsent"; // Import the new component
+import CookieConsent from "./components/ui/CookieConsent";
 import Gallery from "./pages/Gallery";
 import Warranty from "./pages/Warranty";
 import Bathrooms from "./pages/Bathrooms";
+import Locations from "./pages/Locations"; // Import the new page
+import Careers from "./pages/Careers";
 
 const queryClient = new QueryClient();
 
@@ -30,10 +32,12 @@ const App = () => (
           <Route path="/products/kitchen-cabinets" element={<KitchenCabinets />} />
           <Route path="/products/bathrooms" element={<Bathrooms />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/locations" element={<Locations />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/warranty" element={<Warranty />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <CookieConsent /> {/* Add the component here */}
+        <CookieConsent />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
