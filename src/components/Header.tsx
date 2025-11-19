@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
 // Corrected path to use the alias with the .jsx extension
-import AnimatedHamburgerIcon from "@/components/ui/AnimatedHamburgerIcon.jsx";
+import AnimatedHamburgerIcon from "@/components/ui/AnimatedHamburgerIcon";
 import { cn } from "@/lib/utils";
 
 // Helper component for NavigationMenu
