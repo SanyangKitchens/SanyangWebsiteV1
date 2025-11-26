@@ -1,29 +1,29 @@
-name: Mirror to Dubai Repo
+name: Mirror to Dubai (Raw Git)
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  mirror:
+  mirror-raw:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Main Repo
+      # 1. Get the source code
+      - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Push to Dubai Repo
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          # This connects to the secret in your Main Repo settings
-          API_TOKEN_GITHUB: ${{ secrets.MIRROR_TOKEN }}
         with:
-          # '.' copies the entire repository (source code, package.json, etc.)
-          source-directory: '.'
+          fetch-depth: 0 # We need full history to mirror correctly
+
+      # 2. Manual Push using the Token
+      - name: Force Push to Dubai
+        run: |
+          # A. Configure a user so Git doesn't complain
+          git config --global user.name "Mirror Bot"
+          git config --global user.email "bot@sanyang.com"
           
-          # UPDATE THESE 3 FIELDS:
-          destination-github-username: 'SanyangKitchens'
-          destination-repository-name: 'SanyangWebsiteDubai'
-          user-email: 'mohdgazyanii235@gmail.com'
+          # B. Add the target remote using the Token explicitly
+          # Syntax: https://USERNAME:TOKEN@github.com/ORG/REPO.git
+          git remote add dubai https://SanyangKitchens:${{ secrets.MIRROR_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git
           
-          # The branch in the Dubai repo to push to
-          target-branch: main
+          # C. Push main to the new remote
+          git push dubai main --force
