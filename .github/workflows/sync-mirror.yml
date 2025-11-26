@@ -1,29 +1,29 @@
-name: Mirror to Dubai (Raw Git)
+name: Sync Repos
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  mirror-raw:
+  sync:
     runs-on: ubuntu-latest
-    steps:
-      # 1. Get the source code
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # We need full history to mirror correctly
 
-      # 2. Manual Push using the Token
-      - name: Force Push to Dubai
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v2
+
+      - name: Push to destination repository
         run: |
-          # A. Configure a user so Git doesn't complain
-          git config --global user.name "Mirror Bot"
-          git config --global user.email "bot@sanyang.com"
-          
-          # B. Add the target remote using the Token explicitly
-          # Syntax: https://USERNAME:TOKEN@github.com/ORG/REPO.git
-          git remote add dubai https://SanyangKitchens:${{ secrets.MIRROR_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git
-          
-          # C. Push main to the new remote
-          git push dubai main --force
+          git config --global user.email "mohdgazyanii235@gmail.com"
+          git config --global user.name "Syncing Bot"
+          git clone https://${{ env.ORG_NAME }}:${{ env.GITHUB_TOKEN }}@github.com/${{ env.ORG_NAME }}/destination-repo.git
+          cd destination-repo
+          git remote add ${{ env.ORIGINAL_REPO_NAME }} https://${{ env.ORG_NAME }}:${{ env.GITHUB_TOKEN }}@github.com/${{ env.ORG_NAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
+          git remote update
+          git merge ${{ env.ORIGINAL_REPO_NAME }}/main
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          ORIGINAL_REPO_NAME: ${{ SanyangWebsiteDubai }}
+          ORG_NAME: SanyangKitchens
