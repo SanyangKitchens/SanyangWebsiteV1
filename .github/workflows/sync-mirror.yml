@@ -19,6 +19,6 @@ jobs:
         run: |
           git config --global user.email "mohdgazyanii235@gmail.com"
           git config --global user.name "Syncing Bot"
-          git push https://x-access-token:${{ env.GITHUB_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git main --force
+          git push https://SanyangKitchens:${{ env.GITHUB_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git main --force
         env:
           GITHUB_TOKEN: ${{ secrets.MIRROR_TOKEN }} 
