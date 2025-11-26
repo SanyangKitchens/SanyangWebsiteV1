@@ -20,4 +20,4 @@ jobs:
           # Configure a dummy git user for the commit
           git config user.name "Mirror Bot"
           git config user.email "bot@example.com"
-          git push https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com:SanyangKitchens/SanyangWebsiteDubai.git main --force
+          git push https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git main --force
