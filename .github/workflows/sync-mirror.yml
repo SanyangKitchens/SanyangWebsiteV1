@@ -1,4 +1,4 @@
-name: Sync to Second Domain
+name: Sync Source Code to Dubai
 
 on:
   push:
@@ -6,20 +6,20 @@ on:
       - main
 
 jobs:
-  deploy:
+  sync-source:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Main Repo
         uses: actions/checkout@v3
-
-      - name: Push to Mirror Repo
-        uses: peaceiris/actions-gh-pages@v3
         with:
-          
-          personal_token: ${{ secrets.MIRROR_TOKEN }}
-          
-          external_repository: SanyangKitchens/SanyangWebsiteDubai
-          
-          publish_branch: main 
-          
-          cname: sanyang.ae
+          fetch-depth: 0 # Fetch all history for a clean mirror
+
+      # 2. Push the source code + the new CNAME to the Dubai repo
+      - name: Push to Dubai Repo
+        run: |
+          # Configure a dummy git user for the commit
+          git config user.name "Mirror Bot"
+          git config user.email "bot@example.com"
+          git add *
+          git commit -m "syncing"
+          git push https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com:SanyangKitchens/SanyangWebsiteDubai.git main --force
