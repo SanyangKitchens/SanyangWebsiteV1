@@ -21,8 +21,8 @@ jobs:
           source-directory: '.'
           
           # UPDATE THESE 3 FIELDS:
-          destination-github-username: 'mohdgazyanii235'
-          destination-repository-name: 'SanyangKitchens/SanyangWebsiteDubai'
+          destination-github-username: 'SanyangKitchens'
+          destination-repository-name: 'SanyangWebsiteDubai'
           user-email: 'mohdgazyanii235@gmail.com'
           
           # The branch in the Dubai repo to push to
