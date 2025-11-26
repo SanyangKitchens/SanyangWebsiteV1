@@ -10,7 +10,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Push to Mirror
-      uses: yesolutions/mirror-action@v1
+      uses: yesolutions/mirror-action@master
       with:
         REMOTE: 'https://github.com/SanyangKitchens/SanyangWebsiteDubai.git'
         GIT_USERNAME: 'mohdgazyanii235'
