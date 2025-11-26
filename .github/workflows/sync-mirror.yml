@@ -16,7 +16,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           
-          personal_token: ${{ secrets.MIRROR_TOKEN }}
+          personal_token: ${{ MIRROR_TOKEN }}
           
           external_repository: SanyangKitchens/SanyangWebsiteDubai
           
