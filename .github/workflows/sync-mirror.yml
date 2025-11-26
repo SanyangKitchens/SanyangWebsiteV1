@@ -1,24 +1,19 @@
-name: Sync Repos
+name: Sync Direct Mirror
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  sync:
+  mirror:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout source repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Push to destination repository
+      - name: Force Push to Dubai
         run: |
-          git config --global user.email "mohdgazyanii235@gmail.com"
-          git config --global user.name "Syncing Bot"
-          git push https://SanyangKitchens:${{ env.GITHUB_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git main --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.MIRROR_TOKEN }} 
+          # Use x-access-token as the username for PATs
+          git push https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git main --force
