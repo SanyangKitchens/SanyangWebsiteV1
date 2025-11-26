@@ -26,4 +26,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MIRROR_TOKEN }}
           ORIGINAL_REPO_NAME: ${{ SanyangWebsiteDubai }}
-          ORG_NAME: SanyangKitchens
+          ORG_NAME: ${{ SanyangKitchens }}
