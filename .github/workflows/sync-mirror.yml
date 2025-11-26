@@ -1,0 +1,25 @@
+name: Sync to Second Domain
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Main Repo
+        uses: actions/checkout@v3
+
+      - name: Push to Mirror Repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          
+          personal_token: ${{ secrets.MIRROR_TOKEN }}
+          
+          external_repository: SanyangKitchens/SanyangWebsiteDubai
+          
+          publish_branch: main 
+          
+          cname: sanyang.ae
