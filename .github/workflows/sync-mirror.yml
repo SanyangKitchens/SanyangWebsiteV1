@@ -1,23 +1,18 @@
-name: Sync Source Code to Dubai
-
+name: Sync to Mirror Repo
 on:
   push:
-    branches:
-      - main
-
+    branches: [ main ]
 jobs:
-  sync-source:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Main Repo
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Fetch all history for a clean mirror
-
-      # 2. Push the source code + the new CNAME to the Dubai repo
-      - name: Push to Dubai Repo
-        run: |
-          # Configure a dummy git user for the commit
-          git config user.name "Mirror Bot"
-          git config user.email "bot@example.com"
-          git push https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git main --force
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Push to Mirror
+      uses: yesolutions/mirror-action@v1
+      with:
+        REMOTE: 'https://github.com/SanyangKitchens/SanyangWebsiteDubai.git'
+        GIT_USERNAME: 'mohdgazyanii235'
+        GIT_PASSWORD: ${{ secrets.MIRROR_TOKEN }}
+        BRANCH: 'main'
