@@ -19,9 +19,9 @@ jobs:
           git config --global user.name "Syncing Bot"
           git clone https://SanyangKitchens:${{ env.GITHUB_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git
           cd SanyangWebsiteDubai
-          git remote add ${{ env.ORIGINAL_REPO_NAME }} https://SanyangKitchens:${{ env.GITHUB_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git
+          git remote add SanyangWebsiteDubai https://SanyangKitchens:${{ env.GITHUB_TOKEN }}@github.com/SanyangKitchens/SanyangWebsiteDubai.git
           git remote update
-          git merge ${{ env.ORIGINAL_REPO_NAME }}/main
+          git merge SanyangWebsiteDubai/main
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.MIRROR_TOKEN }}
