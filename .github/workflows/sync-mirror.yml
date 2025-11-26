@@ -1,18 +1,29 @@
-name: Sync to Mirror Repo
+name: Mirror to Dubai Repo
+
 on:
   push:
     branches: [ main ]
+
 jobs:
-  build:
+  mirror:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-    - name: Push to Mirror
-      uses: yesolutions/mirror-action@master
-      with:
-        REMOTE: 'https://github.com/SanyangKitchens/SanyangWebsiteDubai.git'
-        GIT_USERNAME: 'mohdgazyanii235'
-        GIT_PASSWORD: ${{ secrets.MIRROR_TOKEN }}
-        BRANCH: 'main'
+      - name: Checkout Main Repo
+        uses: actions/checkout@v3
+
+      - name: Push to Dubai Repo
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          # This connects to the secret in your Main Repo settings
+          API_TOKEN_GITHUB: ${{ secrets.MIRROR_TOKEN }}
+        with:
+          # '.' copies the entire repository (source code, package.json, etc.)
+          source-directory: '.'
+          
+          # UPDATE THESE 3 FIELDS:
+          destination-github-username: 'mohdgazyanii235'
+          destination-repository-name: 'SanyangKitchens/SanyangWebsiteDubai'
+          user-email: 'mohdgazyanii235@gmail.com'
+          
+          # The branch in the Dubai repo to push to
+          target-branch: main
