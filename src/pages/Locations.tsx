@@ -6,23 +6,24 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Factory, Warehouse, Store, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { link } from "fs";
 
 // Data for the locations
 const locations = [
-  {
-    country: "USA",
-    city: "Houston, Texas",
-    types: ["Warehouse", "Showroom"],
-    description: "Our North American hub ensures rapid distribution across the continent. Visit our showroom to experience our cabinetry quality firsthand.",
-    address: "TBC", // Placeholder address
-    image: "/products/factory_display1.webp", // Reusing an existing asset as placeholder
-  },
+  // {
+  //   country: "USA",
+  //   city: "Houston, Texas",
+  //   types: ["Warehouse", "Showroom"],
+  //   description: "Our North American hub ensures rapid distribution across the continent. Visit our showroom to experience our cabinetry quality firsthand.",
+  //   address: "TBC", // Placeholder address
+  //   image: "/products/factory_display1.webp", // Reusing an existing asset as placeholder
+  // },
   {
     country: "United Arab Emirates",
     city: "Dubai",
     types: ["Showroom", "Distribution Center"],
-    description: "Serving the Middle East and North Africa, our Dubai center showcases our premium luxury collections suited for high-end developments.",
-    address: "TBC", // Placeholder address
+    description: "Serving the Middle East, our Dubai center showcases our premium luxury collections suited for high-end developments.",
+    address: "Shop 6, Masaken - D78 Al Mateena St - Deira - Dubai - United Arab Emirates", // Placeholder address
     image: "/products/home_pro1.jpg", // Reusing an existing asset
   },
   {
@@ -30,15 +31,15 @@ const locations = [
     city: "Rayong",
     types: ["Factory", "Manufacturing"],
     description: "Our state-of-the-art Thai facility specializes in high-volume production of our Shaker style lines, utilizing sustainable plywood sourcing.",
-    address: "TBC", // Placeholder
+    address: "1/3 VILLAGE NO. 6, NONG YAI SUBDISTRICT,NONG YAI DISTRICT, CHONBURI PROVINCE 20190",
     image: "/products/Sanyang_factory.webp",
   },
   {
     country: "Vietnam",
-    city: "Binh Duong",
+    city: "Bình Dương",
     types: ["Factory", "Manufacturing"],
     description: "Focused on precision engineering, our Vietnam facility handles our complex joinery and specialized finish applications.",
-    address: "TBC", // Placeholder
+    address: "Lô 3A, Đường CN7, KCN Tân Bình, Thị trấn Tân Bình, Huyện Bắc, Bắc Tân Uyên, Bình Dương, Vietnam",
     image: "/products/factory_display2.webp",
   },
   {
@@ -46,7 +47,7 @@ const locations = [
     city: "Shandong",
     types: ["Headquarters", "Factory"],
     description: "The heart of our operations. Our massive Shandong facility combines R&D, raw material processing, and global logistics coordination.",
-    address: "TBC", // Placeholder
+    address: "The West of Anqian Street, Beiluo Industrial Area, Shouguang city, Shandong province, China. Postal Code - 262700",
     image: "/products/factory_display3.webp",
   },
 ];
@@ -110,11 +111,11 @@ const Locations = () => {
                 {/* Image Area */}
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300 z-10" />
-                  <img 
-                    src={loc.image} 
-                    alt={`${loc.country} Location`}
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
-                  />
+                    <img 
+                      src={loc.image} 
+                      alt={`${loc.country} Location`}
+                      className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                    />
                   <div className="absolute bottom-4 left-4 z-20">
                     <h3 className="text-white text-2xl font-bold drop-shadow-md">{loc.country}</h3>
                     <p className="text-white/90 text-sm font-medium flex items-center drop-shadow-md">
