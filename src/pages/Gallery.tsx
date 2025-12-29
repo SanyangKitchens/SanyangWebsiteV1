@@ -91,7 +91,7 @@ const Gallery = () => {
 
         {/* Slideshow / Carousel Section */}
         <section>
-          <h2 className="text-2xl font-bold text-foreground mb-8">Inspiration Carousel</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-8">Design Examples</h2>
           <Carousel className="w-full">
             <CarouselContent>
               {galleryPhotos.map((photo, index) => (
