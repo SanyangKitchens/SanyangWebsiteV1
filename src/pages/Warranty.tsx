@@ -8,19 +8,20 @@ const Warranty = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('/products/warranty-hero.jpg')` }}
-        >
-          <div className="absolute inset-0 bg-gradient-hero"></div>
-        </div>
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+      <section className="relative h-[40vh] md:h-[50vh] flex items-center justify-center overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105 hover:scale-100"
+          style={{
+            backgroundImage: `url('/products/arabic_kitchen.jpg')`,
+            filter: "brightness(0.35)",
+          }}
+        />
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight tracking-tight">
             Our 10-Year Warranty
           </h1>
-          <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light">
-            Quality craftsmanship, guaranteed for a decade.
+          <p className="text-lg md:text-2xl text-gray-200 font-light max-w-2xl mx-auto">
+            Quality craftsmanship, guaranteed for 10 years.
           </p>
         </div>
       </section>
@@ -28,7 +29,7 @@ const Warranty = () => {
       <main className="max-w-6xl mx-auto px-4 py-16">
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
-            Sanyang Cabinetry's Commitment to Quality
+            Our Commitment to Quality
           </h2>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6 border border-border rounded-lg bg-card">
@@ -94,4 +95,3 @@ const Warranty = () => {
 };
 
 export default Warranty;
-

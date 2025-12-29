@@ -90,8 +90,8 @@ const About = () => {
               {/* Stat 4 */}
               <div className="flex flex-col items-center">
                 <Globe className="w-12 h-12 text-gold mb-3" />
-                <span className="text-4xl lg:text-5xl font-bold text-foreground">3</span>
-                <span className="text-muted-foreground mt-2">Global Factories</span>
+                <span className="text-4xl lg:text-5xl font-bold text-foreground">18</span>
+                <span className="text-muted-foreground mt-2">Global Manufacturing Facilities</span>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  With three modern plants and an integrated supply chain, we manage the entire process. This ensures unparalleled reliability, efficiency, and quality control.
+                  With 15+ modern manufacturing facilities and an integrated supply chain, we manage the entire process. This ensures unparalleled reliability, efficiency, and quality control.
                 </p>
               </CardContent>
             </Card>

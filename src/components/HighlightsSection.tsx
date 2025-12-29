@@ -4,7 +4,7 @@ const highlights = [
   {
     icon: Award,
     title: "Uncompromising Quality. Unbeatable Value.",
-    description: "Premium, all-plywood construction at direct-from-manufacturer prices."
+    description: "Premium & bespoke construction at direct-from-manufacturer prices."
   },
   {
     icon: PoundSterling,
