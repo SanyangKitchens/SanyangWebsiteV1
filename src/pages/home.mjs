@@ -1,4 +1,4 @@
-import { picture, btn, waBtn, t, preload, ctaBand, faqSchema, photoUrl } from "../lib/html.mjs";
+import { strip, picture, btn, waBtn, t, preload, ctaBand, faqSchema, photoUrl } from "../lib/html.mjs";
 import { collectionCard, ticks, statsBand, certs, steps, section, head, faqList, postCard } from "../lib/parts.mjs";
 import { COLLECTIONS } from "../data/collections.mjs";
 import { SECTORS } from "../data/sectors.mjs";
@@ -27,7 +27,7 @@ export function pages(m, ctx) {
     ae: { k: "Kitchens · Wardrobes · Vanities · Doors", h: "Designed in-house. <b>Made in our own factories.</b>", l: "The manufacturer behind more than 500 containers of cabinetry a month to the United States, now designing and supplying kitchens, wardrobes and joinery for developers and contractors across the UAE.", img: "b26-cover" },
   });
   const body = `
-<section class="hero">${picture(hero.img, { alt: "", eager: true, sizes: "100vw", cls: "bgimg", pos: "center 55%" })}<div class="wrap">
+<section class="hero">${picture(hero.img, { alt: strip(hero.h), eager: true, sizes: "100vw", cls: "bgimg", pos: "center 55%" })}<div class="wrap">
 <p class="kicker">${hero.k}</p><h1>${hero.h}</h1><p class="lede">${hero.l}</p>
 <div class="btns">${btn("/contact/", t(m, { uk: "Request a quotation", ae: "Request a proposal" }), "btn gold")}${btn("/kitchen-cabinets/", "Explore the collections", "btn")}</div>
 </div></section>
@@ -47,7 +47,7 @@ ${ticks(t(m, {
 ${section("cream", `${head("The range", `${m.proof.collections} collections. <b>${m.proof.finishes} finishes.</b>`, "Seven cabinet collections with solid-wood frames or European frameless construction, and nine signature door ranges in slab, gloss, shaker, oak and designer finishes.", btn("/kitchen-cabinets/", "All collections", "btn"))}
 <div class="cgrid">${featured.map(collectionCard).join("")}</div>`)}
 ${section("", `${head("Who we supply", t(m, { uk: "Built for the way <b>UK projects buy</b>", ae: "Built for the way <b>UAE projects deliver</b>" }), "")}
-<div class="grid g3">${sectors.slice(0, 6).map(s => `<a class="icard" href="/who-we-supply/${s.slug}/"><div class="ph">${picture(s.img, { alt: "", sizes: "(max-width:620px) 100vw, 33vw" })}</div><div class="tx"><h3>${s.short}</h3><p>${s.lede}</p><span class="tlink">Find out more →</span></div></a>`).join("")}</div>`)}
+<div class="grid g3">${sectors.slice(0, 6).map(s => `<a class="icard" href="/who-we-supply/${s.slug}/"><div class="ph">${picture(s.img, { alt: `Kitchen for ${s.short.toLowerCase()}`, sizes: "(max-width:620px) 100vw, 33vw" })}</div><div class="tx"><h3>${s.short}</h3><p>${s.lede}</p><span class="tlink">Find out more →</span></div></a>`).join("")}</div>`)}
 ${section("dark", `${head("How it works", t(m, { uk: "From plans <b>to site</b>", ae: "From idea <b>to handover</b>" }), "", btn("/how-it-works/", "The full process", "btn light"))}${steps(m)}`)}
 ${section("", `<div class="split r"><div class="ph tall">${picture("b26-close-drawer", { alt: "Dovetailed solid-wood drawer with soft-close runner", sizes: "(max-width:860px) 100vw, 50vw" })}</div><div>
 <p class="kicker">Quality</p><h2>Built like <b>furniture</b></h2><p class="lede mt1">Plywood carcasses instead of chipboard. Solid-wood face frames. Dovetailed solid-wood drawers on soft-close undermount runners. Six-way adjustable soft-close hinges. Every order inspected before it is packed.</p>
