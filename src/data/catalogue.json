@@ -1,0 +1,4169 @@
+{
+ "framed": [
+  {
+   "key": "essential",
+   "code": "MRD",
+   "name": "Meridian",
+   "sub": "Classic shaker \u00b7 Prestige construction",
+   "grade": "Prestige",
+   "tiles": [
+    {
+     "code": "MRD-01",
+     "name": "Cotton White",
+     "img": "a/doors/framed/SW.jpg"
+    },
+    {
+     "code": "MRD-02",
+     "name": "Harbour Grey",
+     "img": "a/doors/framed/GR.jpg"
+    },
+    {
+     "code": "MRD-03",
+     "name": "Dark Roast",
+     "img": "a/doors/framed/SE.jpg"
+    }
+   ]
+  },
+  {
+   "key": "double",
+   "code": "EQX",
+   "name": "Equinox",
+   "sub": "Double-step shaker \u00b7 Flex construction",
+   "grade": "Flex",
+   "tiles": [
+    {
+     "code": "EQX-01",
+     "name": "Pearl White",
+     "img": "a/doors/framed/DDW.jpg"
+    },
+    {
+     "code": "EQX-02",
+     "name": "Storm Grey",
+     "img": "a/doors/framed/DSG.jpg"
+    }
+   ]
+  },
+  {
+   "key": "charm",
+   "code": "HLC",
+   "name": "Halcyon",
+   "sub": "Shaker with subtle detailing \u00b7 Flex construction",
+   "grade": "Flex",
+   "tiles": [
+    {
+     "code": "HLC-01",
+     "name": "Shadow Grey",
+     "img": "a/doors/framed/LG.jpg"
+    },
+    {
+     "code": "HLC-02",
+     "name": "Cinder",
+     "img": "a/doors/framed/SA.jpg"
+    },
+    {
+     "code": "HLC-03",
+     "name": "Admiral Blue",
+     "img": "a/doors/framed/NB.jpg"
+    },
+    {
+     "code": "HLC-04",
+     "name": "Fir Green",
+     "img": "a/doors/framed/AG.jpg"
+    },
+    {
+     "code": "HLC-05",
+     "name": "Meadow",
+     "img": "a/doors/framed/SB.jpg"
+    },
+    {
+     "code": "HLC-06",
+     "name": "Obsidian",
+     "img": "a/doors/framed/IB.jpg"
+    },
+    {
+     "code": "HLC-07",
+     "name": "Heirloom Brown",
+     "img": "a/doors/framed/TC.jpg"
+    },
+    {
+     "code": "HLC-08",
+     "name": "Barnwood",
+     "img": "a/doors/framed/RW.jpg"
+    }
+   ]
+  },
+  {
+   "key": "slim",
+   "code": "FLM",
+   "name": "Filament",
+   "sub": "Narrow-rail shaker \u00b7 Slimline construction",
+   "grade": "Slimline",
+   "tiles": [
+    {
+     "code": "FLM-01",
+     "name": "Pearl White",
+     "img": "a/doors/framed/SDW.jpg"
+    },
+    {
+     "code": "FLM-02",
+     "name": "Fir Green",
+     "img": "a/doors/framed/SAG.jpg"
+    },
+    {
+     "code": "FLM-03",
+     "name": "Obsidian",
+     "img": "a/doors/framed/SIB.jpg"
+    },
+    {
+     "code": "FLM-04",
+     "name": "Limed Oak",
+     "img": "a/doors/framed/SWO.jpg"
+    },
+    {
+     "code": "FLM-05",
+     "name": "Cognac Oak",
+     "img": "a/doors/framed/SAO.jpg"
+    }
+   ]
+  },
+  {
+   "key": "classicrp",
+   "code": "LTN",
+   "name": "Lantern",
+   "sub": "Traditional raised panel \u00b7 Prestige construction",
+   "grade": "Prestige",
+   "tiles": [
+    {
+     "code": "LTN-01",
+     "name": "Linen White",
+     "img": "a/doors/framed/AW.jpg"
+    },
+    {
+     "code": "LTN-02",
+     "name": "Calico White",
+     "img": "a/doors/framed/CW.jpg"
+    },
+    {
+     "code": "LTN-03",
+     "name": "Anthracite",
+     "img": "a/doors/framed/AC.jpg"
+    }
+   ]
+  },
+  {
+   "key": "frameless",
+   "code": "PRM",
+   "name": "Prism",
+   "sub": "European full-access slab \u00b7 Frameless construction",
+   "grade": "Frameless",
+   "tiles": [
+    {
+     "code": "PRM-01",
+     "name": "Polar Gloss",
+     "img": "a/doors/framed/HW.jpg"
+    },
+    {
+     "code": "PRM-02",
+     "name": "Vellum Matt",
+     "img": "a/doors/framed/MI.jpg"
+    },
+    {
+     "code": "PRM-03",
+     "name": "Steel Gloss",
+     "img": "a/doors/framed/HG.jpg"
+    },
+    {
+     "code": "PRM-04",
+     "name": "Onyx Matt",
+     "img": "a/doors/framed/MB.jpg"
+    },
+    {
+     "code": "PRM-05",
+     "name": "Flax Oak",
+     "img": "a/doors/framed/OB.jpg"
+    },
+    {
+     "code": "PRM-06",
+     "name": "Smoked Oak",
+     "img": "a/doors/framed/OS.jpg"
+    },
+    {
+     "code": "PRM-07",
+     "name": "Clearview Glass",
+     "img": "a/doors/framed/CG.jpg"
+    },
+    {
+     "code": "PRM-08",
+     "name": "Smoked Glass",
+     "img": "a/doors/framed/MG.jpg"
+    }
+   ]
+  },
+  {
+   "key": "builder",
+   "code": "DLT",
+   "name": "Daylight",
+   "sub": "Cost-effective shaker \u00b7 Contract construction",
+   "grade": "Contract",
+   "tiles": [
+    {
+     "code": "DLT-01",
+     "name": "Daybreak White",
+     "img": "a/doors/framed/FW.jpg"
+    },
+    {
+     "code": "DLT-02",
+     "name": "Overcast Grey",
+     "img": "a/doors/framed/FG.jpg"
+    },
+    {
+     "code": "DLT-03",
+     "name": "Nightfall Brown",
+     "img": "a/doors/framed/FE.jpg"
+    }
+   ]
+  }
+ ],
+ "uk": {
+  "EMB": [
+   {
+    "name": "Frost Grain",
+    "img": "a/doors/warwick/warwick-blanc-woodgrain.jpg",
+    "code": "EMB-01"
+   },
+   {
+    "name": "Biscuit Grain",
+    "img": "a/doors/warwick/warwick-almond-woodgrain.jpg",
+    "code": "EMB-02"
+   },
+   {
+    "name": "Oatmeal Grain",
+    "img": "a/doors/warwick/warwick-cashmere-woodgrain.jpg",
+    "code": "EMB-03"
+   },
+   {
+    "name": "Sandstone Grain",
+    "img": "a/doors/warwick/warwick-carat-beige-woodgrain.jpg",
+    "code": "EMB-04"
+   },
+   {
+    "name": "Moonstone Grain",
+    "img": "a/doors/warwick/warwick-light-grey-woodgrain.jpg",
+    "code": "EMB-05"
+   },
+   {
+    "name": "Oyster Grain",
+    "img": "a/doors/warwick/warwick-mussel-woodgrain.jpg",
+    "code": "EMB-06"
+   },
+   {
+    "name": "Pumice Grain",
+    "img": "a/doors/warwick/warwick-dust-grey-woodgrain.jpg",
+    "code": "EMB-07"
+   },
+   {
+    "name": "Ink Blue Grain",
+    "img": "a/doors/warwick/warwick-deep-blue-woodgrain.jpg",
+    "code": "EMB-08"
+   },
+   {
+    "name": "Powder Blue Grain",
+    "img": "a/doors/warwick/warwick-misty-blue-woodgrain.jpg",
+    "code": "EMB-09"
+   },
+   {
+    "name": "Eucalyptus Grain",
+    "img": "a/doors/warwick/warwick-agave-green-woodgrain.jpg",
+    "code": "EMB-10"
+   },
+   {
+    "name": "Lichen Grain",
+    "img": "a/doors/warwick/warwick-sage-green-woodgrain.jpg",
+    "code": "EMB-11"
+   },
+   {
+    "name": "Willow Grain",
+    "img": "a/doors/warwick/warwick-reed-green-woodgrain.jpg",
+    "code": "EMB-12"
+   },
+   {
+    "name": "Damson Grain",
+    "img": "a/doors/warwick/warwick-cassis-woodgrain.jpg",
+    "code": "EMB-13"
+   },
+   {
+    "name": "Carbon Grain",
+    "img": "a/doors/warwick/warwick-graphite-woodgrain.jpg",
+    "code": "EMB-14"
+   }
+  ],
+  "DSK": [
+   {
+    "name": "Arctic White",
+    "img": "a/doors/victoria/victoria-premium-white.jpg",
+    "code": "DSK-01"
+   },
+   {
+    "name": "Biscuit",
+    "img": "a/doors/victoria/victoria-almond.jpg",
+    "code": "DSK-02"
+   },
+   {
+    "name": "Fleece",
+    "img": "a/doors/victoria/victoria-angora.jpg",
+    "code": "DSK-03"
+   },
+   {
+    "name": "Mink",
+    "img": "a/doors/victoria/victoria-taupe.jpg",
+    "code": "DSK-04"
+   },
+   {
+    "name": "Parchment",
+    "img": "a/doors/victoria/victoria-soft-beige.jpg",
+    "code": "DSK-05"
+   },
+   {
+    "name": "Sandstone",
+    "img": "a/doors/victoria/victoria-carat-beige.jpg",
+    "code": "DSK-06"
+   },
+   {
+    "name": "Feather Grey",
+    "img": "a/doors/victoria/victoria-silk-grey.jpg",
+    "code": "DSK-07"
+   },
+   {
+    "name": "Pumice",
+    "img": "a/doors/victoria/victoria-dust-grey.jpg",
+    "code": "DSK-08"
+   },
+   {
+    "name": "Shingle",
+    "img": "a/doors/victoria/victoria-pebble-grey.jpg",
+    "code": "DSK-09"
+   },
+   {
+    "name": "Loch Blue",
+    "img": "a/doors/victoria/victoria-fjord.jpg",
+    "code": "DSK-10"
+   },
+   {
+    "name": "Steel Blue",
+    "img": "a/doors/victoria/victoria-tyrolean-blue.jpg",
+    "code": "DSK-11"
+   },
+   {
+    "name": "Lichen",
+    "img": "a/doors/victoria/victoria-sage-green.jpg",
+    "code": "DSK-12"
+   },
+   {
+    "name": "Racing Green",
+    "img": "a/doors/victoria/victoria-estate-green.jpg",
+    "code": "DSK-13"
+   },
+   {
+    "name": "Willow",
+    "img": "a/doors/victoria/victoria-reed-green.jpg",
+    "code": "DSK-14"
+   },
+   {
+    "name": "Damson",
+    "img": "a/doors/victoria/victoria-cassis.jpg",
+    "code": "DSK-15"
+   },
+   {
+    "name": "Rosewater",
+    "img": "a/doors/victoria/victoria-antique-rose.jpg",
+    "code": "DSK-16"
+   }
+  ],
+  "LUS": [
+   {
+    "name": "Pure White Gloss",
+    "img": "a/doors/acrylic/acrylic-white.jpg",
+    "code": "LUS-01"
+   },
+   {
+    "name": "Biscuit Gloss",
+    "img": "a/doors/acrylic/acrylic-almond.jpg",
+    "code": "LUS-02"
+   },
+   {
+    "name": "Mink Gloss",
+    "img": "a/doors/acrylic/acrylic-taupe.jpg",
+    "code": "LUS-03"
+   },
+   {
+    "name": "Oatmeal Gloss",
+    "img": "a/doors/acrylic/acrylic-cashmere.jpg",
+    "code": "LUS-04"
+   },
+   {
+    "name": "Pale Gold Gloss",
+    "img": "a/doors/acrylic/acrylic-champagne.jpg",
+    "code": "LUS-05"
+   },
+   {
+    "name": "Truffle Gloss",
+    "img": "a/doors/acrylic/acrylic-mushroom.jpg",
+    "code": "LUS-06"
+   },
+   {
+    "name": "Gunmetal Gloss",
+    "img": "a/doors/acrylic/acrylic-smoke-grey.jpg",
+    "code": "LUS-07"
+   },
+   {
+    "name": "Moonstone Gloss",
+    "img": "a/doors/acrylic/acrylic-light-grey.jpg",
+    "code": "LUS-08"
+   },
+   {
+    "name": "Pewter Gloss",
+    "img": "a/doors/acrylic/acrylic-grey.jpg",
+    "code": "LUS-09"
+   },
+   {
+    "name": "Sapphire Gloss",
+    "img": "a/doors/acrylic/acrylic-blue.jpg",
+    "code": "LUS-10"
+   }
+  ],
+  "CDL": [
+   {
+    "name": "Flat Slab Blush White",
+    "style": "Flat Slab",
+    "colour": "Blush White",
+    "img": "a/doors/chatsworth/windsor-rose-white.jpg",
+    "code": "CDL-01"
+   },
+   {
+    "name": "Flat Slab Oatmeal",
+    "style": "Flat Slab",
+    "colour": "Oatmeal",
+    "img": "a/doors/chatsworth/windsor-cashmere.jpg",
+    "code": "CDL-02"
+   },
+   {
+    "name": "Flat Slab Moonstone Grain",
+    "style": "Flat Slab",
+    "colour": "Moonstone Grain",
+    "img": "a/doors/chatsworth/windsor-light-grey-woodgrain.jpg",
+    "code": "CDL-03"
+   },
+   {
+    "name": "Flat Slab Chambray",
+    "style": "Flat Slab",
+    "colour": "Chambray",
+    "img": "a/doors/chatsworth/windsor-denim-blue.jpg",
+    "code": "CDL-04"
+   },
+   {
+    "name": "Flat Slab Cornflower",
+    "style": "Flat Slab",
+    "colour": "Cornflower",
+    "img": "a/doors/chatsworth/windsor-alby-blue.jpg",
+    "code": "CDL-05"
+   },
+   {
+    "name": "Flat Slab Loch Blue",
+    "style": "Flat Slab",
+    "colour": "Loch Blue",
+    "img": "a/doors/chatsworth/windsor-fjord.jpg",
+    "code": "CDL-06"
+   },
+   {
+    "name": "Flat Slab Jet Black",
+    "style": "Flat Slab",
+    "colour": "Jet Black",
+    "img": "a/doors/chatsworth/windsor-black.jpg",
+    "code": "CDL-07"
+   },
+   {
+    "name": "Bevelled Slab Pure White",
+    "style": "Bevelled Slab",
+    "colour": "Pure White",
+    "img": "a/doors/chatsworth/kilby-white.jpg",
+    "code": "CDL-08"
+   },
+   {
+    "name": "Bevelled Slab Buttermilk",
+    "style": "Bevelled Slab",
+    "colour": "Buttermilk",
+    "img": "a/doors/chatsworth/kilby-cream.jpg",
+    "code": "CDL-09"
+   },
+   {
+    "name": "Bevelled Slab Oatmeal",
+    "style": "Bevelled Slab",
+    "colour": "Oatmeal",
+    "img": "a/doors/chatsworth/kilby-cashmere.jpg",
+    "code": "CDL-10"
+   },
+   {
+    "name": "Bevelled Slab Granite Grey",
+    "style": "Bevelled Slab",
+    "colour": "Granite Grey",
+    "img": "a/doors/chatsworth/kilby-basalt-grey.jpg",
+    "code": "CDL-11"
+   },
+   {
+    "name": "Bevelled Slab Moonstone",
+    "style": "Bevelled Slab",
+    "colour": "Moonstone",
+    "img": "a/doors/chatsworth/kilby-light-grey.jpg",
+    "code": "CDL-12"
+   },
+   {
+    "name": "Bevelled Slab Delft Blue Grain",
+    "style": "Bevelled Slab",
+    "colour": "Delft Blue Grain",
+    "img": "a/doors/chatsworth/kilby-parisian-blue-woodgrain.jpg",
+    "code": "CDL-13"
+   },
+   {
+    "name": "Bevelled Slab Juniper",
+    "style": "Bevelled Slab",
+    "colour": "Juniper",
+    "img": "a/doors/chatsworth/kilby-heritage-green.jpg",
+    "code": "CDL-14"
+   },
+   {
+    "name": "Framed Square Buttermilk",
+    "style": "Framed Square",
+    "colour": "Buttermilk",
+    "img": "a/doors/chatsworth/square-cream.jpg",
+    "code": "CDL-15"
+   },
+   {
+    "name": "Framed Square Oatmeal Grain",
+    "style": "Framed Square",
+    "colour": "Oatmeal Grain",
+    "img": "a/doors/chatsworth/square-cashmere-woodgrain.jpg",
+    "code": "CDL-16"
+   },
+   {
+    "name": "Framed Square Ochre",
+    "style": "Framed Square",
+    "colour": "Ochre",
+    "img": "a/doors/chatsworth/square-sand-yellow.jpg",
+    "code": "CDL-17"
+   },
+   {
+    "name": "Grooved Square Pumice Grain",
+    "style": "Grooved Square",
+    "colour": "Pumice Grain",
+    "img": "a/doors/chatsworth/truro-square-dust-grey-woodgrain.jpg",
+    "code": "CDL-18"
+   },
+   {
+    "name": "Grooved Square Juniper",
+    "style": "Grooved Square",
+    "colour": "Juniper",
+    "img": "a/doors/chatsworth/truro-square-heritage-green.jpg",
+    "code": "CDL-19"
+   },
+   {
+    "name": "Grooved Square Plaster Pink",
+    "style": "Grooved Square",
+    "colour": "Plaster Pink",
+    "img": "a/doors/chatsworth/truro-square-dusky-pink.jpg",
+    "code": "CDL-20"
+   },
+   {
+    "name": "Split Panel Pure White",
+    "style": "Split Panel",
+    "colour": "Pure White",
+    "img": "a/doors/chatsworth/h-design-white.jpg",
+    "code": "CDL-21"
+   },
+   {
+    "name": "Split Panel Biscuit",
+    "style": "Split Panel",
+    "colour": "Biscuit",
+    "img": "a/doors/chatsworth/h-design-almond.jpg",
+    "code": "CDL-22"
+   },
+   {
+    "name": "Split Panel Buttermilk Grain",
+    "style": "Split Panel",
+    "colour": "Buttermilk Grain",
+    "img": "a/doors/chatsworth/h-design-cream-woodgrain.jpg",
+    "code": "CDL-23"
+   },
+   {
+    "name": "Split Panel Fawn",
+    "style": "Split Panel",
+    "colour": "Fawn",
+    "img": "a/doors/chatsworth/h-design-alpaca.jpg",
+    "code": "CDL-24"
+   },
+   {
+    "name": "Split Panel Cornflower",
+    "style": "Split Panel",
+    "colour": "Cornflower",
+    "img": "a/doors/chatsworth/h-design-alby-blue.jpg",
+    "code": "CDL-25"
+   },
+   {
+    "name": "Split Panel Harebell",
+    "style": "Split Panel",
+    "colour": "Harebell",
+    "img": "a/doors/chatsworth/h-design-scandic-blue.jpg",
+    "code": "CDL-26"
+   },
+   {
+    "name": "Split Panel Powder Blue",
+    "style": "Split Panel",
+    "colour": "Powder Blue",
+    "img": "a/doors/chatsworth/h-design-misty-blue.jpg",
+    "code": "CDL-27"
+   },
+   {
+    "name": "Split Panel Thyme",
+    "style": "Split Panel",
+    "colour": "Thyme",
+    "img": "a/doors/chatsworth/h-design-smoke-green.jpg",
+    "code": "CDL-28"
+   },
+   {
+    "name": "Split Panel Paprika",
+    "style": "Split Panel",
+    "colour": "Paprika",
+    "img": "a/doors/chatsworth/h-design-cajun.jpg",
+    "code": "CDL-29"
+   },
+   {
+    "name": "Tongue & Groove Oatmeal",
+    "style": "Tongue & Groove",
+    "colour": "Oatmeal",
+    "img": "a/doors/chatsworth/windsor-t-g-cashmere.jpg",
+    "code": "CDL-30"
+   },
+   {
+    "name": "Tongue & Groove Ultramarine",
+    "style": "Tongue & Groove",
+    "colour": "Ultramarine",
+    "img": "a/doors/chatsworth/windsor-t-g-indigo.jpg",
+    "code": "CDL-31"
+   },
+   {
+    "name": "Tongue & Groove Willow",
+    "style": "Tongue & Groove",
+    "colour": "Willow",
+    "img": "a/doors/chatsworth/windsor-t-g-reed-green.jpg",
+    "code": "CDL-32"
+   },
+   {
+    "name": "Soft Arch Alabaster Grain",
+    "style": "Soft Arch",
+    "colour": "Alabaster Grain",
+    "img": "a/doors/chatsworth/curved-arch-porcelain-woodgrain.jpg",
+    "code": "CDL-33"
+   },
+   {
+    "name": "Soft Arch Buttermilk",
+    "style": "Soft Arch",
+    "colour": "Buttermilk",
+    "img": "a/doors/chatsworth/curved-arch-cream.jpg",
+    "code": "CDL-34"
+   },
+   {
+    "name": "Soft Arch Oatmeal",
+    "style": "Soft Arch",
+    "colour": "Oatmeal",
+    "img": "a/doors/chatsworth/curved-arch-cashmere.jpg",
+    "code": "CDL-35"
+   },
+   {
+    "name": "Soft Arch Loch Blue",
+    "style": "Soft Arch",
+    "colour": "Loch Blue",
+    "img": "a/doors/chatsworth/curved-arch-fjord.jpg",
+    "code": "CDL-36"
+   },
+   {
+    "name": "Soft Arch Lichen",
+    "style": "Soft Arch",
+    "colour": "Lichen",
+    "img": "a/doors/chatsworth/curved-arch-sage-green.jpg",
+    "code": "CDL-37"
+   },
+   {
+    "name": "Bow Arch Moonstone",
+    "style": "Bow Arch",
+    "colour": "Moonstone",
+    "img": "a/doors/chatsworth/round-arch-light-grey.jpg",
+    "code": "CDL-38"
+   },
+   {
+    "name": "Bow Arch Chambray",
+    "style": "Bow Arch",
+    "colour": "Chambray",
+    "img": "a/doors/chatsworth/round-arch-denim.jpg",
+    "code": "CDL-39"
+   },
+   {
+    "name": "Bow Arch Thyme",
+    "style": "Bow Arch",
+    "colour": "Thyme",
+    "img": "a/doors/chatsworth/round-arch-smoke-green.jpg",
+    "code": "CDL-40"
+   },
+   {
+    "name": "Peaked Arch Pure White Grain",
+    "style": "Peaked Arch",
+    "colour": "Pure White Grain",
+    "img": "a/doors/chatsworth/cathedral-arch-white-woodgrain.jpg",
+    "code": "CDL-41"
+   },
+   {
+    "name": "Peaked Arch Buttermilk",
+    "style": "Peaked Arch",
+    "colour": "Buttermilk",
+    "img": "a/doors/chatsworth/cathedral-arch-cream.jpg",
+    "code": "CDL-42"
+   },
+   {
+    "name": "Peaked Arch Sandstone",
+    "style": "Peaked Arch",
+    "colour": "Sandstone",
+    "img": "a/doors/chatsworth/cathedral-arch-carat-beige.jpg",
+    "code": "CDL-43"
+   },
+   {
+    "name": "Peaked Arch Oyster",
+    "style": "Peaked Arch",
+    "colour": "Oyster",
+    "img": "a/doors/chatsworth/cathedral-arch-mussel.jpg",
+    "code": "CDL-44"
+   },
+   {
+    "name": "Peaked Arch Loch Blue",
+    "style": "Peaked Arch",
+    "colour": "Loch Blue",
+    "img": "a/doors/chatsworth/cathedral-arch-fjord.jpg",
+    "code": "CDL-45"
+   },
+   {
+    "name": "Twin Peak Arch Granite Grey",
+    "style": "Twin Peak Arch",
+    "colour": "Granite Grey",
+    "img": "a/doors/chatsworth/cathedral-double-arch-basalt-grey.jpg",
+    "code": "CDL-46"
+   },
+   {
+    "name": "Twin Peak Arch Willow",
+    "style": "Twin Peak Arch",
+    "colour": "Willow",
+    "img": "a/doors/chatsworth/cathedral-double-arch-reed-green.jpg",
+    "code": "CDL-47"
+   },
+   {
+    "name": "Grooved Arch Cornflower",
+    "style": "Grooved Arch",
+    "colour": "Cornflower",
+    "img": "a/doors/chatsworth/truro-arch-alby-blue.jpg",
+    "code": "CDL-48"
+   },
+   {
+    "name": "Grooved Arch Pine Grain",
+    "style": "Grooved Arch",
+    "colour": "Pine Grain",
+    "img": "a/doors/chatsworth/truro-arch-forest-green-woodgrain.jpg",
+    "code": "CDL-49"
+   },
+   {
+    "name": "Grooved Double Arch Pure White",
+    "style": "Grooved Double Arch",
+    "colour": "Pure White",
+    "img": "a/doors/chatsworth/truro-double-arch-white.jpg",
+    "code": "CDL-50"
+   },
+   {
+    "name": "Grooved Double Arch Mocha",
+    "style": "Grooved Double Arch",
+    "colour": "Mocha",
+    "img": "a/doors/chatsworth/truro-double-arch-cappuccino.jpg",
+    "code": "CDL-51"
+   },
+   {
+    "name": "Grooved Double Arch Sahara",
+    "style": "Grooved Double Arch",
+    "colour": "Sahara",
+    "img": "a/doors/chatsworth/truro-double-arch-dakar.jpg",
+    "code": "CDL-52"
+   },
+   {
+    "name": "Grooved Double Arch Willow Grain",
+    "style": "Grooved Double Arch",
+    "colour": "Willow Grain",
+    "img": "a/doors/chatsworth/truro-double-arch-reed-green-woodgrain.jpg",
+    "code": "CDL-53"
+   }
+  ],
+  "GHR": [
+   {
+    "name": "Broad Rail Shaker Chalk White",
+    "style": "Broad Rail Shaker",
+    "colour": "Chalk White",
+    "img": "a/doors/kensington/classic-shaker-hacienda-white.jpg",
+    "code": "GHR-01"
+   },
+   {
+    "name": "Broad Rail Shaker Russet",
+    "style": "Broad Rail Shaker",
+    "colour": "Russet",
+    "img": "a/doors/kensington/classic-shaker-cremona-torro.jpg",
+    "code": "GHR-02"
+   },
+   {
+    "name": "Broad Seamless Shaker Harvest Oak",
+    "style": "Broad Seamless Shaker",
+    "colour": "Harvest Oak",
+    "img": "a/doors/kensington/shaker-no-lines-santana-oak.jpg",
+    "code": "GHR-03"
+   },
+   {
+    "name": "Broad Seamless Shaker Toasted Oak",
+    "style": "Broad Seamless Shaker",
+    "colour": "Toasted Oak",
+    "img": "a/doors/kensington/shaker-no-lines-vincenza-oak.jpg",
+    "code": "GHR-04"
+   },
+   {
+    "name": "Flat Slab Driftwood Oak",
+    "style": "Flat Slab",
+    "colour": "Driftwood Oak",
+    "img": "a/doors/kensington/windsor-silent-oak.jpg",
+    "code": "GHR-05"
+   },
+   {
+    "name": "Bevelled Slab Wheat Oak",
+    "style": "Bevelled Slab",
+    "colour": "Wheat Oak",
+    "img": "a/doors/kensington/kilby-light-vincenza-oak.jpg",
+    "code": "GHR-06"
+   },
+   {
+    "name": "Framed Square Chalk White",
+    "style": "Framed Square",
+    "colour": "Chalk White",
+    "img": "a/doors/kensington/square-hacienda-white.jpg",
+    "code": "GHR-07"
+   },
+   {
+    "name": "Grooved Square Chalk White",
+    "style": "Grooved Square",
+    "colour": "Chalk White",
+    "img": "a/doors/kensington/truro-square-hacienda-white.jpg",
+    "code": "GHR-08"
+   },
+   {
+    "name": "Grooved Square Dark Walnut",
+    "style": "Grooved Square",
+    "colour": "Dark Walnut",
+    "img": "a/doors/kensington/truro-square-ristretto-baroque.jpg",
+    "code": "GHR-09"
+   },
+   {
+    "name": "Split Panel Driftwood Oak",
+    "style": "Split Panel",
+    "colour": "Driftwood Oak",
+    "img": "a/doors/kensington/h-design-silent-oak.jpg",
+    "code": "GHR-10"
+   },
+   {
+    "name": "Tongue & Groove Country Oak",
+    "style": "Tongue & Groove",
+    "colour": "Country Oak",
+    "img": "a/doors/kensington/windsor-t-g-sonoma-oak.jpg",
+    "code": "GHR-11"
+   },
+   {
+    "name": "Soft Arch Toasted Oak",
+    "style": "Soft Arch",
+    "colour": "Toasted Oak",
+    "img": "a/doors/kensington/curved-arch-vincenza-oak.jpg",
+    "code": "GHR-12"
+   },
+   {
+    "name": "Bow Arch Hazel",
+    "style": "Bow Arch",
+    "colour": "Hazel",
+    "img": "a/doors/kensington/round-arch-cremona-cannolo.jpg",
+    "code": "GHR-13"
+   },
+   {
+    "name": "Peaked Arch Toasted Oak",
+    "style": "Peaked Arch",
+    "colour": "Toasted Oak",
+    "img": "a/doors/kensington/cathedral-arch-vincenza-oak.jpg",
+    "code": "GHR-14"
+   },
+   {
+    "name": "Twin Peak Arch Wheat Oak",
+    "style": "Twin Peak Arch",
+    "colour": "Wheat Oak",
+    "img": "a/doors/kensington/cathedral-double-arch-light-vincenza-oak.jpg",
+    "code": "GHR-15"
+   },
+   {
+    "name": "Grooved Arch Dark Walnut",
+    "style": "Grooved Arch",
+    "colour": "Dark Walnut",
+    "img": "a/doors/kensington/truro-arch-ristretto-baroque.jpg",
+    "code": "GHR-16"
+   },
+   {
+    "name": "Grooved Double Arch Chalk White",
+    "style": "Grooved Double Arch",
+    "colour": "Chalk White",
+    "img": "a/doors/kensington/truro-double-arch-hacienda-white.jpg",
+    "code": "GHR-17"
+   },
+   {
+    "name": "Grooved Double Arch Harvest Oak",
+    "style": "Grooved Double Arch",
+    "colour": "Harvest Oak",
+    "img": "a/doors/kensington/truro-double-arch-santana-oak.jpg",
+    "code": "GHR-18"
+   }
+  ],
+  "DAP": [
+   {
+    "name": "Chestnut Oak",
+    "img": "a/doors/clarence/clarence-brown-cuneo-oak.jpg",
+    "code": "DAP-01"
+   },
+   {
+    "name": "Cocoa Oak",
+    "img": "a/doors/clarence/clarence-marone-casella-oak.jpg",
+    "code": "DAP-02"
+   },
+   {
+    "name": "Dune Oak",
+    "img": "a/doors/clarence/clarence-sand-gladstone-oak.jpg",
+    "code": "DAP-03"
+   },
+   {
+    "name": "Pale Oak",
+    "img": "a/doors/clarence/clarence-light-natural-casella-oak.jpg",
+    "code": "DAP-04"
+   },
+   {
+    "name": "Tobacco Oak",
+    "img": "a/doors/clarence/clarence-brown-orleans-oak.jpg",
+    "code": "DAP-05"
+   },
+   {
+    "name": "Whitewashed Oak",
+    "img": "a/doors/clarence/clarence-white-casella-oak.jpg",
+    "code": "DAP-06"
+   }
+  ],
+  "DWN": [
+   {
+    "name": "Pure White",
+    "img": "a/doors/classic/classic-white.jpg",
+    "code": "DWN-01"
+   },
+   {
+    "name": "Buttermilk",
+    "img": "a/doors/classic/classic-cream.jpg",
+    "code": "DWN-02"
+   },
+   {
+    "name": "Golden Maple",
+    "img": "a/doors/classic/classic-maple.jpg",
+    "code": "DWN-03"
+   },
+   {
+    "name": "Honey Beech",
+    "img": "a/doors/classic/classic-beech.jpg",
+    "code": "DWN-04"
+   },
+   {
+    "name": "Loft Oak",
+    "img": "a/doors/classic/classic-urban-oak.jpg",
+    "code": "DWN-05"
+   },
+   {
+    "name": "Natural Oak",
+    "img": "a/doors/classic/classic-oak.jpg",
+    "code": "DWN-06"
+   }
+  ],
+  "ECL": [
+   {
+    "name": "Brushed Steel",
+    "img": "a/doors/soho/soho-galvano.jpg",
+    "code": "ECL-01"
+   },
+   {
+    "name": "Corten",
+    "img": "a/doors/soho/soho-oxyd.jpg",
+    "code": "ECL-02"
+   },
+   {
+    "name": "Patina",
+    "img": "a/doors/soho/soho-ossido.jpg",
+    "code": "ECL-03"
+   },
+   {
+    "name": "Travertine",
+    "img": "a/doors/soho/soho-venato.jpg",
+    "code": "ECL-04"
+   },
+   {
+    "name": "Veined Marble",
+    "img": "a/doors/soho/soho-marmo.jpg",
+    "code": "ECL-05"
+   }
+  ]
+ },
+ "spectrum": {
+  "B": {
+   "label": "Broad Rail Shaker",
+   "colours": [
+    {
+     "colour": "Alabaster Grain",
+     "img": "a/doors/chelsea/shaker-porcelain-woodgrain.jpg"
+    },
+    {
+     "colour": "Blush White",
+     "img": "a/doors/chelsea/shaker-rose-white.jpg"
+    },
+    {
+     "colour": "Pure White",
+     "img": "a/doors/chelsea/shaker-white.jpg"
+    },
+    {
+     "colour": "Pure White Grain",
+     "img": "a/doors/chelsea/shaker-white-woodgrain.jpg"
+    },
+    {
+     "colour": "Biscuit",
+     "img": "a/doors/chelsea/shaker-almond.jpg"
+    },
+    {
+     "colour": "Buttermilk",
+     "img": "a/doors/chelsea/shaker-cream.jpg"
+    },
+    {
+     "colour": "Buttermilk Grain",
+     "img": "a/doors/chelsea/shaker-cream-woodgrain.jpg"
+    },
+    {
+     "colour": "Fawn",
+     "img": "a/doors/chelsea/shaker-alpaca.jpg"
+    },
+    {
+     "colour": "Mocha",
+     "img": "a/doors/chelsea/shaker-cappuccino.jpg"
+    },
+    {
+     "colour": "Oatmeal",
+     "img": "a/doors/chelsea/shaker-cashmere.jpg"
+    },
+    {
+     "colour": "Oatmeal Grain",
+     "img": "a/doors/chelsea/shaker-cashmere-woodgrain.jpg"
+    },
+    {
+     "colour": "Sahara",
+     "img": "a/doors/chelsea/shaker-dakar.jpg"
+    },
+    {
+     "colour": "Sandstone",
+     "img": "a/doors/chelsea/shaker-carat-beige.jpg"
+    },
+    {
+     "colour": "Granite Grey",
+     "img": "a/doors/chelsea/shaker-basalt-grey.jpg"
+    },
+    {
+     "colour": "Moonstone",
+     "img": "a/doors/chelsea/shaker-light-grey.jpg"
+    },
+    {
+     "colour": "Moonstone Grain",
+     "img": "a/doors/chelsea/shaker-light-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Oyster",
+     "img": "a/doors/chelsea/shaker-mussel.jpg"
+    },
+    {
+     "colour": "Pumice Grain",
+     "img": "a/doors/chelsea/shaker-dust-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Chambray",
+     "img": "a/doors/chelsea/shaker-denim-blue.jpg"
+    },
+    {
+     "colour": "Cornflower",
+     "img": "a/doors/chelsea/shaker-alby-blue.jpg"
+    },
+    {
+     "colour": "Delft Blue Grain",
+     "img": "a/doors/chelsea/shaker-parisian-blue-woodgrain.jpg"
+    },
+    {
+     "colour": "Harebell",
+     "img": "a/doors/chelsea/shaker-scandic-blue.jpg"
+    },
+    {
+     "colour": "Loch Blue",
+     "img": "a/doors/chelsea/shaker-fjord.jpg"
+    },
+    {
+     "colour": "Powder Blue",
+     "img": "a/doors/chelsea/shaker-misty-blue.jpg"
+    },
+    {
+     "colour": "Ultramarine",
+     "img": "a/doors/chelsea/shaker-indigo.jpg"
+    },
+    {
+     "colour": "Juniper",
+     "img": "a/doors/chelsea/shaker-heritage-green.jpg"
+    },
+    {
+     "colour": "Lichen",
+     "img": "a/doors/chelsea/shaker-sage-green.jpg"
+    },
+    {
+     "colour": "Pine Grain",
+     "img": "a/doors/chelsea/shaker-forest-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Thyme",
+     "img": "a/doors/chelsea/shaker-smoke-green.jpg"
+    },
+    {
+     "colour": "Willow",
+     "img": "a/doors/chelsea/shaker-reed-green.jpg"
+    },
+    {
+     "colour": "Willow Grain",
+     "img": "a/doors/chelsea/shaker-reed-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Ochre",
+     "img": "a/doors/chelsea/shaker-sand-yellow.jpg"
+    },
+    {
+     "colour": "Paprika",
+     "img": "a/doors/chelsea/shaker-cajun.jpg"
+    },
+    {
+     "colour": "Plaster Pink",
+     "img": "a/doors/chelsea/shaker-dusky-pink.jpg"
+    },
+    {
+     "colour": "Jet Black",
+     "img": "a/doors/chelsea/shaker-black.jpg"
+    }
+   ]
+  },
+  "BS": {
+   "label": "Broad Seamless Shaker",
+   "colours": [
+    {
+     "colour": "Alabaster Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-porcelain-woodgrain.jpg"
+    },
+    {
+     "colour": "Blush White",
+     "img": "a/doors/chelsea/shaker-no-lines-rose-white.jpg"
+    },
+    {
+     "colour": "Pure White",
+     "img": "a/doors/chelsea/shaker-no-lines-white.jpg"
+    },
+    {
+     "colour": "Pure White Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-white-woodgrain.jpg"
+    },
+    {
+     "colour": "Biscuit",
+     "img": "a/doors/chelsea/shaker-no-lines-almond.jpg"
+    },
+    {
+     "colour": "Buttermilk",
+     "img": "a/doors/chelsea/shaker-no-lines-cream.jpg"
+    },
+    {
+     "colour": "Buttermilk Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-cream-woodgrain.jpg"
+    },
+    {
+     "colour": "Fawn",
+     "img": "a/doors/chelsea/shaker-no-lines-alpaca.jpg"
+    },
+    {
+     "colour": "Mocha",
+     "img": "a/doors/chelsea/shaker-no-lines-cappuccino.jpg"
+    },
+    {
+     "colour": "Oatmeal",
+     "img": "a/doors/chelsea/shaker-no-lines-cashmere.jpg"
+    },
+    {
+     "colour": "Oatmeal Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-cashmere-woodgrain.jpg"
+    },
+    {
+     "colour": "Sahara",
+     "img": "a/doors/chelsea/shaker-no-lines-dakar.jpg"
+    },
+    {
+     "colour": "Sandstone",
+     "img": "a/doors/chelsea/shaker-no-lines-carat-beige.jpg"
+    },
+    {
+     "colour": "Granite Grey",
+     "img": "a/doors/chelsea/shaker-no-lines-basalt-grey.jpg"
+    },
+    {
+     "colour": "Moonstone",
+     "img": "a/doors/chelsea/shaker-no-lines-light-grey.jpg"
+    },
+    {
+     "colour": "Moonstone Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-light-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Oyster",
+     "img": "a/doors/chelsea/shaker-no-lines-mussel.jpg"
+    },
+    {
+     "colour": "Pumice Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-dust-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Chambray",
+     "img": "a/doors/chelsea/shaker-no-lines-denim-blue.jpg"
+    },
+    {
+     "colour": "Cornflower",
+     "img": "a/doors/chelsea/shaker-no-lines-alby-blue.jpg"
+    },
+    {
+     "colour": "Delft Blue Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-parisian-blue-woodgrain.jpg"
+    },
+    {
+     "colour": "Harebell",
+     "img": "a/doors/chelsea/shaker-no-lines-scandic-blue.jpg"
+    },
+    {
+     "colour": "Loch Blue",
+     "img": "a/doors/chelsea/shaker-no-lines-fjord.jpg"
+    },
+    {
+     "colour": "Powder Blue",
+     "img": "a/doors/chelsea/shaker-no-lines-misty-blue.jpg"
+    },
+    {
+     "colour": "Ultramarine",
+     "img": "a/doors/chelsea/shaker-no-lines-indigo.jpg"
+    },
+    {
+     "colour": "Juniper",
+     "img": "a/doors/chelsea/shaker-no-lines-heritage-green.jpg"
+    },
+    {
+     "colour": "Lichen",
+     "img": "a/doors/chelsea/shaker-no-lines-sage-green.jpg"
+    },
+    {
+     "colour": "Pine Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-forest-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Thyme",
+     "img": "a/doors/chelsea/shaker-no-lines-smoke-green.jpg"
+    },
+    {
+     "colour": "Willow",
+     "img": "a/doors/chelsea/shaker-no-lines-reed-green.jpg"
+    },
+    {
+     "colour": "Willow Grain",
+     "img": "a/doors/chelsea/shaker-no-lines-reed-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Ochre",
+     "img": "a/doors/chelsea/shaker-no-lines-sand-yellow.jpg"
+    },
+    {
+     "colour": "Paprika",
+     "img": "a/doors/chelsea/shaker-no-lines-cajun.jpg"
+    },
+    {
+     "colour": "Plaster Pink",
+     "img": "a/doors/chelsea/shaker-no-lines-dusky-pink.jpg"
+    },
+    {
+     "colour": "Jet Black",
+     "img": "a/doors/chelsea/shaker-no-lines-black.jpg"
+    }
+   ]
+  },
+  "F": {
+   "label": "Fine Rail Shaker",
+   "colours": [
+    {
+     "colour": "Alabaster Grain",
+     "img": "a/doors/chelsea/shaker-narrow-porcelain-woodgrain.jpg"
+    },
+    {
+     "colour": "Blush White",
+     "img": "a/doors/chelsea/shaker-narrow-rose-white.jpg"
+    },
+    {
+     "colour": "Pure White",
+     "img": "a/doors/chelsea/shaker-narrow-white.jpg"
+    },
+    {
+     "colour": "Pure White Grain",
+     "img": "a/doors/chelsea/shaker-narrow-white-woodgrain.jpg"
+    },
+    {
+     "colour": "Biscuit",
+     "img": "a/doors/chelsea/shaker-narrow-almond.jpg"
+    },
+    {
+     "colour": "Buttermilk",
+     "img": "a/doors/chelsea/shaker-narrow-cream.jpg"
+    },
+    {
+     "colour": "Buttermilk Grain",
+     "img": "a/doors/chelsea/shaker-narrow-cream-woodgrain.jpg"
+    },
+    {
+     "colour": "Fawn",
+     "img": "a/doors/chelsea/shaker-narrow-alpaca.jpg"
+    },
+    {
+     "colour": "Mocha",
+     "img": "a/doors/chelsea/shaker-narrow-cappuccino.jpg"
+    },
+    {
+     "colour": "Oatmeal",
+     "img": "a/doors/chelsea/shaker-narrow-cashmere.jpg"
+    },
+    {
+     "colour": "Oatmeal Grain",
+     "img": "a/doors/chelsea/shaker-narrow-cashmere-woodgrain.jpg"
+    },
+    {
+     "colour": "Sahara",
+     "img": "a/doors/chelsea/shaker-narrow-dakar.jpg"
+    },
+    {
+     "colour": "Sandstone",
+     "img": "a/doors/chelsea/shaker-narrow-carat-beige.jpg"
+    },
+    {
+     "colour": "Granite Grey",
+     "img": "a/doors/chelsea/shaker-narrow-basalt-grey.jpg"
+    },
+    {
+     "colour": "Moonstone",
+     "img": "a/doors/chelsea/shaker-narrow-light-grey.jpg"
+    },
+    {
+     "colour": "Moonstone Grain",
+     "img": "a/doors/chelsea/shaker-narrow-light-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Oyster",
+     "img": "a/doors/chelsea/shaker-narrow-mussel.jpg"
+    },
+    {
+     "colour": "Pumice Grain",
+     "img": "a/doors/chelsea/shaker-narrow-dust-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Chambray",
+     "img": "a/doors/chelsea/shaker-narrow-denim-blue.jpg"
+    },
+    {
+     "colour": "Cornflower",
+     "img": "a/doors/chelsea/shaker-narrow-alby-blue.jpg"
+    },
+    {
+     "colour": "Delft Blue Grain",
+     "img": "a/doors/chelsea/shaker-narrow-parisian-blue-woodgrain.jpg"
+    },
+    {
+     "colour": "Harebell",
+     "img": "a/doors/chelsea/shaker-narrow-scandic-blue.jpg"
+    },
+    {
+     "colour": "Loch Blue",
+     "img": "a/doors/chelsea/shaker-narrow-fjord.jpg"
+    },
+    {
+     "colour": "Powder Blue",
+     "img": "a/doors/chelsea/shaker-narrow-misty-blue.jpg"
+    },
+    {
+     "colour": "Ultramarine",
+     "img": "a/doors/chelsea/shaker-narrow-indigo.jpg"
+    },
+    {
+     "colour": "Juniper",
+     "img": "a/doors/chelsea/shaker-narrow-heritage-green.jpg"
+    },
+    {
+     "colour": "Lichen",
+     "img": "a/doors/chelsea/shaker-narrow-sage-green.jpg"
+    },
+    {
+     "colour": "Pine Grain",
+     "img": "a/doors/chelsea/shaker-narrow-forest-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Thyme",
+     "img": "a/doors/chelsea/shaker-narrow-smoke-green.jpg"
+    },
+    {
+     "colour": "Willow",
+     "img": "a/doors/chelsea/shaker-narrow-reed-green.jpg"
+    },
+    {
+     "colour": "Willow Grain",
+     "img": "a/doors/chelsea/shaker-narrow-reed-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Ochre",
+     "img": "a/doors/chelsea/shaker-narrow-sand-yellow.jpg"
+    },
+    {
+     "colour": "Paprika",
+     "img": "a/doors/chelsea/shaker-narrow-cajun.jpg"
+    },
+    {
+     "colour": "Plaster Pink",
+     "img": "a/doors/chelsea/shaker-narrow-dusky-pink.jpg"
+    },
+    {
+     "colour": "Jet Black",
+     "img": "a/doors/chelsea/shaker-narrow-black.jpg"
+    }
+   ]
+  },
+  "FS": {
+   "label": "Fine Seamless Shaker",
+   "colours": [
+    {
+     "colour": "Alabaster Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-porcelain-woodgrain.jpg"
+    },
+    {
+     "colour": "Blush White",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-rose-white.jpg"
+    },
+    {
+     "colour": "Pure White",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-white.jpg"
+    },
+    {
+     "colour": "Pure White Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-white-woodgrain.jpg"
+    },
+    {
+     "colour": "Biscuit",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-almond.jpg"
+    },
+    {
+     "colour": "Buttermilk",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-cream.jpg"
+    },
+    {
+     "colour": "Buttermilk Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-cream-woodgrain.jpg"
+    },
+    {
+     "colour": "Fawn",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-alpaca.jpg"
+    },
+    {
+     "colour": "Mocha",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-cappuccino.jpg"
+    },
+    {
+     "colour": "Oatmeal",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-cashmere.jpg"
+    },
+    {
+     "colour": "Oatmeal Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-cashmere-woodgrain.jpg"
+    },
+    {
+     "colour": "Sahara",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-dakar.jpg"
+    },
+    {
+     "colour": "Sandstone",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-carat-beige.jpg"
+    },
+    {
+     "colour": "Granite Grey",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-basalt-grey.jpg"
+    },
+    {
+     "colour": "Moonstone",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-light-grey.jpg"
+    },
+    {
+     "colour": "Moonstone Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-light-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Oyster",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-mussel.jpg"
+    },
+    {
+     "colour": "Pumice Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-dust-grey-woodgrain.jpg"
+    },
+    {
+     "colour": "Chambray",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-denim-blue.jpg"
+    },
+    {
+     "colour": "Cornflower",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-alby-blue.jpg"
+    },
+    {
+     "colour": "Delft Blue Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-parisian-blue-woodgrain.jpg"
+    },
+    {
+     "colour": "Harebell",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-scandic-blue.jpg"
+    },
+    {
+     "colour": "Loch Blue",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-fjord.jpg"
+    },
+    {
+     "colour": "Powder Blue",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-misty-blue.jpg"
+    },
+    {
+     "colour": "Ultramarine",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-indigo.jpg"
+    },
+    {
+     "colour": "Juniper",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-heritage-green.jpg"
+    },
+    {
+     "colour": "Lichen",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-sage-green.jpg"
+    },
+    {
+     "colour": "Pine Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-forest-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Thyme",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-smoke-green.jpg"
+    },
+    {
+     "colour": "Willow",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-reed-green.jpg"
+    },
+    {
+     "colour": "Willow Grain",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-reed-green-woodgrain.jpg"
+    },
+    {
+     "colour": "Ochre",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-sand-yellow.jpg"
+    },
+    {
+     "colour": "Paprika",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-cajun.jpg"
+    },
+    {
+     "colour": "Plaster Pink",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-dusky-pink.jpg"
+    },
+    {
+     "colour": "Jet Black",
+     "img": "a/doors/chelsea/shaker-narrow-no-lines-black.jpg"
+    }
+   ]
+  }
+ },
+ "handles": [
+  {
+   "code": "HKB",
+   "name": "Knurl Bar",
+   "desc": "Round bar with crisp diamond knurling: the modern classic for shaker and slab doors.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     100,
+     64
+    ],
+    [
+     150,
+     96
+    ],
+    [
+     200,
+     128
+    ],
+    [
+     250,
+     160
+    ],
+    [
+     280,
+     190
+    ],
+    [
+     300,
+     220
+    ],
+    [
+     320,
+     224
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h04.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HKB-BG"
+    },
+    {
+     "img": "a/handles/h15.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HKB-AB"
+    },
+    {
+     "img": "a/handles/h00.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HKB-BZ"
+    },
+    {
+     "img": "a/handles/h02.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HKB-MB"
+    },
+    {
+     "img": "a/handles/h16.jpg",
+     "fin": "SF",
+     "finname": "Saffron",
+     "sku": "HKB-SF"
+    }
+   ]
+  },
+  {
+   "code": "HKP",
+   "name": "Knurl Bar with Backplate",
+   "desc": "The Knurl Bar on a slim matching backplate that frames the handle and protects painted doors.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     100,
+     64
+    ],
+    [
+     150,
+     96
+    ],
+    [
+     200,
+     128
+    ],
+    [
+     250,
+     160
+    ],
+    [
+     280,
+     190
+    ],
+    [
+     320,
+     220
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h32.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HKP-BG"
+    },
+    {
+     "img": "a/handles/h43.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HKP-AB"
+    },
+    {
+     "img": "a/handles/h44.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HKP-BZ"
+    },
+    {
+     "img": "a/handles/h65.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HKP-MB"
+    }
+   ]
+  },
+  {
+   "code": "HKT",
+   "name": "Knurl T-Bar",
+   "desc": "Single-fixing T-bar knob to pair with the Knurl Bar on small doors and drawers.",
+   "mat": "Solid brass",
+   "note": "57 mm long \u00b7 33 mm projection \u00b7 single fixing",
+   "sizes": [],
+   "items": [
+    {
+     "img": "a/handles/h23.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HKT-BG"
+    },
+    {
+     "img": "a/handles/h27.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HKT-AB"
+    },
+    {
+     "img": "a/handles/h28.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HKT-BZ"
+    },
+    {
+     "img": "a/handles/h54.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HKT-MB"
+    },
+    {
+     "img": "a/handles/h31.jpg",
+     "fin": "SF",
+     "finname": "Saffron",
+     "sku": "HKT-SF"
+    }
+   ]
+  },
+  {
+   "code": "HKL",
+   "name": "Knurl Tall Pull",
+   "desc": "Heavy-gauge knurled pull for larders, tall housings and wardrobes. With or without backplate.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     300,
+     190
+    ],
+    [
+     400,
+     288
+    ],
+    [
+     500,
+     380
+    ],
+    [
+     600,
+     480
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h34.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass + plate",
+     "sku": "HKL-AB-P"
+    },
+    {
+     "img": "a/handles/h35.jpg",
+     "fin": "BZ",
+     "finname": "Bronze + plate",
+     "sku": "HKL-BZ-P"
+    },
+    {
+     "img": "a/handles/h48.jpg",
+     "fin": "BZ",
+     "finname": "Bronze, plain",
+     "sku": "HKL-BZ"
+    }
+   ]
+  },
+  {
+   "code": "HKF",
+   "name": "Knurl Rail",
+   "desc": "Knurled rail on stand-off posts with round feet. The 760 mm length suits appliance and larder doors.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     160,
+     105
+    ],
+    [
+     260,
+     205
+    ],
+    [
+     360,
+     306
+    ],
+    [
+     760,
+     706
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h07.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HKF-BG"
+    },
+    {
+     "img": "a/handles/h03.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HKF-AB"
+    },
+    {
+     "img": "a/handles/h10.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HKF-MB"
+    }
+   ]
+  },
+  {
+   "code": "HRR",
+   "name": "Reeded Rail",
+   "desc": "Finely ribbed rail on stand-off posts: a tailored detail for traditional and contemporary schemes.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     172,
+     105
+    ],
+    [
+     260,
+     205
+    ],
+    [
+     360,
+     306
+    ],
+    [
+     760,
+     706
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h11.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HRR-BG"
+    },
+    {
+     "img": "a/handles/h06.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HRR-AB"
+    },
+    {
+     "img": "a/handles/h05.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HRR-MB"
+    }
+   ]
+  },
+  {
+   "code": "HFB",
+   "name": "Fluted Bar",
+   "desc": "Deeply fluted bar with a soft, classical profile.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     150,
+     95
+    ],
+    [
+     185,
+     128
+    ],
+    [
+     215,
+     160
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h13.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HFB-BG"
+    },
+    {
+     "img": "a/handles/h50.jpg",
+     "fin": "SN",
+     "finname": "Satin Nickel",
+     "sku": "HFB-SN"
+    },
+    {
+     "img": "a/handles/h19.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HFB-MB"
+    }
+   ]
+  },
+  {
+   "code": "HHB",
+   "name": "Hex Bar",
+   "desc": "Faceted hexagonal bar that catches the light on every edge.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     100,
+     63
+    ],
+    [
+     150,
+     96
+    ],
+    [
+     200,
+     128
+    ],
+    [
+     250,
+     160
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h22.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HHB-BG"
+    },
+    {
+     "img": "a/handles/h18.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HHB-AB"
+    },
+    {
+     "img": "a/handles/h20.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HHB-BZ"
+    },
+    {
+     "img": "a/handles/h38.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HHB-MB"
+    }
+   ]
+  },
+  {
+   "code": "HHP",
+   "name": "Hex Bar with Backplate",
+   "desc": "The Hex Bar mounted on a matching backplate.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     100,
+     63
+    ],
+    [
+     150,
+     96
+    ],
+    [
+     200,
+     128
+    ],
+    [
+     250,
+     160
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h58.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HHP-BG"
+    },
+    {
+     "img": "a/handles/h57.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HHP-AB"
+    },
+    {
+     "img": "a/handles/h55.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HHP-BZ"
+    }
+   ]
+  },
+  {
+   "code": "HHT",
+   "name": "Hex T-Bar",
+   "desc": "Single-fixing hexagonal T-bar knob.",
+   "mat": "Solid brass",
+   "note": "50 mm long \u00b7 35 mm projection \u00b7 single fixing",
+   "sizes": [],
+   "items": [
+    {
+     "img": "a/handles/h61.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HHT-BG"
+    },
+    {
+     "img": "a/handles/h59.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HHT-AB"
+    },
+    {
+     "img": "a/handles/h60.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HHT-BZ"
+    },
+    {
+     "img": "a/handles/h64.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HHT-MB"
+    }
+   ]
+  },
+  {
+   "code": "HSQ",
+   "name": "Square Pull",
+   "desc": "Crisp square-section pull: architectural and minimal.",
+   "mat": "Plated brass",
+   "note": null,
+   "sizes": [
+    [
+     106,
+     96
+    ],
+    [
+     138,
+     128
+    ],
+    [
+     170,
+     160
+    ],
+    [
+     202,
+     192
+    ],
+    [
+     234,
+     224
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h36.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HSQ-BG"
+    },
+    {
+     "img": "a/handles/h08.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HSQ-AB"
+    },
+    {
+     "img": "a/handles/h33.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HSQ-BZ"
+    },
+    {
+     "img": "a/handles/h47.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HSQ-MB"
+    }
+   ]
+  },
+  {
+   "code": "HST",
+   "name": "Square T-Bar",
+   "desc": "Square-section T-bar knob to pair with the Square Pull.",
+   "mat": "Solid brass",
+   "note": "60 mm long \u00b7 31 mm projection \u00b7 single fixing",
+   "sizes": [],
+   "items": [
+    {
+     "img": "a/handles/h80.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HST-BG"
+    },
+    {
+     "img": "a/handles/h78.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HST-AB"
+    },
+    {
+     "img": "a/handles/h79.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HST-BZ"
+    },
+    {
+     "img": "a/handles/h40.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HST-MB"
+    }
+   ]
+  },
+  {
+   "code": "HTP",
+   "name": "Taper Pull",
+   "desc": "Edge-style pull with tapered feet. The 60 mm size works as a knob.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     60,
+     40
+    ],
+    [
+     116,
+     95
+    ],
+    [
+     148,
+     128
+    ],
+    [
+     180,
+     159
+    ],
+    [
+     212,
+     192
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h52.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HTP-BG"
+    },
+    {
+     "img": "a/handles/h01.jpg",
+     "fin": "AB",
+     "finname": "Antique Brass",
+     "sku": "HTP-AB"
+    },
+    {
+     "img": "a/handles/h24.jpg",
+     "fin": "BZ",
+     "finname": "Bronze",
+     "sku": "HTP-BZ"
+    },
+    {
+     "img": "a/handles/h70.jpg",
+     "fin": "SN",
+     "finname": "Satin Nickel",
+     "sku": "HTP-SN"
+    },
+    {
+     "img": "a/handles/h09.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HTP-MB"
+    }
+   ]
+  },
+  {
+   "code": "HOB",
+   "name": "Oval Bar",
+   "desc": "Soft oval-section bar with a comfortable grip.",
+   "mat": "Solid brass",
+   "note": null,
+   "sizes": [
+    [
+     100,
+     64
+    ],
+    [
+     150,
+     96
+    ],
+    [
+     200,
+     128
+    ],
+    [
+     250,
+     160
+    ],
+    [
+     300,
+     192
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h67.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HOB-BG"
+    },
+    {
+     "img": "a/handles/h66.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HOB-MB"
+    }
+   ]
+  },
+  {
+   "code": "HOT",
+   "name": "Oval T-Bar",
+   "desc": "Single-fixing oval T-bar knob.",
+   "mat": "Solid brass",
+   "note": "57 \u00d7 35 \u00d7 20 mm \u00b7 single fixing",
+   "sizes": [],
+   "items": [
+    {
+     "img": "a/handles/h69.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HOT-BG"
+    },
+    {
+     "img": "a/handles/h68.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HOT-MB"
+    }
+   ]
+  },
+  {
+   "code": "HDC",
+   "name": "Deco Pull",
+   "desc": "Flat, rounded-end pull with a strong Art Deco silhouette.",
+   "mat": "Solid brass, powder-coated colour",
+   "note": null,
+   "sizes": [
+    [
+     80,
+     40
+    ],
+    [
+     120,
+     80
+    ],
+    [
+     160,
+     120
+    ],
+    [
+     210,
+     170
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h53.jpg",
+     "fin": "BG",
+     "finname": "Brushed Gold",
+     "sku": "HDC-BG"
+    },
+    {
+     "img": "a/handles/h26.jpg",
+     "fin": "MB",
+     "finname": "Matt Black",
+     "sku": "HDC-MB"
+    },
+    {
+     "img": "a/handles/h39.jpg",
+     "fin": "TL",
+     "finname": "Teal",
+     "sku": "HDC-TL"
+    }
+   ]
+  },
+  {
+   "code": "HCB",
+   "name": "Colour Bar",
+   "desc": "Powder-coated round bar in five statement colours.",
+   "mat": "Powder-coated solid brass",
+   "note": null,
+   "sizes": [
+    [
+     100,
+     63
+    ],
+    [
+     150,
+     96
+    ],
+    [
+     200,
+     128
+    ],
+    [
+     250,
+     160
+    ],
+    [
+     300,
+     192
+    ]
+   ],
+   "items": [
+    {
+     "img": "a/handles/h25.jpg",
+     "fin": "CP",
+     "finname": "Coral Pink",
+     "sku": "HCB-CP"
+    },
+    {
+     "img": "a/handles/h71.jpg",
+     "fin": "LL",
+     "finname": "Lilac",
+     "sku": "HCB-LL"
+    },
+    {
+     "img": "a/handles/h72.jpg",
+     "fin": "MT",
+     "finname": "Mint",
+     "sku": "HCB-MT"
+    },
+    {
+     "img": "a/handles/h73.jpg",
+     "fin": "TL",
+     "finname": "Teal",
+     "sku": "HCB-TL"
+    },
+    {
+     "img": "a/handles/h74.jpg",
+     "fin": "JD",
+     "finname": "Jade",
+     "sku": "HCB-JD"
+    }
+   ]
+  },
+  {
+   "code": "HCT",
+   "name": "Colour T-Bar",
+   "desc": "Single-fixing T-bar knob in matching powder-coated colours.",
+   "mat": "Powder-coated solid brass",
+   "note": "57 mm long \u00b7 35 mm projection \u00b7 single fixing",
+   "sizes": [],
+   "items": [
+    {
+     "img": "a/handles/h75.jpg",
+     "fin": "LL",
+     "finname": "Lilac",
+     "sku": "HCT-LL"
+    },
+    {
+     "img": "a/handles/h76.jpg",
+     "fin": "TL",
+     "finname": "Teal",
+     "sku": "HCT-TL"
+    }
+   ]
+  },
+  {
+   "code": "HCR",
+   "name": "Crescent Pull",
+   "desc": "Crescent-shaped edge pull that sits on the top edge of the door or drawer: no handle line, just colour.",
+   "mat": "Powder-coated metal",
+   "note": "80 \u00d7 40 mm \u00b7 fits the top edge of the door or drawer",
+   "sizes": [],
+   "items": [
+    {
+     "img": "a/handles/h12.jpg",
+     "fin": "RB",
+     "finname": "Ruby Red",
+     "sku": "HCR-RB"
+    },
+    {
+     "img": "a/handles/h29.jpg",
+     "fin": "TR",
+     "finname": "Terracotta",
+     "sku": "HCR-TR"
+    },
+    {
+     "img": "a/handles/h51.jpg",
+     "fin": "CP",
+     "finname": "Coral Pink",
+     "sku": "HCR-CP"
+    },
+    {
+     "img": "a/handles/h49.jpg",
+     "fin": "LL",
+     "finname": "Lilac",
+     "sku": "HCR-LL"
+    },
+    {
+     "img": "a/handles/h37.jpg",
+     "fin": "UM",
+     "finname": "Ultramarine",
+     "sku": "HCR-UM"
+    },
+    {
+     "img": "a/handles/h56.jpg",
+     "fin": "TL",
+     "finname": "Teal",
+     "sku": "HCR-TL"
+    },
+    {
+     "img": "a/handles/h45.jpg",
+     "fin": "JD",
+     "finname": "Jade",
+     "sku": "HCR-JD"
+    },
+    {
+     "img": "a/handles/h83.jpg",
+     "fin": "MT",
+     "finname": "Mint",
+     "sku": "HCR-MT"
+    },
+    {
+     "img": "a/handles/h42.jpg",
+     "fin": "TF",
+     "finname": "Toffee",
+     "sku": "HCR-TF"
+    },
+    {
+     "img": "a/handles/h21.jpg",
+     "fin": "IV",
+     "finname": "Ivory",
+     "sku": "HCR-IV"
+    }
+   ]
+  }
+ ],
+ "finishes": {
+  "MB": "Matt Black",
+  "BG": "Brushed Gold",
+  "AB": "Antique Brass",
+  "BZ": "Bronze",
+  "SN": "Satin Nickel",
+  "SF": "Saffron",
+  "HC": "Hammered Copper",
+  "RB": "Ruby Red",
+  "IV": "Ivory",
+  "TR": "Terracotta",
+  "UM": "Ultramarine",
+  "TF": "Toffee",
+  "JD": "Jade",
+  "LL": "Lilac",
+  "CP": "Coral Pink",
+  "TL": "Teal",
+  "MT": "Mint"
+ },
+ "colours": {
+  "Whites & Ivories": [
+   {
+    "name": "Alabaster Grain",
+    "codes": [
+     "SPC-01",
+     "CDL-33"
+    ],
+    "img": "a/chips/chelsea_shaker-porcelain-woodgrain.jpg"
+   },
+   {
+    "name": "Arctic White",
+    "codes": [
+     "DSK-01"
+    ],
+    "img": "a/chips/victoria_victoria-premium-white.jpg"
+   },
+   {
+    "name": "Blush White",
+    "codes": [
+     "SPC-02",
+     "CDL-01"
+    ],
+    "img": "a/chips/chelsea_shaker-rose-white.jpg"
+   },
+   {
+    "name": "Calico White",
+    "codes": [
+     "LTN-02"
+    ],
+    "img": "a/chips/framed_CW.jpg"
+   },
+   {
+    "name": "Chalk White",
+    "codes": [
+     "GHR-01",
+     "GHR-07",
+     "GHR-08",
+     "GHR-17"
+    ],
+    "img": "a/chips/kensington_classic-shaker-hacienda-white.jpg"
+   },
+   {
+    "name": "Cotton White",
+    "codes": [
+     "MRD-01"
+    ],
+    "img": "a/chips/framed_SW.jpg"
+   },
+   {
+    "name": "Daybreak White",
+    "codes": [
+     "DLT-01"
+    ],
+    "img": "a/chips/framed_FW.jpg"
+   },
+   {
+    "name": "Frost Grain",
+    "codes": [
+     "EMB-01"
+    ],
+    "img": "a/chips/warwick_warwick-blanc-woodgrain.jpg"
+   },
+   {
+    "name": "Linen White",
+    "codes": [
+     "LTN-01"
+    ],
+    "img": "a/chips/framed_AW.jpg"
+   },
+   {
+    "name": "Pearl White",
+    "codes": [
+     "EQX-01",
+     "FLM-01"
+    ],
+    "img": "a/chips/framed_DDW.jpg"
+   },
+   {
+    "name": "Polar Gloss",
+    "codes": [
+     "PRM-01"
+    ],
+    "img": "a/chips/framed_HW.jpg"
+   },
+   {
+    "name": "Pure White",
+    "codes": [
+     "SPC-03",
+     "CDL-08",
+     "CDL-21",
+     "CDL-50",
+     "DWN-01"
+    ],
+    "img": "a/chips/chelsea_shaker-white.jpg"
+   },
+   {
+    "name": "Pure White Gloss",
+    "codes": [
+     "LUS-01"
+    ],
+    "img": "a/chips/acrylic_acrylic-white.jpg"
+   },
+   {
+    "name": "Pure White Grain",
+    "codes": [
+     "SPC-04",
+     "CDL-41"
+    ],
+    "img": "a/chips/chelsea_shaker-white-woodgrain.jpg"
+   },
+   {
+    "name": "Vellum Matt",
+    "codes": [
+     "PRM-02"
+    ],
+    "img": "a/chips/framed_MI.jpg"
+   }
+  ],
+  "Creams & Neutrals": [
+   {
+    "name": "Biscuit",
+    "codes": [
+     "SPC-05",
+     "CDL-22",
+     "DSK-02"
+    ],
+    "img": "a/chips/chelsea_shaker-almond.jpg"
+   },
+   {
+    "name": "Biscuit Gloss",
+    "codes": [
+     "LUS-02"
+    ],
+    "img": "a/chips/acrylic_acrylic-almond.jpg"
+   },
+   {
+    "name": "Biscuit Grain",
+    "codes": [
+     "EMB-02"
+    ],
+    "img": "a/chips/warwick_warwick-almond-woodgrain.jpg"
+   },
+   {
+    "name": "Buttermilk",
+    "codes": [
+     "SPC-06",
+     "CDL-09",
+     "CDL-15",
+     "CDL-34",
+     "CDL-42",
+     "DWN-02"
+    ],
+    "img": "a/chips/chelsea_shaker-cream.jpg"
+   },
+   {
+    "name": "Buttermilk Grain",
+    "codes": [
+     "SPC-07",
+     "CDL-23"
+    ],
+    "img": "a/chips/chelsea_shaker-cream-woodgrain.jpg"
+   },
+   {
+    "name": "Fawn",
+    "codes": [
+     "SPC-08",
+     "CDL-24"
+    ],
+    "img": "a/chips/chelsea_shaker-alpaca.jpg"
+   },
+   {
+    "name": "Fleece",
+    "codes": [
+     "DSK-03"
+    ],
+    "img": "a/chips/victoria_victoria-angora.jpg"
+   },
+   {
+    "name": "Mink",
+    "codes": [
+     "DSK-04"
+    ],
+    "img": "a/chips/victoria_victoria-taupe.jpg"
+   },
+   {
+    "name": "Mink Gloss",
+    "codes": [
+     "LUS-03"
+    ],
+    "img": "a/chips/acrylic_acrylic-taupe.jpg"
+   },
+   {
+    "name": "Mocha",
+    "codes": [
+     "SPC-09",
+     "CDL-51"
+    ],
+    "img": "a/chips/chelsea_shaker-cappuccino.jpg"
+   },
+   {
+    "name": "Oatmeal",
+    "codes": [
+     "SPC-10",
+     "CDL-02",
+     "CDL-10",
+     "CDL-30",
+     "CDL-35"
+    ],
+    "img": "a/chips/chelsea_shaker-cashmere.jpg"
+   },
+   {
+    "name": "Oatmeal Gloss",
+    "codes": [
+     "LUS-04"
+    ],
+    "img": "a/chips/acrylic_acrylic-cashmere.jpg"
+   },
+   {
+    "name": "Oatmeal Grain",
+    "codes": [
+     "SPC-11",
+     "CDL-16",
+     "EMB-03"
+    ],
+    "img": "a/chips/chelsea_shaker-cashmere-woodgrain.jpg"
+   },
+   {
+    "name": "Pale Gold Gloss",
+    "codes": [
+     "LUS-05"
+    ],
+    "img": "a/chips/acrylic_acrylic-champagne.jpg"
+   },
+   {
+    "name": "Parchment",
+    "codes": [
+     "DSK-05"
+    ],
+    "img": "a/chips/victoria_victoria-soft-beige.jpg"
+   },
+   {
+    "name": "Sahara",
+    "codes": [
+     "SPC-12",
+     "CDL-52"
+    ],
+    "img": "a/chips/chelsea_shaker-dakar.jpg"
+   },
+   {
+    "name": "Sandstone",
+    "codes": [
+     "SPC-13",
+     "CDL-43",
+     "DSK-06"
+    ],
+    "img": "a/chips/chelsea_shaker-carat-beige.jpg"
+   },
+   {
+    "name": "Sandstone Grain",
+    "codes": [
+     "EMB-04"
+    ],
+    "img": "a/chips/warwick_warwick-carat-beige-woodgrain.jpg"
+   },
+   {
+    "name": "Truffle Gloss",
+    "codes": [
+     "LUS-06"
+    ],
+    "img": "a/chips/acrylic_acrylic-mushroom.jpg"
+   }
+  ],
+  "Greys": [
+   {
+    "name": "Cinder",
+    "codes": [
+     "HLC-02"
+    ],
+    "img": "a/chips/framed_SA.jpg"
+   },
+   {
+    "name": "Feather Grey",
+    "codes": [
+     "DSK-07"
+    ],
+    "img": "a/chips/victoria_victoria-silk-grey.jpg"
+   },
+   {
+    "name": "Granite Grey",
+    "codes": [
+     "SPC-14",
+     "CDL-11",
+     "CDL-46"
+    ],
+    "img": "a/chips/chelsea_shaker-basalt-grey.jpg"
+   },
+   {
+    "name": "Gunmetal Gloss",
+    "codes": [
+     "LUS-07"
+    ],
+    "img": "a/chips/acrylic_acrylic-smoke-grey.jpg"
+   },
+   {
+    "name": "Harbour Grey",
+    "codes": [
+     "MRD-02"
+    ],
+    "img": "a/chips/framed_GR.jpg"
+   },
+   {
+    "name": "Moonstone",
+    "codes": [
+     "SPC-15",
+     "CDL-12",
+     "CDL-38"
+    ],
+    "img": "a/chips/chelsea_shaker-light-grey.jpg"
+   },
+   {
+    "name": "Moonstone Gloss",
+    "codes": [
+     "LUS-08"
+    ],
+    "img": "a/chips/acrylic_acrylic-light-grey.jpg"
+   },
+   {
+    "name": "Moonstone Grain",
+    "codes": [
+     "SPC-16",
+     "CDL-03",
+     "EMB-05"
+    ],
+    "img": "a/chips/chelsea_shaker-light-grey-woodgrain.jpg"
+   },
+   {
+    "name": "Overcast Grey",
+    "codes": [
+     "DLT-02"
+    ],
+    "img": "a/chips/framed_FG.jpg"
+   },
+   {
+    "name": "Oyster",
+    "codes": [
+     "SPC-17",
+     "CDL-44"
+    ],
+    "img": "a/chips/chelsea_shaker-mussel.jpg"
+   },
+   {
+    "name": "Oyster Grain",
+    "codes": [
+     "EMB-06"
+    ],
+    "img": "a/chips/warwick_warwick-mussel-woodgrain.jpg"
+   },
+   {
+    "name": "Pewter Gloss",
+    "codes": [
+     "LUS-09"
+    ],
+    "img": "a/chips/acrylic_acrylic-grey.jpg"
+   },
+   {
+    "name": "Pumice",
+    "codes": [
+     "DSK-08"
+    ],
+    "img": "a/chips/victoria_victoria-dust-grey.jpg"
+   },
+   {
+    "name": "Pumice Grain",
+    "codes": [
+     "SPC-18",
+     "CDL-18",
+     "EMB-07"
+    ],
+    "img": "a/chips/chelsea_shaker-dust-grey-woodgrain.jpg"
+   },
+   {
+    "name": "Shadow Grey",
+    "codes": [
+     "HLC-01"
+    ],
+    "img": "a/chips/framed_LG.jpg"
+   },
+   {
+    "name": "Shingle",
+    "codes": [
+     "DSK-09"
+    ],
+    "img": "a/chips/victoria_victoria-pebble-grey.jpg"
+   },
+   {
+    "name": "Steel Gloss",
+    "codes": [
+     "PRM-03"
+    ],
+    "img": "a/chips/framed_HG.jpg"
+   },
+   {
+    "name": "Storm Grey",
+    "codes": [
+     "EQX-02"
+    ],
+    "img": "a/chips/framed_DSG.jpg"
+   }
+  ],
+  "Blues": [
+   {
+    "name": "Admiral Blue",
+    "codes": [
+     "HLC-03"
+    ],
+    "img": "a/chips/framed_NB.jpg"
+   },
+   {
+    "name": "Chambray",
+    "codes": [
+     "SPC-19",
+     "CDL-04",
+     "CDL-39"
+    ],
+    "img": "a/chips/chelsea_shaker-denim-blue.jpg"
+   },
+   {
+    "name": "Cornflower",
+    "codes": [
+     "SPC-20",
+     "CDL-05",
+     "CDL-25",
+     "CDL-48"
+    ],
+    "img": "a/chips/chelsea_shaker-alby-blue.jpg"
+   },
+   {
+    "name": "Delft Blue Grain",
+    "codes": [
+     "SPC-21",
+     "CDL-13"
+    ],
+    "img": "a/chips/chelsea_shaker-parisian-blue-woodgrain.jpg"
+   },
+   {
+    "name": "Harebell",
+    "codes": [
+     "SPC-22",
+     "CDL-26"
+    ],
+    "img": "a/chips/chelsea_shaker-scandic-blue.jpg"
+   },
+   {
+    "name": "Ink Blue Grain",
+    "codes": [
+     "EMB-08"
+    ],
+    "img": "a/chips/warwick_warwick-deep-blue-woodgrain.jpg"
+   },
+   {
+    "name": "Loch Blue",
+    "codes": [
+     "SPC-23",
+     "CDL-06",
+     "CDL-36",
+     "CDL-45",
+     "DSK-10"
+    ],
+    "img": "a/chips/chelsea_shaker-fjord.jpg"
+   },
+   {
+    "name": "Powder Blue",
+    "codes": [
+     "SPC-24",
+     "CDL-27"
+    ],
+    "img": "a/chips/chelsea_shaker-misty-blue.jpg"
+   },
+   {
+    "name": "Powder Blue Grain",
+    "codes": [
+     "EMB-09"
+    ],
+    "img": "a/chips/warwick_warwick-misty-blue-woodgrain.jpg"
+   },
+   {
+    "name": "Sapphire Gloss",
+    "codes": [
+     "LUS-10"
+    ],
+    "img": "a/chips/acrylic_acrylic-blue.jpg"
+   },
+   {
+    "name": "Steel Blue",
+    "codes": [
+     "DSK-11"
+    ],
+    "img": "a/chips/victoria_victoria-tyrolean-blue.jpg"
+   },
+   {
+    "name": "Ultramarine",
+    "codes": [
+     "SPC-25",
+     "CDL-31"
+    ],
+    "img": "a/chips/chelsea_shaker-indigo.jpg"
+   }
+  ],
+  "Greens": [
+   {
+    "name": "Eucalyptus Grain",
+    "codes": [
+     "EMB-10"
+    ],
+    "img": "a/chips/warwick_warwick-agave-green-woodgrain.jpg"
+   },
+   {
+    "name": "Fir Green",
+    "codes": [
+     "HLC-04",
+     "FLM-02"
+    ],
+    "img": "a/chips/framed_AG.jpg"
+   },
+   {
+    "name": "Juniper",
+    "codes": [
+     "SPC-26",
+     "CDL-14",
+     "CDL-19"
+    ],
+    "img": "a/chips/chelsea_shaker-heritage-green.jpg"
+   },
+   {
+    "name": "Lichen",
+    "codes": [
+     "SPC-27",
+     "CDL-37",
+     "DSK-12"
+    ],
+    "img": "a/chips/chelsea_shaker-sage-green.jpg"
+   },
+   {
+    "name": "Lichen Grain",
+    "codes": [
+     "EMB-11"
+    ],
+    "img": "a/chips/warwick_warwick-sage-green-woodgrain.jpg"
+   },
+   {
+    "name": "Meadow",
+    "codes": [
+     "HLC-05"
+    ],
+    "img": "a/chips/framed_SB.jpg"
+   },
+   {
+    "name": "Pine Grain",
+    "codes": [
+     "SPC-28",
+     "CDL-49"
+    ],
+    "img": "a/chips/chelsea_shaker-forest-green-woodgrain.jpg"
+   },
+   {
+    "name": "Racing Green",
+    "codes": [
+     "DSK-13"
+    ],
+    "img": "a/chips/victoria_victoria-estate-green.jpg"
+   },
+   {
+    "name": "Thyme",
+    "codes": [
+     "SPC-29",
+     "CDL-28",
+     "CDL-40"
+    ],
+    "img": "a/chips/chelsea_shaker-smoke-green.jpg"
+   },
+   {
+    "name": "Willow",
+    "codes": [
+     "SPC-30",
+     "CDL-32",
+     "CDL-47",
+     "DSK-14"
+    ],
+    "img": "a/chips/chelsea_shaker-reed-green.jpg"
+   },
+   {
+    "name": "Willow Grain",
+    "codes": [
+     "SPC-31",
+     "CDL-53",
+     "EMB-12"
+    ],
+    "img": "a/chips/chelsea_shaker-reed-green-woodgrain.jpg"
+   }
+  ],
+  "Pinks, Reds & Warm Tones": [
+   {
+    "name": "Damson",
+    "codes": [
+     "DSK-15"
+    ],
+    "img": "a/chips/victoria_victoria-cassis.jpg"
+   },
+   {
+    "name": "Damson Grain",
+    "codes": [
+     "EMB-13"
+    ],
+    "img": "a/chips/warwick_warwick-cassis-woodgrain.jpg"
+   },
+   {
+    "name": "Ochre",
+    "codes": [
+     "SPC-32",
+     "CDL-17"
+    ],
+    "img": "a/chips/chelsea_shaker-sand-yellow.jpg"
+   },
+   {
+    "name": "Paprika",
+    "codes": [
+     "SPC-33",
+     "CDL-29"
+    ],
+    "img": "a/chips/chelsea_shaker-cajun.jpg"
+   },
+   {
+    "name": "Plaster Pink",
+    "codes": [
+     "SPC-34",
+     "CDL-20"
+    ],
+    "img": "a/chips/chelsea_shaker-dusky-pink.jpg"
+   },
+   {
+    "name": "Rosewater",
+    "codes": [
+     "DSK-16"
+    ],
+    "img": "a/chips/victoria_victoria-antique-rose.jpg"
+   }
+  ],
+  "Blacks & Darks": [
+   {
+    "name": "Anthracite",
+    "codes": [
+     "LTN-03"
+    ],
+    "img": "a/chips/framed_AC.jpg"
+   },
+   {
+    "name": "Carbon Grain",
+    "codes": [
+     "EMB-14"
+    ],
+    "img": "a/chips/warwick_warwick-graphite-woodgrain.jpg"
+   },
+   {
+    "name": "Dark Roast",
+    "codes": [
+     "MRD-03"
+    ],
+    "img": "a/chips/framed_SE.jpg"
+   },
+   {
+    "name": "Jet Black",
+    "codes": [
+     "SPC-35",
+     "CDL-07"
+    ],
+    "img": "a/chips/chelsea_shaker-black.jpg"
+   },
+   {
+    "name": "Nightfall Brown",
+    "codes": [
+     "DLT-03"
+    ],
+    "img": "a/chips/framed_FE.jpg"
+   },
+   {
+    "name": "Obsidian",
+    "codes": [
+     "HLC-06",
+     "FLM-03"
+    ],
+    "img": "a/chips/framed_IB.jpg"
+   },
+   {
+    "name": "Onyx Matt",
+    "codes": [
+     "PRM-04"
+    ],
+    "img": "a/chips/framed_MB.jpg"
+   }
+  ],
+  "Woods & Oaks": [
+   {
+    "name": "Barnwood",
+    "codes": [
+     "HLC-08"
+    ],
+    "img": "a/chips/framed_RW.jpg"
+   },
+   {
+    "name": "Chestnut Oak",
+    "codes": [
+     "DAP-01"
+    ],
+    "img": "a/chips/clarence_clarence-brown-cuneo-oak.jpg"
+   },
+   {
+    "name": "Cocoa Oak",
+    "codes": [
+     "DAP-02"
+    ],
+    "img": "a/chips/clarence_clarence-marone-casella-oak.jpg"
+   },
+   {
+    "name": "Cognac Oak",
+    "codes": [
+     "FLM-05"
+    ],
+    "img": "a/chips/framed_SAO.jpg"
+   },
+   {
+    "name": "Country Oak",
+    "codes": [
+     "GHR-11"
+    ],
+    "img": "a/chips/kensington_windsor-t-g-sonoma-oak.jpg"
+   },
+   {
+    "name": "Dark Walnut",
+    "codes": [
+     "GHR-09",
+     "GHR-16"
+    ],
+    "img": "a/chips/kensington_truro-square-ristretto-baroque.jpg"
+   },
+   {
+    "name": "Driftwood Oak",
+    "codes": [
+     "GHR-05",
+     "GHR-10"
+    ],
+    "img": "a/chips/kensington_windsor-silent-oak.jpg"
+   },
+   {
+    "name": "Dune Oak",
+    "codes": [
+     "DAP-03"
+    ],
+    "img": "a/chips/clarence_clarence-sand-gladstone-oak.jpg"
+   },
+   {
+    "name": "Flax Oak",
+    "codes": [
+     "PRM-05"
+    ],
+    "img": "a/chips/framed_OB.jpg"
+   },
+   {
+    "name": "Golden Maple",
+    "codes": [
+     "DWN-03"
+    ],
+    "img": "a/chips/classic_classic-maple.jpg"
+   },
+   {
+    "name": "Harvest Oak",
+    "codes": [
+     "GHR-03",
+     "GHR-18"
+    ],
+    "img": "a/chips/kensington_shaker-no-lines-santana-oak.jpg"
+   },
+   {
+    "name": "Hazel",
+    "codes": [
+     "GHR-13"
+    ],
+    "img": "a/chips/kensington_round-arch-cremona-cannolo.jpg"
+   },
+   {
+    "name": "Heirloom Brown",
+    "codes": [
+     "HLC-07"
+    ],
+    "img": "a/chips/framed_TC.jpg"
+   },
+   {
+    "name": "Honey Beech",
+    "codes": [
+     "DWN-04"
+    ],
+    "img": "a/chips/classic_classic-beech.jpg"
+   },
+   {
+    "name": "Limed Oak",
+    "codes": [
+     "FLM-04"
+    ],
+    "img": "a/chips/framed_SWO.jpg"
+   },
+   {
+    "name": "Loft Oak",
+    "codes": [
+     "DWN-05"
+    ],
+    "img": "a/chips/classic_classic-urban-oak.jpg"
+   },
+   {
+    "name": "Natural Oak",
+    "codes": [
+     "DWN-06"
+    ],
+    "img": "a/chips/classic_classic-oak.jpg"
+   },
+   {
+    "name": "Pale Oak",
+    "codes": [
+     "DAP-04"
+    ],
+    "img": "a/chips/clarence_clarence-light-natural-casella-oak.jpg"
+   },
+   {
+    "name": "Russet",
+    "codes": [
+     "GHR-02"
+    ],
+    "img": "a/chips/kensington_classic-shaker-cremona-torro.jpg"
+   },
+   {
+    "name": "Smoked Oak",
+    "codes": [
+     "PRM-06"
+    ],
+    "img": "a/chips/framed_OS.jpg"
+   },
+   {
+    "name": "Toasted Oak",
+    "codes": [
+     "GHR-04",
+     "GHR-12",
+     "GHR-14"
+    ],
+    "img": "a/chips/kensington_shaker-no-lines-vincenza-oak.jpg"
+   },
+   {
+    "name": "Tobacco Oak",
+    "codes": [
+     "DAP-05"
+    ],
+    "img": "a/chips/clarence_clarence-brown-orleans-oak.jpg"
+   },
+   {
+    "name": "Wheat Oak",
+    "codes": [
+     "GHR-06",
+     "GHR-15"
+    ],
+    "img": "a/chips/kensington_kilby-light-vincenza-oak.jpg"
+   },
+   {
+    "name": "Whitewashed Oak",
+    "codes": [
+     "DAP-06"
+    ],
+    "img": "a/chips/clarence_clarence-white-casella-oak.jpg"
+   }
+  ],
+  "Glass, Metallic & Stone": [
+   {
+    "name": "Brushed Steel",
+    "codes": [
+     "ECL-01"
+    ],
+    "img": "a/chips/soho_soho-galvano.jpg"
+   },
+   {
+    "name": "Clearview Glass",
+    "codes": [
+     "PRM-07"
+    ],
+    "img": "a/chips/framed_CG.jpg"
+   },
+   {
+    "name": "Corten",
+    "codes": [
+     "ECL-02"
+    ],
+    "img": "a/chips/soho_soho-oxyd.jpg"
+   },
+   {
+    "name": "Patina",
+    "codes": [
+     "ECL-03"
+    ],
+    "img": "a/chips/soho_soho-ossido.jpg"
+   },
+   {
+    "name": "Smoked Glass",
+    "codes": [
+     "PRM-08"
+    ],
+    "img": "a/chips/framed_MG.jpg"
+   },
+   {
+    "name": "Travertine",
+    "codes": [
+     "ECL-04"
+    ],
+    "img": "a/chips/soho_soho-venato.jpg"
+   },
+   {
+    "name": "Veined Marble",
+    "codes": [
+     "ECL-05"
+    ],
+    "img": "a/chips/soho_soho-marmo.jpg"
+   }
+  ]
+ },
+ "units": {
+  "base": [
+   {
+    "code": "BS",
+    "name": "Single door base",
+    "kind": "single",
+    "w": 600,
+    "widths": [
+     "300",
+     "400",
+     "450",
+     "500",
+     "600"
+    ],
+    "note": "Hinged left or right. One adjustable shelf.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,360.0 L598.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BD",
+    "name": "Double door base",
+    "kind": "double",
+    "w": 1000,
+    "widths": [
+     "800",
+     "900",
+     "1000"
+    ],
+    "note": "One adjustable shelf.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 1024 894\" width=\"40.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"1000.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"387.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M498.5,1.5 L1.5,360.0 L498.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"465.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"501.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"556.5\" y=\"56.5\" width=\"387.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M501.5,1.5 L998.5,360.0 L501.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"523.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"900.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"1000.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BDL",
+    "name": "Drawerline base",
+    "kind": "drawerline",
+    "w": 600,
+    "widths": [
+     "300",
+     "400",
+     "450",
+     "500",
+     "600",
+     "800",
+     "1000"
+    ],
+    "note": "Drawer over door. 800 and 1000 have twin drawers and doors.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"220.0\" y=\"64.0\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"141.5\" width=\"597.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"196.5\" width=\"487.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,141.5 L1.5,430.0 L598.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "B3D",
+    "name": "Three-drawer pan base",
+    "kind": "drawers3",
+    "w": 600,
+    "widths": [
+     "300",
+     "400",
+     "450",
+     "500",
+     "600",
+     "800",
+     "1000"
+    ],
+    "note": "Soft-close, full-extension drawers.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"220.0\" y=\"64.0\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"141.5\" width=\"597.0\" height=\"267.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"54.9\" y=\"194.9\" width=\"490.2\" height=\"160.2\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"205.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"411.5\" width=\"597.0\" height=\"307.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"466.5\" width=\"487.0\" height=\"197.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"475.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "B2D",
+    "name": "Two-drawer deep pan base",
+    "kind": "drawers2",
+    "w": 800,
+    "widths": [
+     "600",
+     "800",
+     "1000"
+    ],
+    "note": "Two deep drawers for pans and small appliances.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 824 894\" width=\"32.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"800.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"797.0\" height=\"357.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"687.0\" height=\"247.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"320.0\" y=\"65.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"361.5\" width=\"797.0\" height=\"357.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"416.5\" width=\"687.0\" height=\"247.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"320.0\" y=\"425.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"700.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"800.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BSK",
+    "name": "Sink base",
+    "kind": "sink",
+    "w": 1000,
+    "widths": [
+     "600",
+     "800",
+     "1000",
+     "1200"
+    ],
+    "note": "False drawer front, open back for plumbing.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 1024 894\" width=\"40.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"1000.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"997.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"101.2\" y1=\"70.0\" x2=\"898.8\" y2=\"70.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"1.5\" y=\"141.5\" width=\"497.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"196.5\" width=\"387.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M498.5,141.5 L1.5,430.0 L498.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"465.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"501.5\" y=\"141.5\" width=\"497.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"556.5\" y=\"196.5\" width=\"387.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M501.5,141.5 L998.5,430.0 L501.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"523.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"900.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"1000.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BBS",
+    "name": "Belfast sink base",
+    "kind": "belfast",
+    "w": 600,
+    "widths": [
+     "600",
+     "800"
+    ],
+    "note": "Reduced-height front for an exposed ceramic sink.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"251.5\" width=\"297.0\" height=\"467.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"49.0\" y=\"299.0\" width=\"202.0\" height=\"372.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M298.5,251.5 L1.5,485.0 L298.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"268.7\" y=\"299.0\" width=\"12.0\" height=\"140.1\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"301.5\" y=\"251.5\" width=\"297.0\" height=\"467.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"349.0\" y=\"299.0\" width=\"202.0\" height=\"372.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M301.5,251.5 L598.5,485.0 L301.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"319.3\" y=\"299.0\" width=\"12.0\" height=\"140.1\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/><rect x=\"36\" y=\"0\" width=\"528\" height=\"230\" rx=\"18\" fill=\"#FFFFFF\" stroke=\"#1A1915\" stroke-width=\"5\"/></svg>"
+   },
+   {
+    "code": "BBC",
+    "name": "Blind corner base",
+    "kind": "blind",
+    "w": 1000,
+    "widths": [
+     "1000",
+     "1200"
+    ],
+    "note": "Order left or right. Pull-out corner fitting available.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 1024 894\" width=\"40.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"1000.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"1.5\" y1=\"1.5\" x2=\"498.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><line x1=\"498.5\" y1=\"1.5\" x2=\"1.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><rect x=\"501.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"556.5\" y=\"56.5\" width=\"387.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M501.5,1.5 L998.5,360.0 L501.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"523.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"900.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"1000.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BLC",
+    "name": "L-shaped corner base",
+    "kind": "lcorner",
+    "w": 900,
+    "widths": [
+     "900 \u00d7 900"
+    ],
+    "note": "Bi-fold doors give full access to the corner.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 924 894\" width=\"36.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"900.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"447.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"337.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M448.5,1.5 L1.5,360.0 L448.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"415.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"451.5\" y=\"1.5\" width=\"447.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"506.5\" y=\"56.5\" width=\"337.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M451.5,1.5 L898.5,360.0 L451.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"473.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"800.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"900.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/><line x1=\"450.0\" y1=\"0.0\" x2=\"450.0\" y2=\"720.0\" stroke=\"#1A1915\" stroke-width=\"7\"/></svg>"
+   },
+   {
+    "code": "BCR",
+    "name": "Carousel corner base",
+    "kind": "carousel",
+    "w": 900,
+    "widths": [
+     "900 \u00d7 900"
+    ],
+    "note": "Bi-fold doors with a two-tier carousel.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 924 894\" width=\"36.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"900.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"447.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"337.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M448.5,1.5 L1.5,360.0 L448.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"415.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"451.5\" y=\"1.5\" width=\"447.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"506.5\" y=\"56.5\" width=\"337.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M451.5,1.5 L898.5,360.0 L451.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"473.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"800.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"900.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/><circle cx=\"450.0\" cy=\"360.0\" r=\"202\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"14 10\" opacity=\".6\"/></svg>"
+   },
+   {
+    "code": "BDS",
+    "name": "Diagonal corner sink base",
+    "kind": "cornersink",
+    "w": 900,
+    "widths": [
+     "900 \u00d7 900"
+    ],
+    "note": "Angled front for a sink set across the corner.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 924 894\" width=\"36.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"900.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"897.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"91.2\" y1=\"70.0\" x2=\"808.8\" y2=\"70.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"1.5\" y=\"141.5\" width=\"447.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"196.5\" width=\"337.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M448.5,141.5 L1.5,430.0 L448.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"415.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"451.5\" y=\"141.5\" width=\"447.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"506.5\" y=\"196.5\" width=\"337.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M451.5,141.5 L898.5,430.0 L451.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"473.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"800.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"900.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BWB",
+    "name": "Waste-bin pull-out",
+    "kind": "bin",
+    "w": 400,
+    "widths": [
+     "300",
+     "400"
+    ],
+    "note": "Full-height pull-out with integrated bins.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 424 894\" width=\"16.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"400.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"130.5\" y=\"65.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"300.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"400.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BSP",
+    "name": "Spice and bottle pull-out",
+    "kind": "spice",
+    "w": 200,
+    "widths": [
+     "150",
+     "200",
+     "300"
+    ],
+    "note": "Full-height pull-out with wire baskets.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 224 894\" width=\"8.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"200.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"197.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"33.0\" y=\"33.0\" width=\"134.0\" height=\"654.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"65.5\" y=\"65.5\" width=\"68.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"100.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"200.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BTS",
+    "name": "Tray-storage base",
+    "kind": "tray",
+    "w": 300,
+    "widths": [
+     "150",
+     "300"
+    ],
+    "note": "Vertical dividers for trays and boards.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 324 894\" width=\"12.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"49.0\" y=\"49.0\" width=\"202.0\" height=\"622.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M1.5,1.5 L298.5,360.0 L1.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"19.3\" y=\"49.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"200.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"300.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/><line x1=\"75.0\" y1=\"60.0\" x2=\"75.0\" y2=\"660.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"150.0\" y1=\"60.0\" x2=\"150.0\" y2=\"660.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"225.0\" y1=\"60.0\" x2=\"225.0\" y2=\"660.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/></svg>"
+   },
+   {
+    "code": "BMW",
+    "name": "Microwave base",
+    "kind": "microbase",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "Housing for a built-in microwave, drawer below.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"377.0\" rx=\"0\" fill=\"#2B2A27\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"61.2\" y=\"84.4\" width=\"477.6\" height=\"233.7\" rx=\"0\" fill=\"#4A4843\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"91.0\" y1=\"46.7\" x2=\"508.9\" y2=\"46.7\" stroke=\"#9C9890\" stroke-width=\"10\"/><rect x=\"1.5\" y=\"381.5\" width=\"597.0\" height=\"337.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"436.5\" width=\"487.0\" height=\"227.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"445.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BOV",
+    "name": "Built-under oven housing",
+    "kind": "ovenunder",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "For a 600 mm single oven under the hob.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"597.0\" rx=\"0\" fill=\"#2B2A27\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"61.2\" y=\"132.8\" width=\"477.6\" height=\"370.1\" rx=\"0\" fill=\"#4A4843\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"91.0\" y1=\"73.1\" x2=\"508.9\" y2=\"73.1\" stroke=\"#9C9890\" stroke-width=\"10\"/><rect x=\"1.5\" y=\"601.5\" width=\"597.0\" height=\"117.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"220.0\" y=\"654.0\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BES",
+    "name": "Open end shelf base",
+    "kind": "endshelf",
+    "w": 300,
+    "widths": [
+     "300"
+    ],
+    "note": "Finished open shelves to end a run.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 324 894\" width=\"12.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"4\"/><line x1=\"1.5\" y1=\"240.5\" x2=\"298.5\" y2=\"240.5\" stroke=\"#1A1915\" stroke-width=\"4\"/><line x1=\"1.5\" y1=\"479.5\" x2=\"298.5\" y2=\"479.5\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"200.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"300.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "BAE",
+    "name": "Angled end base",
+    "kind": "angled",
+    "w": 300,
+    "widths": [
+     "300"
+    ],
+    "note": "Angled door softens the end of a run or island.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 324 894\" width=\"12.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"49.0\" y=\"49.0\" width=\"202.0\" height=\"622.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M1.5,1.5 L298.5,360.0 L1.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"19.3\" y=\"49.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"200.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"300.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "IDD",
+    "name": "Integrated dishwasher door",
+    "kind": "dishwasher",
+    "w": 600,
+    "widths": [
+     "450",
+     "600"
+    ],
+    "note": "Door and fixing kit for integrated dishwashers.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 894\" width=\"24.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"65.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"600.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   }
+  ],
+  "wall": [
+   {
+    "code": "WS",
+    "name": "Single door wall",
+    "kind": "single",
+    "w": 600,
+    "widths": [
+     "300",
+     "400",
+     "450",
+     "500",
+     "600"
+    ],
+    "note": "Hinged left or right. Two adjustable shelves.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 744\" width=\"24.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,360.0 L598.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   },
+   {
+    "code": "WD",
+    "name": "Double door wall",
+    "kind": "double",
+    "w": 800,
+    "widths": [
+     "600",
+     "800",
+     "900",
+     "1000"
+    ],
+    "note": "Two adjustable shelves.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 824 744\" width=\"32.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"800.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M398.5,1.5 L1.5,360.0 L398.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"365.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"401.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"456.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M401.5,1.5 L798.5,360.0 L401.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"423.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   },
+   {
+    "code": "WG",
+    "name": "Glazed door wall",
+    "kind": "glass",
+    "w": 600,
+    "widths": [
+     "300",
+     "400",
+     "500",
+     "600",
+     "800",
+     "1000"
+    ],
+    "note": "Glazed framed doors. Glass shelves on request.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 744\" width=\"24.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"607.0\" rx=\"0\" fill=\"#DCE4E6\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"66.5\" y1=\"633.5\" x2=\"513.5\" y2=\"66.5\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,360.0 L598.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   },
+   {
+    "code": "WB",
+    "name": "Bridging wall",
+    "kind": "bridging",
+    "w": 800,
+    "widths": [
+     "600",
+     "800",
+     "900",
+     "1000"
+    ],
+    "note": "H360 only. Over extractors, fridges and windows.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 824 744\" width=\"32.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"800.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M398.5,1.5 L1.5,360.0 L398.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"365.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"401.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"456.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M401.5,1.5 L798.5,360.0 L401.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"423.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   },
+   {
+    "code": "WDC",
+    "name": "Diagonal corner wall",
+    "kind": "diag",
+    "w": 600,
+    "widths": [
+     "600 \u00d7 600"
+    ],
+    "note": "Angled door into the corner.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 744\" width=\"24.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"117.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"1.5\" y1=\"1.5\" x2=\"118.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><line x1=\"118.5\" y1=\"1.5\" x2=\"1.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><rect x=\"121.5\" y=\"1.5\" width=\"357.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"176.5\" y=\"56.5\" width=\"247.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M478.5,1.5 L121.5,360.0 L478.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"445.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"481.5\" y=\"1.5\" width=\"117.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"481.5\" y1=\"1.5\" x2=\"598.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><line x1=\"598.5\" y1=\"1.5\" x2=\"481.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/></svg>"
+   },
+   {
+    "code": "WBC",
+    "name": "Blind corner wall",
+    "kind": "blind",
+    "w": 900,
+    "widths": [
+     "600",
+     "900"
+    ],
+    "note": "Order left or right.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 924 744\" width=\"36.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"900.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"1.5\" y1=\"1.5\" x2=\"498.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><line x1=\"498.5\" y1=\"1.5\" x2=\"1.5\" y2=\"718.5\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"14 10\"/><rect x=\"501.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"556.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M501.5,1.5 L898.5,360.0 L501.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"523.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   },
+   {
+    "code": "WES",
+    "name": "Open end shelf wall",
+    "kind": "endshelf",
+    "w": 300,
+    "widths": [
+     "300"
+    ],
+    "note": "Finished open shelves to end a run.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 324 744\" width=\"12.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"4\"/><line x1=\"1.5\" y1=\"240.5\" x2=\"298.5\" y2=\"240.5\" stroke=\"#1A1915\" stroke-width=\"4\"/><line x1=\"1.5\" y1=\"479.5\" x2=\"298.5\" y2=\"479.5\" stroke=\"#1A1915\" stroke-width=\"4\"/></svg>"
+   },
+   {
+    "code": "WPR",
+    "name": "Plate rack wall",
+    "kind": "plate",
+    "w": 600,
+    "widths": [
+     "500",
+     "600"
+    ],
+    "note": "Open plate rack with dowel dividers.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 744\" width=\"24.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"4\"/><line x1=\"46.5\" y1=\"109.0\" x2=\"46.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"91.5\" y1=\"109.0\" x2=\"91.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"136.5\" y1=\"109.0\" x2=\"136.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"181.5\" y1=\"109.0\" x2=\"181.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"226.5\" y1=\"109.0\" x2=\"226.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"271.5\" y1=\"109.0\" x2=\"271.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"316.5\" y1=\"109.0\" x2=\"316.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"361.5\" y1=\"109.0\" x2=\"361.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"406.5\" y1=\"109.0\" x2=\"406.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"451.5\" y1=\"109.0\" x2=\"451.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"496.5\" y1=\"109.0\" x2=\"496.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/><line x1=\"541.5\" y1=\"109.0\" x2=\"541.5\" y2=\"610.9\" stroke=\"#1A1915\" stroke-width=\"3\"/></svg>"
+   },
+   {
+    "code": "WWR",
+    "name": "Wine rack wall",
+    "kind": "wine",
+    "w": 300,
+    "widths": [
+     "300"
+    ],
+    "note": "Open wine rack.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 324 744\" width=\"12.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"717.0\" rx=\"0\" fill=\"#E9E1D6\" stroke=\"#1A1915\" stroke-width=\"4\"/><circle cx=\"51.0\" cy=\"52.7\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"51.0\" cy=\"155.1\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"51.0\" cy=\"257.6\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"51.0\" cy=\"360.0\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"51.0\" cy=\"462.4\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"51.0\" cy=\"564.9\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"51.0\" cy=\"667.3\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"52.7\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"155.1\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"257.6\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"360.0\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"462.4\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"564.9\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"150.0\" cy=\"667.3\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"52.7\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"155.1\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"257.6\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"360.0\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"462.4\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"564.9\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/><circle cx=\"249.0\" cy=\"667.3\" r=\"37.1\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"3\"/></svg>"
+   },
+   {
+    "code": "WSD",
+    "name": "Wall unit with spice drawers",
+    "kind": "spice",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "Door over three small drawers.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 744\" width=\"24.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"567.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"457.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,285.0 L598.5,568.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"571.5\" width=\"197.0\" height=\"147.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"65.5\" y=\"635.5\" width=\"68.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"201.5\" y=\"571.5\" width=\"197.0\" height=\"147.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"265.5\" y=\"635.5\" width=\"68.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"401.5\" y=\"571.5\" width=\"197.0\" height=\"147.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"465.5\" y=\"635.5\" width=\"68.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   },
+   {
+    "code": "WMW",
+    "name": "Microwave wall",
+    "kind": "micro",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "Open shelf for a microwave, door above.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 744\" width=\"24.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"297.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"187.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,150.0 L598.5,298.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"89.1\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"301.5\" width=\"597.0\" height=\"417.0\" rx=\"0\" fill=\"#2B2A27\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"61.2\" y=\"393.2\" width=\"477.6\" height=\"258.5\" rx=\"0\" fill=\"#4A4843\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"91.0\" y1=\"351.5\" x2=\"508.9\" y2=\"351.5\" stroke=\"#9C9890\" stroke-width=\"10\"/></svg>"
+   },
+   {
+    "code": "WAE",
+    "name": "Angled end wall",
+    "kind": "angled",
+    "w": 300,
+    "widths": [
+     "300"
+    ],
+    "note": "Angled door to finish a run.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 324 744\" width=\"12.96mm\" height=\"29.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"49.0\" y=\"49.0\" width=\"202.0\" height=\"622.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M1.5,1.5 L298.5,360.0 L1.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"19.3\" y=\"49.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   }
+  ],
+  "tall": [
+   {
+    "code": "TL",
+    "name": "Larder",
+    "kind": "larder",
+    "w": 600,
+    "widths": [
+     "400",
+     "500",
+     "600"
+    ],
+    "note": "Two doors, four adjustable shelves.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 2144\" width=\"15.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,360.0 L598.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"721.5\" width=\"597.0\" height=\"1247.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"776.5\" width=\"487.0\" height=\"1137.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,721.5 L1.5,1345.0 L598.5,1968.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"776.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"600.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "TLD",
+    "name": "Double larder",
+    "kind": "larder2",
+    "w": 1000,
+    "widths": [
+     "800",
+     "1000"
+    ],
+    "note": "Four doors, four adjustable shelves.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 1024 2144\" width=\"25.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"1000.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"387.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M498.5,1.5 L1.5,360.0 L498.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"465.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"501.5\" y=\"1.5\" width=\"497.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"556.5\" y=\"56.5\" width=\"387.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M501.5,1.5 L998.5,360.0 L501.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"523.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"721.5\" width=\"497.0\" height=\"1247.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"776.5\" width=\"387.0\" height=\"1137.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M498.5,721.5 L1.5,1345.0 L498.5,1968.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"465.0\" y=\"776.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"501.5\" y=\"721.5\" width=\"497.0\" height=\"1247.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"556.5\" y=\"776.5\" width=\"387.0\" height=\"1137.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M501.5,721.5 L998.5,1345.0 L501.5,1968.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"523.0\" y=\"776.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"900.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"1000.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "TPL",
+    "name": "Pull-out larder",
+    "kind": "pullout",
+    "w": 400,
+    "widths": [
+     "300",
+     "400",
+     "500"
+    ],
+    "note": "Full-height pull-out with baskets.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 424 2144\" width=\"10.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"400.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"397.0\" height=\"717.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"287.0\" height=\"607.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"130.5\" y=\"65.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"721.5\" width=\"397.0\" height=\"1247.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"776.5\" width=\"287.0\" height=\"1137.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"130.5\" y=\"785.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"300.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"400.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "TOH",
+    "name": "Single oven housing",
+    "kind": "oven",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "For a 600 mm built-in oven, two drawers below.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 2144\" width=\"15.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"727.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"617.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,365.0 L598.5,728.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"731.5\" width=\"597.0\" height=\"597.0\" rx=\"0\" fill=\"#2B2A27\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"61.2\" y=\"862.8\" width=\"477.6\" height=\"370.1\" rx=\"0\" fill=\"#4A4843\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"91.0\" y1=\"803.1\" x2=\"508.9\" y2=\"803.1\" stroke=\"#9C9890\" stroke-width=\"10\"/><rect x=\"1.5\" y=\"1331.5\" width=\"597.0\" height=\"317.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"1386.5\" width=\"487.0\" height=\"207.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"1395.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"1651.5\" width=\"597.0\" height=\"317.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"1706.5\" width=\"487.0\" height=\"207.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"1715.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"600.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "TDO",
+    "name": "Double oven housing",
+    "kind": "oven2",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "Built-in oven plus compact oven or microwave.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 2144\" width=\"15.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"357.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"247.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,180.0 L598.5,358.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"107.1\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"361.5\" width=\"597.0\" height=\"447.0\" rx=\"0\" fill=\"#2B2A27\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"61.2\" y=\"459.8\" width=\"477.6\" height=\"277.1\" rx=\"0\" fill=\"#4A4843\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"91.0\" y1=\"415.1\" x2=\"508.9\" y2=\"415.1\" stroke=\"#9C9890\" stroke-width=\"10\"/><rect x=\"1.5\" y=\"811.5\" width=\"597.0\" height=\"597.0\" rx=\"0\" fill=\"#2B2A27\" stroke=\"#1A1915\" stroke-width=\"4\"/><rect x=\"61.2\" y=\"942.8\" width=\"477.6\" height=\"370.1\" rx=\"0\" fill=\"#4A4843\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"91.0\" y1=\"883.1\" x2=\"508.9\" y2=\"883.1\" stroke=\"#9C9890\" stroke-width=\"10\"/><rect x=\"1.5\" y=\"1411.5\" width=\"597.0\" height=\"557.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"1466.5\" width=\"487.0\" height=\"447.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"220.0\" y=\"1475.5\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"600.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "TFF",
+    "name": "Fridge-freezer housing",
+    "kind": "fridge",
+    "w": 600,
+    "widths": [
+     "600"
+    ],
+    "note": "For integrated 50/50 or 70/30 fridge-freezers.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 2144\" width=\"15.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"277.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"56.5\" width=\"487.0\" height=\"167.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1.5 L1.5,140.0 L598.5,278.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"56.5\" width=\"12.0\" height=\"83.1\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"281.5\" width=\"597.0\" height=\"842.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"336.5\" width=\"487.0\" height=\"732.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,281.5 L1.5,702.5 L598.5,1123.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"348.9\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"1126.5\" width=\"597.0\" height=\"842.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"1181.5\" width=\"487.0\" height=\"732.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M598.5,1126.5 L1.5,1547.5 L598.5,1968.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"565.0\" y=\"1193.9\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"600.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "TUT",
+    "name": "Utility tall",
+    "kind": "utility",
+    "w": 600,
+    "widths": [
+     "450",
+     "600"
+    ],
+    "note": "Open interior for brooms and ironing boards.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 624 2144\" width=\"15.60mm\" height=\"53.60mm\"><rect x=\"0.0\" y=\"0.0\" width=\"600.0\" height=\"1970.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"297.0\" height=\"1967.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"49.0\" y=\"49.0\" width=\"202.0\" height=\"1872.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M298.5,1.5 L1.5,985.0 L298.5,1968.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"268.7\" y=\"49.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"301.5\" y=\"1.5\" width=\"297.0\" height=\"1967.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"349.0\" y=\"49.0\" width=\"202.0\" height=\"1872.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M301.5,1.5 L598.5,985.0 L301.5,1968.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"319.3\" y=\"49.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"500.0\" y=\"1970.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"2120.0\" x2=\"600.0\" y2=\"2120.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   }
+  ],
+  "vanity": [
+   {
+    "code": "VS",
+    "name": "Vanity sink base",
+    "kind": "sink",
+    "w": 750,
+    "widths": [
+     "600",
+     "750",
+     "900",
+     "1200"
+    ],
+    "note": "False drawer front, open back for plumbing.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 774 894\" width=\"30.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"750.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"747.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"76.2\" y1=\"70.0\" x2=\"673.8\" y2=\"70.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"1.5\" y=\"141.5\" width=\"372.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"196.5\" width=\"262.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M373.5,141.5 L1.5,430.0 L373.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"340.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"376.5\" y=\"141.5\" width=\"372.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"431.5\" y=\"196.5\" width=\"262.0\" height=\"467.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M376.5,141.5 L748.5,430.0 L376.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"398.0\" y=\"196.5\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"650.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"750.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "VD",
+    "name": "Vanity drawer base",
+    "kind": "drawers",
+    "w": 400,
+    "widths": [
+     "300",
+     "400",
+     "450"
+    ],
+    "note": "Three soft-close drawers.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 424 894\" width=\"16.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"400.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"397.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"130.5\" y=\"64.0\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"141.5\" width=\"397.0\" height=\"267.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"54.9\" y=\"194.9\" width=\"290.2\" height=\"160.2\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"130.5\" y=\"205.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"1.5\" y=\"411.5\" width=\"397.0\" height=\"307.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"56.5\" y=\"466.5\" width=\"287.0\" height=\"197.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"130.5\" y=\"475.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"300.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"400.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "VC",
+    "name": "Vanity combination",
+    "kind": "comboL",
+    "w": 1000,
+    "widths": [
+     "900",
+     "1000",
+     "1200"
+    ],
+    "note": "Sink cupboard plus drawer stack. Order left or right.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 1024 894\" width=\"40.96mm\" height=\"35.76mm\"><rect x=\"0.0\" y=\"0.0\" width=\"1000.0\" height=\"720.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"597.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><line x1=\"61.2\" y1=\"70.0\" x2=\"538.8\" y2=\"70.0\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"1.5\" y=\"141.5\" width=\"297.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"49.0\" y=\"189.0\" width=\"202.0\" height=\"482.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M298.5,141.5 L1.5,430.0 L298.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"268.7\" y=\"189.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"301.5\" y=\"141.5\" width=\"297.0\" height=\"577.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"349.0\" y=\"189.0\" width=\"202.0\" height=\"482.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><path d=\"M301.5,141.5 L598.5,430.0 L301.5,718.5\" fill=\"none\" stroke=\"#1A1915\" stroke-width=\"2\" stroke-dasharray=\"12 9\" opacity=\".45\"/><rect x=\"319.3\" y=\"189.0\" width=\"12.0\" height=\"160.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"601.5\" y=\"1.5\" width=\"397.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"730.5\" y=\"64.0\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"601.5\" y=\"141.5\" width=\"397.0\" height=\"267.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"654.9\" y=\"194.9\" width=\"290.2\" height=\"160.2\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"730.5\" y=\"205.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"601.5\" y=\"411.5\" width=\"397.0\" height=\"307.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"656.5\" y=\"466.5\" width=\"287.0\" height=\"197.0\" rx=\"0\" fill=\"#F1EAE1\" stroke=\"#1A1915\" stroke-width=\"3\"/><rect x=\"730.5\" y=\"475.5\" width=\"138.9\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"60.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><rect x=\"900.0\" y=\"720.0\" width=\"40.0\" height=\"150.0\" rx=\"0\" fill=\"#9C9890\" stroke=\"#1A1915\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"870.0\" x2=\"1000.0\" y2=\"870.0\" stroke=\"#1A1915\" stroke-width=\"3\" stroke-dasharray=\"16 10\"/></svg>"
+   },
+   {
+    "code": "VKD",
+    "name": "Vanity knee drawer",
+    "kind": "knee",
+    "w": 750,
+    "widths": [
+     "600",
+     "750",
+     "900"
+    ],
+    "note": "Single drawer for a dressing or make-up area.",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-12 -12 774 164\" width=\"30.96mm\" height=\"6.56mm\"><rect x=\"0.0\" y=\"0.0\" width=\"750.0\" height=\"140.0\" rx=\"0\" fill=\"#E2D9CC\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"1.5\" y=\"1.5\" width=\"747.0\" height=\"137.0\" rx=\"0\" fill=\"#FBF8F4\" stroke=\"#1A1915\" stroke-width=\"5\"/><rect x=\"295.0\" y=\"64.0\" width=\"160.0\" height=\"12.0\" rx=\"6\" fill=\"#B08F45\" stroke=\"#1A1915\" stroke-width=\"0\"/></svg>"
+   }
+  ]
+ },
+ "mouldings": [
+  {
+   "code": "PL",
+   "name": "Plinth",
+   "note": "150 mm high. Clips to the legs and is cut to length on site."
+  },
+  {
+   "code": "CNC",
+   "name": "Cove cornice",
+   "note": "Concave profile for a traditional finish."
+  },
+  {
+   "code": "CNA",
+   "name": "Angled cornice",
+   "note": "Chamfered profile for shaker kitchens."
+  },
+  {
+   "code": "CNI",
+   "name": "Inset cornice",
+   "note": "Stepped profile that sits on top of the unit."
+  },
+  {
+   "code": "LP",
+   "name": "Light pelmet",
+   "note": "Fits under wall units and hides lighting."
+  },
+  {
+   "code": "RM",
+   "name": "Rope moulding",
+   "note": "Twisted rope detail for cornice or pelmet."
+  },
+  {
+   "code": "DM",
+   "name": "Dentil moulding",
+   "note": "Block detail for a classic cornice."
+  },
+  {
+   "code": "SM",
+   "name": "Scribe moulding",
+   "note": "Covers gaps against uneven walls."
+  },
+  {
+   "code": "BM",
+   "name": "Batten moulding",
+   "note": "Flat cover strip for joints and edges."
+  },
+  {
+   "code": "SHM",
+   "name": "Shoe moulding",
+   "note": "Finishes the base of plinths and panels."
+  },
+  {
+   "code": "OCM",
+   "name": "Outside corner moulding",
+   "note": "Protects and finishes external corners."
+  }
+ ],
+ "panels": [
+  {
+   "group": "Fillers",
+   "code": "FW-75 \u00b7 FW-150",
+   "name": "Wall filler",
+   "size": "75 or 150 wide \u00b7 H720 / H900"
+  },
+  {
+   "group": "",
+   "code": "FB-75 \u00b7 FB-150",
+   "name": "Base filler",
+   "size": "75 or 150 wide \u00b7 H720"
+  },
+  {
+   "group": "",
+   "code": "FT-75 \u00b7 FT-150",
+   "name": "Tall filler",
+   "size": "75 or 150 wide \u00b7 H1970 / H2150"
+  },
+  {
+   "group": "",
+   "code": "FFL-75",
+   "name": "Fluted filler",
+   "size": "75 wide \u00b7 tall height"
+  },
+  {
+   "group": "End panels",
+   "code": "BEP",
+   "name": "Base end panel",
+   "size": "870 \u00d7 580 (to the floor)"
+  },
+  {
+   "group": "",
+   "code": "WEP",
+   "name": "Wall end panel",
+   "size": "720 or 900 \u00d7 320"
+  },
+  {
+   "group": "",
+   "code": "TEP",
+   "name": "Tall end panel",
+   "size": "2120 or 2300 \u00d7 580"
+  },
+  {
+   "group": "",
+   "code": "DEP",
+   "name": "Decorative door-style end panel",
+   "size": "base, wall and tall sizes"
+  },
+  {
+   "group": "Appliance",
+   "code": "FEP",
+   "name": "Fridge end panel",
+   "size": "2440 \u00d7 610, for freestanding fridge-freezers"
+  },
+  {
+   "group": "",
+   "code": "DRP",
+   "name": "Dishwasher return panel",
+   "size": "870 \u00d7 580"
+  },
+  {
+   "group": "Sheet",
+   "code": "FP",
+   "name": "Finishing panel",
+   "size": "2440 \u00d7 1220, for island backs and cladding"
+  },
+  {
+   "group": "",
+   "code": "BBP",
+   "name": "Bead-board panel",
+   "size": "2440 \u00d7 1220, tongue-and-groove look"
+  },
+  {
+   "group": "",
+   "code": "SHB",
+   "name": "Shelf board",
+   "size": "2440 \u00d7 300 \u00d7 18"
+  }
+ ],
+ "accessories": [
+  {
+   "code": "ROT",
+   "name": "Roll-out tray",
+   "note": "For base units 300 to 1000 wide. Soft-close runners."
+  },
+  {
+   "code": "CB",
+   "name": "Corbels (pair)",
+   "note": "Support open shelves, overhangs and canopies."
+  },
+  {
+   "code": "DL",
+   "name": "Decorative island leg",
+   "note": "870 mm high to suit base units. Turned or square."
+  },
+  {
+   "code": "KD",
+   "name": "Knee drawer",
+   "note": "600, 800 or 1000 wide, for desk and dressing areas."
+  },
+  {
+   "code": "GH",
+   "name": "Stemware holder",
+   "note": "Fixes under a wall unit to hang wine glasses."
+  },
+  {
+   "code": "CHS",
+   "name": "Canopy hood surround",
+   "note": "750 or 900 wide decorative surround for an extractor."
+  },
+  {
+   "code": "VAL",
+   "name": "Valance",
+   "note": "900 or 1200 wide arched valance over a sink or window."
+  },
+  {
+   "code": "LEG",
+   "name": "Adjustable plinth legs",
+   "note": "150 mm, packs of four with plinth clips. Supplied with base units."
+  },
+  {
+   "code": "SD",
+   "name": "Sample door",
+   "note": "A full-size door in your chosen colour, for sign-off."
+  },
+  {
+   "code": "SDK",
+   "name": "Sample door kit",
+   "note": "Up to six sample doors plus handle samples, for client presentations."
+  }
+ ]
+}
