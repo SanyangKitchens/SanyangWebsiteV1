@@ -2,21 +2,22 @@
  * Sanyang website forms (sanyang.co.uk and sanyang.ae): saves each form to a tab of this Google Sheet,
  * emails the sales inbox for that site and sends the enquirer a confirmation.
  *
- * Set up (about 10 minutes):
- * 1. In the sales@ Google account, create a Google Sheet called "Sanyang website enquiries".
- *    Extensions > Apps Script. Replace the code with this file.
- * 2. Project Settings > Script properties. Add:
+ * Set up (about 5 minutes), signed in as sales@sanyang.co.uk:
+ * 1. Open the Google Sheet "Sanyang Website Enquiries". Extensions > Apps Script. Replace the code with this file. Save.
+ * 2. Choose the function "setup" in the toolbar and press Run. Allow the permissions it asks for.
+ *    It saves the settings below and shows FORM_SECRET in the execution log. Copy it for Cloudflare.
  *      FORM_SECRET   a long random string (the same one you give Cloudflare)
  *      NOTIFY_UK     sales@sanyang.co.uk
  *      NOTIFY_AE     sales@sanyang.ae
  * 3. Deploy > New deployment > Web app. Execute as: Me. Who has access: Anyone. Copy the /exec URL.
  * After editing this file: Deploy > Manage deployments > Edit > Version: New version > Deploy.
+ * UAE confirmations are sent from sales@sanyang.ae when it is a "Send mail as" alias of this account.
  */
 const TABS = {
   enquiry: { name: "Enquiries", columns: ["submitted_at", "site", "name", "company", "email", "phone", "buyer_type", "quantity", "location", "timing", "products", "message", "marketing", "page"] },
   catalogue: { name: "Catalogue requests", columns: ["submitted_at", "site", "name", "company", "email", "buyer_type", "marketing", "page"] },
 };
-const SITE = { uk: { name: "Sanyang Cabinetry", url: "sanyang.co.uk", phone: "+44 7955 170009" }, ae: { name: "Sanyang Cabinetry UAE", url: "sanyang.ae", phone: "+44 7955 170009" } };
+const SITE = { uk: { name: "Sanyang Cabinetry", url: "sanyang.co.uk", phone: "+44 7955 170009" }, ae: { name: "Sanyang Cabinetry UAE", url: "sanyang.ae", phone: "+971 50 473 7446", from: "sales@sanyang.ae" } };
 
 function doPost(e) {
   const props = PropertiesService.getScriptProperties();
@@ -38,8 +39,22 @@ function doPost(e) {
   const confirm = r.form === "catalogue"
     ? `Dear ${r.name},\n\nThank you for requesting our trade catalogue. A member of the team will email it to you shortly.\n\nSanyang Sales Team\n${site.url}\nWhatsApp / call: ${site.phone}`
     : `Dear ${r.name},\n\nThank you for your enquiry. We will reply within one working day.\n\nIf you have drawings, a unit schedule or a BOQ, just reply to this email with them attached.\n\nSanyang Sales Team\n${site.url}\nWhatsApp / call: ${site.phone}`;
-  MailApp.sendEmail({ to: r.email, subject: r.form === "catalogue" ? "Your Sanyang catalogue request" : "We have your enquiry", body: confirm, name: "Sanyang Sales Team", replyTo: notify || undefined });
+  const opts = { name: "Sanyang Sales Team" };
+  if (site.from && GmailApp.getAliases().indexOf(site.from) !== -1) opts.from = site.from;
+  else if (notify) opts.replyTo = notify;
+  GmailApp.sendEmail(r.email, r.form === "catalogue" ? "Your Sanyang catalogue request" : "We have your enquiry", confirm, opts);
   return reply({ ok: true });
+}
+// Run once from the Apps Script editor: saves the settings and prints FORM_SECRET for Cloudflare.
+function setup() {
+  const props = PropertiesService.getScriptProperties();
+  let secret = props.getProperty("FORM_SECRET");
+  if (!secret) { secret = Utilities.getUuid().replace(/-/g, "") + Utilities.getUuid().replace(/-/g, ""); props.setProperty("FORM_SECRET", secret); }
+  if (!props.getProperty("NOTIFY_UK")) props.setProperty("NOTIFY_UK", "sales@sanyang.co.uk");
+  if (!props.getProperty("NOTIFY_AE")) props.setProperty("NOTIFY_AE", "sales@sanyang.ae");
+  getTab(TABS.enquiry); getTab(TABS.catalogue);
+  Logger.log("FORM_SECRET (copy this into Cloudflare): " + secret);
+  Logger.log("UAE confirmations from sales@sanyang.ae: " + (GmailApp.getAliases().indexOf("sales@sanyang.ae") !== -1 ? "yes" : "no, alias not found, they will come from this account"));
 }
 function getTab(tab) {
   const ss = SpreadsheetApp.getActive();
