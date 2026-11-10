@@ -23,11 +23,11 @@ export default {
 <p>Stone, metallic and concrete effects on board, used for islands, tall banks and feature walls rather than whole kitchens. See <a href="/kitchen-cabinets/eclipse/">Eclipse</a>.</p>
 <h2>Quick comparison</h2>
 <table class="spec"><thead><tr><th>Material</th><th>Look</th><th>Durability</th><th>Relative cost</th></tr></thead><tbody>
-<tr><td><b>Solid wood five-piece</b></td><td>Painted or stained shaker</td><td>Excellent, repairable</td><td>£££</td></tr>
-<tr><td><b>Thermofoil</b></td><td>Painted-look profiles, woodgrains</td><td>Good, avoid direct heat</td><td>££</td></tr>
-<tr><td><b>Acrylic</b></td><td>Deep gloss</td><td>Good</td><td>££</td></tr>
-<tr><td><b>Synchronised grain</b></td><td>Realistic oak</td><td>Very good</td><td>££</td></tr>
-<tr><td><b>Melamine</b></td><td>Matt, woodgrain, plain</td><td>Very good</td><td>£</td></tr></tbody></table>
+<tr><td><b>Solid wood five-piece</b></td><td>Painted or stained shaker</td><td>Excellent, repairable</td><td>Highest</td></tr>
+<tr><td><b>Thermofoil</b></td><td>Painted-look profiles, woodgrains</td><td>Good, avoid direct heat</td><td>Mid-range</td></tr>
+<tr><td><b>Acrylic</b></td><td>Deep gloss</td><td>Good</td><td>Mid-range</td></tr>
+<tr><td><b>Synchronised grain</b></td><td>Realistic oak</td><td>Very good</td><td>Mid-range</td></tr>
+<tr><td><b>Melamine</b></td><td>Matt, woodgrain, plain</td><td>Very good</td><td>Lowest</td></tr></tbody></table>
 ${t(m, { uk: "", ae: "<h2>A note on the UAE climate</h2><p>Solid timber panels can expand and contract between air-conditioned interiors and humid outdoor air. That is why our solid-wood doors use an MDF centre panel, and why thermofoil, acrylic and melamine are such reliable choices for coastal apartments.</p>" })}
 <div class="callout"><p><b>Not sure which to specify?</b> Tell us who will use the kitchen and for how long, and we will recommend a door and construction. <a href="/contact/">Contact the team</a>.</p></div>`,
   faq: [["What is the most durable kitchen door material?", "Five-piece solid wood is the most durable and repairable. Among lower-cost options, melamine and acrylic are very hard-wearing."], ["What is a vinyl-wrapped kitchen door?", "An MDF door covered in a thin PVC film (thermofoil) that is vacuum-pressed over the face and edges, giving a seamless, wipe-clean finish."], ["Do vinyl-wrapped doors peel?", "Good thermofoil is very durable, but sustained heat can lift the film. Fit heat deflectors beside built-under ovens and avoid steam from kettles directly under wall units."]],
