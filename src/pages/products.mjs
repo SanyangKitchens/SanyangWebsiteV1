@@ -124,7 +124,7 @@ function colours(m) {
   const byCode = Object.fromEntries(COLLECTIONS.map(c => [c.code, c]));
   const where = codes => [...new Set(codes.map(cd => cd.split("-")[0]))].map(p => byCode[p] ? `<a href="/kitchen-cabinets/${byCode[p].slug}/">${byCode[p].name}</a>` : p).join(", ");
   const body = section("", `<div class="search"><label class="hp" for="csearch">Search colours</label><input id="csearch" type="search" placeholder="Search a colour, e.g. green, oak or Lichen" data-search=".chip"></div>
-${Object.entries(fams).filter(([, v]) => v.length).map(([f, v]) => `<div class="fam" id="${slug(f)}"><h3>${amp(f)} <small>${v.length} colours</small></h3><div class="chips">${v.map(e => `<div class="chip" data-k="${esc((e.name + " " + f + " " + e.codes.join(" ")).toLowerCase())}">${tile(e.img, "")}<span><b>${e.name}</b><small>${e.codes.slice(0, 3).join(" · ")}${e.codes.length > 3 ? ` +${e.codes.length - 3}` : ""}</small><small>${where(e.codes)}</small></span></div>`).join("")}</div></div>`).join("")}
+${Object.entries(fams).filter(([, v]) => v.length).map(([f, v]) => `<div class="fam" id="${slug(f)}"><h3>${amp(f)} <small>${v.length} colours</small></h3><div class="chips">${v.map(e => `<div class="chip" data-k="${esc((e.name + " " + f + " " + e.codes.join(" ")).toLowerCase())}">${tile(e.img, `${e.name} kitchen door colour`)}<span><b>${e.name}</b><small>${e.codes.slice(0, 3).join(" · ")}${e.codes.length > 3 ? ` +${e.codes.length - 3}` : ""}</small><small>${where(e.codes)}</small></span></div>`).join("")}</div></div>`).join("")}
 <p class="muted small">Colours are reproduced as accurately as a screen allows. Always approve colour from a sample door before ordering.</p>`) + ctaBand(m);
   return {
     id: "colours", path: "/colours/", nav: "kitchens",

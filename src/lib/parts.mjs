@@ -7,7 +7,7 @@ export const doorTile = (d, { fr = false, eager = false } = {}) =>
 export function collectionCard(c) {
   const pick = c.tiles.length >= 3 ? [c.tiles[0], c.tiles[Math.floor(c.tiles.length / 2)], c.tiles[c.tiles.length - 1]] : c.tiles;
   const n = c.code === "SPC" ? `${c.tiles.length} colours × 4 profiles` : `${c.tiles.length} ${c.tiles.length === 1 ? "finish" : "finishes"}`;
-  return `<a class="ccard" href="/kitchen-cabinets/${c.slug}/"><div class="doors">${pick.map(d => tile(d.img, "")).join("")}</div>
+  return `<a class="ccard" href="/kitchen-cabinets/${c.slug}/"><div class="doors">${pick.map(d => tile(d.img, `${c.name} ${strip(d.name)} kitchen door`)).join("")}</div>
 <div class="tx"><span class="code">${c.code} · ${c.group === "cabinet" ? "Cabinet collection" : "Signature range"}</span><h3>${c.name}</h3><p>${c.sub}</p><div class="meta"><span>${n}</span><span>${c.tierObj.name}</span></div></div></a>`;
 }
 
@@ -44,6 +44,6 @@ export const section = (cls, inner) => `<section class="sec${cls ? " " + cls : "
 export const head = (kicker, h2, lede = "", right = "") => `<div class="sec-head"><div>${kicker ? `<p class="kicker">${kicker}</p>` : ""}<h2>${h2}</h2>${lede ? `<p class="lede">${lede}</p>` : ""}</div>${right}</div>`;
 
 export function postCard(p) {
-  return `<a class="post-card" href="${p.path}"><div class="ph">${picture(p.img, { alt: "", sizes: "(max-width:620px) 100vw, 33vw" })}</div><span class="cat">${p.category}</span><h3>${amp(p.title)}</h3><p>${esc(p.excerpt)}</p></a>`;
+  return `<a class="post-card" href="${p.path}"><div class="ph">${picture(p.img, { alt: strip(p.title), sizes: "(max-width:620px) 100vw, 33vw" })}</div><span class="cat">${p.category}</span><h3>${amp(p.title)}</h3><p>${esc(p.excerpt)}</p></a>`;
 }
 export { strip };

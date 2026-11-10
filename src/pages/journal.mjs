@@ -37,7 +37,7 @@ function postPage(m, p, all) {
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/journal/">Journal</a><span aria-hidden="true">/</span><a href="/journal/category/${slug(p.category)}/">${amp(p.category)}</a></nav>
 <p class="kicker">${amp(p.category)}</p><h1>${amp(p.title)}</h1>
 <div class="article-meta"><span>By the Sanyang design and technical team</span><span>Published <time datetime="${p.published}">${fmt(p.published)}</time></span>${p.modified !== p.published ? `<span>Updated <time datetime="${p.modified}">${fmt(p.modified)}</time></span>` : ""}<span>${mins} min read</span></div>
-<div class="ph">${picture(p.img, { alt: "", eager: true, sizes: "(max-width:1240px) 100vw, 1240px" })}</div></div></header>
+<div class="ph">${picture(p.img, { alt: strip(p.title), eager: true, sizes: "(max-width:1240px) 100vw, 1240px" })}</div></div></header>
 <div class="wrap article-wrap"><div class="prose">
 ${kp ? `<div class="keypoints"><p>Key points</p><ul>${kp.map(k => `<li>${k}</li>`).join("")}</ul></div>` : ""}
 ${html}
@@ -75,7 +75,7 @@ export function pages(m) {
     hero: { kicker: "Journal", h1: "Guides for <b>buyers and specifiers</b>", lede: "Materials, construction, design and procurement, explained by the people who make the cabinets.", trail: [["Journal"]] },
     pageType: "CollectionPage",
     schema: [breadcrumbSchema(m, [["Journal", "/journal/"]]), { "@type": "Blog", "@id": `${m.url}/journal/#blog`, name: `${m.brand} Journal`, publisher: { "@id": `${m.url}/#organization` }, blogPost: all.map(p => ({ "@type": "BlogPosting", headline: strip(p.title), url: m.url + p.path, datePublished: p.published })) }],
-    body: section("", `${catNav("")}<a class="post-feature" href="${first.path}"><div class="ph">${picture(first.img, { alt: "", sizes: "(max-width:820px) 100vw, 55vw", eager: true })}</div><div><span class="tag">${amp(first.category)}</span><h2 class="mt1">${amp(first.title)}</h2><p class="lede mt1">${esc(first.excerpt)}</p><span class="tlink">Read the article →</span></div></a><div class="posts">${rest.map(postCard).join("")}</div>`) + ctaBand(m),
+    body: section("", `${catNav("")}<a class="post-feature" href="${first.path}"><div class="ph">${picture(first.img, { alt: strip(first.title), sizes: "(max-width:820px) 100vw, 55vw", eager: true })}</div><div><span class="tag">${amp(first.category)}</span><h2 class="mt1">${amp(first.title)}</h2><p class="lede mt1">${esc(first.excerpt)}</p><span class="tlink">Read the article →</span></div></a><div class="posts">${rest.map(postCard).join("")}</div>`) + ctaBand(m),
   };
   const catPages = cats.map(c => ({
     id: `journal-cat-${slug(c)}`, path: `/journal/category/${slug(c)}/`, nav: "journal",

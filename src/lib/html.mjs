@@ -100,7 +100,7 @@ export function nav(m) {
 }
 
 const pageHero = ({ kicker, h1, lede, trail, img, pos, after = "", dark = false }) => img
-  ? `<section class="p-hero img${dark ? " dark" : ""}">${picture(img, { alt: "", eager: true, sizes: "100vw", pos, cls: "bgimg" })}<div class="wrap">${crumbs(trail)}${kicker ? `<p class="kicker">${kicker}</p>` : ""}<h1>${h1}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}${after}</div></section>`
+  ? `<section class="p-hero img${dark ? " dark" : ""}">${picture(img, { alt: strip(h1), eager: true, sizes: "100vw", pos, cls: "bgimg" })}<div class="wrap">${crumbs(trail)}${kicker ? `<p class="kicker">${kicker}</p>` : ""}<h1>${h1}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}${after}</div></section>`
   : `<section class="p-hero"><div class="wrap">${crumbs(trail)}${kicker ? `<p class="kicker">${kicker}</p>` : ""}<h1>${h1}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}${after}</div></section>`;
 export { pageHero };
 
@@ -109,7 +109,7 @@ export const waLink = (m, text = "Hello Sanyang, I'd like to discuss a project."
 export const waBtn = (m, label = "WhatsApp us", cls = "btn wa") => `<a class="${cls}" href="${waLink(m)}" target="_blank" rel="noopener">${WA}<span>${label}</span></a>`;
 
 export function ctaBand(m, { title, text, img = "sy-white-u" } = {}) {
-  return `<section class="cta-band">${picture(img, { alt: "", sizes: "100vw", cls: "bgimg" })}<div class="wrap"><div class="cta-box">
+  return `<section class="cta-band">${picture(img, { alt: "Sanyang kitchen made in our own factory", sizes: "100vw", cls: "bgimg" })}<div class="wrap"><div class="cta-box">
 <p class="kicker">Start a project</p>
 <h2>${title || t(m, { uk: "Let's price your <b>next scheme</b>", ae: "Let's design your <b>next project</b>" })}</h2>
 <p>${text || t(m, {
@@ -122,7 +122,7 @@ export function ctaBand(m, { title, text, img = "sy-white-u" } = {}) {
 
 function megaKitchens(collections) {
   const framed = collections.filter(c => c.group === "cabinet"), ranges = collections.filter(c => c.group === "range");
-  const li = c => `<li><a href="/kitchen-cabinets/${c.slug}/"><span class="mi">${tile(c.door, "")}</span><span><b>${c.name}</b><small>${c.sub}</small></span></a></li>`;
+  const li = c => `<li><a href="/kitchen-cabinets/${c.slug}/"><span class="mi">${tile(c.door, `${c.name} kitchen door`)}</span><span><b>${c.name}</b><small>${c.sub}</small></span></a></li>`;
   return `<div class="mega"><div class="wrap mega-grid">
 <div><p class="mh">Cabinet collections</p><ul class="mlist">${framed.map(li).join("")}</ul></div>
 <div><p class="mh">Signature door ranges</p><ul class="mlist">${ranges.map(li).join("")}</ul></div>
