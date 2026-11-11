@@ -34,7 +34,7 @@ search for (Search Console queries once available, then trade press, forums and 
 
 | Done | Working title | Target query | Category | Link to |
 | --- | --- | --- | --- | --- |
-| [ ] | How to specify kitchens for a 100-plot development | new build kitchen specification | Projects and procurement | /who-we-supply/housebuilders-and-developers/, /sample-kitchen/ |
+| [x] 2026-11-11 new-build-kitchen-specification | How to specify kitchens for a 100-plot development | new build kitchen specification | Projects and procurement | /who-we-supply/housebuilders-and-developers/, /sample-kitchen/ |
 | [ ] | Soft-close hinges and drawer runners: what to check | soft close kitchen hinges | Materials and construction | /construction/, /quality/ |
 | [ ] | Factory-direct kitchen lead times, explained | kitchen lead times | Buying guides | /how-it-works/, /shipping-and-delivery/ |
 | [ ] | Kitchen trends for UK new builds in 2027 | new build kitchen trends 2027 | Design and trends | /kitchen-cabinets/, /colours/ |
@@ -99,7 +99,7 @@ search for (Search Console queries once available, then trade press, forums and 
 
 | Done | Working title | Target query | Category | Link to |
 | --- | --- | --- | --- | --- |
-| [ ] | Kitchen specification for Dubai off-plan towers | kitchen supplier for developers dubai | Projects and procurement | /who-we-supply/property-developers/ |
+| [x] 2026-11-11 kitchen-supplier-for-developers-dubai | Kitchen specification for Dubai off-plan towers | kitchen supplier for developers dubai | Projects and procurement | /who-we-supply/property-developers/ |
 | [ ] | Kitchen finishes for high humidity | humidity resistant kitchen cabinets | Materials and construction | /journal/kitchen-cabinets-uae-climate/ |
 | [ ] | Villa kitchen timeline: design to handover | villa kitchen design dubai | Projects and procurement | /design-service/, /who-we-supply/villa-and-apartment-kitchens/ |
 | [ ] | Kitchen trends in UAE villas for 2027 | kitchen trends dubai 2027 | Design and trends | /kitchen-cabinets/ |
