@@ -39,6 +39,13 @@
   });
 
   // Forms: post with fetch and show the result inline.
+  // Load the Turnstile "I am human" check only on pages that have a form with it.
+  if (document.querySelector(".cf-turnstile")) {
+    var ts = document.createElement("script");
+    ts.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+    ts.async = true; ts.defer = true;
+    document.head.appendChild(ts);
+  }
   $$("form[data-ajax]").forEach(function (form) {
     var status = form.nextElementSibling;
     var tIn = $("input[name=_t]", form), pIn = $("input[name=page]", form);
@@ -61,6 +68,7 @@
           status.innerHTML = "Sorry, that did not send. Please email us at <a href=\"mailto:" + document.querySelector(".topbar a[href^=mailto]").textContent + "\">" + document.querySelector(".topbar a[href^=mailto]").textContent + "</a> or use WhatsApp.";
           status.className = "form-status err";
           b.disabled = false;
+          if (window.turnstile && $(".cf-turnstile", form)) window.turnstile.reset($(".cf-turnstile", form));
         });
     });
   });
