@@ -76,5 +76,5 @@ Browser ──POST /api/submit──▶ Cloudflare Pages Function ──▶ Goog
                               checks fields, blocks bots                            + confirmation email
 ```
 
-GitHub Pages also works for the pages themselves (a `CNAME` file and redirect stubs are written), but GitHub Pages
+GitHub Pages also works for the pages themselves (a `CNAME` file is written, but old-URL redirects need `_redirects`), but GitHub Pages
 cannot run the form function, so forms need Cloudflare Pages or another host with serverless functions.

@@ -77,15 +77,11 @@ for (const key of keys) {
     writeFileSync(path.join(OUT, file), layout(m, page, assets, ctx));
   }
 
-  // Redirect stubs for hosts without _redirects (GitHub Pages), plus _redirects for Cloudflare Pages.
-  for (const [from, to] of REDIRECTS[key]) {
-    if (from.endsWith(".pdf") || seen.has(from + "/")) continue;
-    const dir = path.join(OUT, from);
-    if (existsSync(path.join(dir, "index.html"))) continue;
-    mkdirSync(dir, { recursive: true });
-    writeFileSync(path.join(dir, "index.html"), `<!doctype html><meta charset="utf-8"><title>Moved</title><link rel="canonical" href="${m.url}${to}"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=${to}"><a href="${to}">This page has moved</a>`);
-  }
-  writeFileSync(`${OUT}/_redirects`, REDIRECTS[key].map(([f, t]) => `${f} ${t} 301`).join("\n") + "\n");
+  // Old URLs get one clean 301 in Cloudflare's _redirects. Paths that only lack the trailing slash are left
+  // out: Cloudflare already sends /about to /about/, and listing them as well can add a second hop.
+  const moves = REDIRECTS[key].filter(([from, to]) => to !== from + "/")
+    .flatMap(([from, to]) => from.endsWith(".pdf") ? [[from, to]] : [[from, to], [from + "/", to]]);
+  writeFileSync(`${OUT}/_redirects`, moves.map(([f, t]) => `${f} ${t} 301`).join("\n") + "\n");
   if (m.domainFile !== false) writeFileSync(`${OUT}/CNAME`, m.url.replace("https://", "") + "\n");
 
   // XML sitemap with hreflang alternates and images, robots.txt, RSS, llms.txt.
