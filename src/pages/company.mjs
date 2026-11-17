@@ -274,6 +274,18 @@ function legal(m) {
   }];
 }
 
+// Photos taken at the Deira showroom (UAE site only).
+const SHOWROOM_PHOTOS = [
+  ["showroom-kitchen", "Dark oak kitchen with fluted glass and stone splashback"],
+  ["showroom-samples", "Door and finish sample library"],
+  ["showroom-gallery", "Gloss kitchen and display gallery"],
+  ["showroom-lounge", "Open-plan kitchen and media wall"],
+  ["showroom-wardrobe", "Walk-in wardrobe with glass doors and island"],
+  ["showroom-glass-wardrobe", "Fitted wardrobe with fluted glass and lit shelving"],
+  ["showroom-media-wall", "Oak media unit and stone-effect wall"],
+  ["showroom-bedroom", "Bedroom with fitted wardrobes and panelled bed wall"],
+];
+
 function showroom(m) {
   if (!m.showroom) return [];
   const r = m.showroom;
@@ -287,11 +299,11 @@ function showroom(m) {
     id: "showroom", path: "/showroom/", nav: "showroom",
     title: `Kitchen Showroom in ${r.area}, ${r.city}`,
     description: `Visit the Sanyang kitchen showroom in ${r.area}, ${r.city}: door and colour samples, handles, worktops and cabinet construction, with our designers on hand.`,
-    hero: { kicker: "Showroom", h1: `Visit our showroom in <b>${r.area}, ${r.city}</b>`, lede: "See and feel the doors, finishes, handles and cabinets before you choose, and talk to a designer about your project.", trail: [["Showroom"]], img: "kitchen-design2",
+    hero: { kicker: "Showroom", h1: `Visit our showroom in <b>${r.area}, ${r.city}</b>`, lede: "See and feel the doors, finishes, handles and cabinets before you choose, and talk to a designer about your project.", trail: [["Showroom"]], img: "showroom-lounge",
       after: `<div class="btns">${btn(mapsLink(m), "Get directions", "btn gold", ' target="_blank" rel="noopener"')}${waBtn(m, "Book a visit")}</div>` },
     schema: [bc(m, [["Showroom", "/showroom/"]]), {
       "@type": "HomeAndConstructionBusiness", "@id": `${m.url}/showroom/#showroom`, name: `${m.brand} showroom, ${r.area}`, url: `${m.url}/showroom/`,
-      image: photoUrl("kitchen-design2", 1200, m), telephone: m.phone, email: m.email, hasMap: mapsLink(m),
+      image: ["showroom-lounge", "showroom-kitchen", "showroom-samples"].map(n => photoUrl(n, 1200, m)), telephone: m.phone, email: m.email, hasMap: mapsLink(m),
       address: { "@type": "PostalAddress", streetAddress: r.street, addressLocality: r.city, addressRegion: r.area, addressCountry: r.country },
       openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: r.days, opens: r.opens, closes: r.closes }],
       parentOrganization: { "@id": `${m.url}/#organization` },
@@ -310,7 +322,8 @@ ${ticks(["Door samples from our 16 collections, from painted solid-wood shaker t
 <p>${r.hoursText}</p>
 <a href="${mapsLink(m)}" target="_blank" rel="noopener">${PIN}Get directions</a><a href="tel:${m.phoneHref}">${PHONE}${m.phone}</a><a href="${waLink(m, "Hello Sanyang, I'd like to visit your Deira showroom.")}" target="_blank" rel="noopener">${WA}Book a visit on WhatsApp</a><a href="mailto:${m.email}">${MAIL}${m.email}</a></div>
 <div class="map mt2"><iframe title="Map showing the Sanyang showroom in ${r.area}, ${r.city}" src="https://www.google.com/maps?q=${encodeURIComponent(r.full)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></aside></div>`) +
-      section("cream", `<div class="split" style="align-items:start"><div><p class="kicker">FAQ</p><h2>Visiting <b>the showroom</b></h2></div><div>${faqList(faq)}</div></div>`) + ctaBand(m),
+      section("cream", `${head("Inside the showroom", `A look around <b>${r.area}</b>`, "Kitchens, wardrobes, media walls and sample libraries, all made in our own factories.")}<div class="gal">${SHOWROOM_PHOTOS.map(([p, a]) => `<figure>${picture(p, { alt: `${a} at the Sanyang showroom in ${r.area}, ${r.city}`, sizes: "(max-width:700px) 100vw, 33vw" })}<figcaption>${a}</figcaption></figure>`).join("")}</div>`) +
+      section("", `<div class="split" style="align-items:start"><div><p class="kicker">FAQ</p><h2>Visiting <b>the showroom</b></h2></div><div>${faqList(faq)}</div></div>`) + ctaBand(m),
   }];
 }
 

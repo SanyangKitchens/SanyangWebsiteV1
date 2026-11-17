@@ -49,12 +49,12 @@ export function postCard(p) {
 export { strip };
 
 // "Visit our showroom" band, for sites with a showroom (the UAE site).
-export function showroomBand(m, { cls = "sand", img = "kitchen-design2" } = {}) {
+export function showroomBand(m, { cls = "sand", img = "showroom-kitchen" } = {}) {
   if (!m.showroom) return "";
   const r = m.showroom;
   return section(cls, `<div class="split r"><div><p class="kicker">Visit our showroom</p><h2>See it in <b>${r.area}, ${r.city}</b></h2>
 <p class="lede mt1">Open the doors, feel the finishes and test the hardware before you decide. Our showroom has door and colour samples, handles, worktop options and cabinet construction on display, and a designer to talk through your project.</p>
 <div class="show-addr">${PIN}<div><b>Sanyang showroom</b><br>${r.full}<br><span class="muted">${r.hoursText}</span></div></div>
 <div class="btns">${btn(mapsLink(m), "Get directions", "btn primary", ' target="_blank" rel="noopener"')}${btn("/showroom/", "Plan your visit", "btn")}${waBtn(m, "Book a visit")}</div></div>
-<div class="ph">${picture(img, { alt: "Kitchen finishes and cabinets on display", sizes: "(max-width:860px) 100vw, 50vw" })}</div></div>`);
+<div class="ph">${picture(img, { alt: `Kitchen on display at the Sanyang showroom in ${r.area}, ${r.city}`, sizes: "(max-width:860px) 100vw, 50vw" })}</div></div>`);
 }
