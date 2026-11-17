@@ -1,5 +1,5 @@
 import { strip, picture, btn, waBtn, t, preload, ctaBand, faqSchema, photoUrl } from "../lib/html.mjs";
-import { collectionCard, ticks, statsBand, certs, steps, section, head, faqList, postCard } from "../lib/parts.mjs";
+import { collectionCard, ticks, statsBand, certs, steps, section, head, faqList, postCard, showroomBand } from "../lib/parts.mjs";
 import { COLLECTIONS } from "../data/collections.mjs";
 import { SECTORS } from "../data/sectors.mjs";
 
@@ -55,6 +55,7 @@ ${certs()}
 <div class="btns">${btn("/construction/", "Construction details", "btn")}${btn("/quality/", "Quality and certifications", "btn")}</div></div></div>`)}
 ${m.key === "ae" ? section("sand", `<div class="split"><div><p class="kicker">Design service</p><h2>Our designers, <b>your project</b></h2><p class="lede mt1">Send a floor plan, a BOQ or just an idea. Our in-house team measures the site, draws every layout and produces 3D visuals and shop drawings for your approval, before anything is made.</p>${ticks(["Site measurement in Dubai, Abu Dhabi and across the UAE", "Layouts and 3D visuals for every unit type", "Shop drawings and material submittals for consultants", "Samples approved before production"])}<div class="btns">${btn("/design-service/", "About the design service")}${waBtn(m)}</div></div><div class="ph">${picture("sy-hero", { alt: "Designed kitchen with island and pendant lights", sizes: "(max-width:860px) 100vw, 50vw" })}</div></div>`) :
     section("sand", `<div class="split"><div><p class="kicker">Specify</p><h2>A sample kitchen, <b>by code</b></h2><p class="lede mt1">See how a typical twelve-cabinet new-build kitchen is specified from our catalogue, unit by unit, then send us your house types for an itemised quotation.</p><div class="btns">${btn("/sample-kitchen/", "See the sample kitchen")}${btn("/catalogue/", "Get the trade catalogue", "btn")}</div></div><div class="ph">${picture("b26-p3", { alt: "Shaker kitchen with island", sizes: "(max-width:860px) 100vw, 50vw" })}</div></div>`)}
+${showroomBand(m, { cls: "cream" })}
 ${section("", `<p class="kicker">${t(m, { uk: "Our footprint", ae: "Global footprint" })}</p><p class="quote">More than <b>500 containers a month</b> to the United States. Projects across the <b>UK and Ireland</b>. ${t(m, { uk: "Now with a dedicated UK programme, in UK sizes, for UK buyers.", ae: "Now designing and supplying projects across the <b>UAE</b>." })}</p>
 <div class="mapgrid mt2">${m.factories.map(f => `<div class="card"><span class="num">${f.country.toUpperCase()}</span><h3>${f.place}</h3><p>${f.role}</p></div>`).join("")}</div>`)}
 ${ctx.posts.length ? section("cream", `${head("Journal", "Guides for <b>buyers and specifiers</b>", "", btn("/journal/", "All articles", "btn"))}<div class="posts">${ctx.posts.slice(0, 3).map(postCard).join("")}</div>`) : ""}

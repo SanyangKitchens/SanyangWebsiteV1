@@ -1,6 +1,6 @@
 // Company, process, sector, location, contact and legal pages.
-import { picture, btn, waBtn, waLink, t, ctaBand, breadcrumbSchema, faqSchema, preload, photoUrl, MAIL, PHONE, WA, amp } from "../lib/html.mjs";
-import { collectionCard, ticks, statsBand, certs, steps, section, head, faqList } from "../lib/parts.mjs";
+import { picture, btn, waBtn, waLink, t, ctaBand, breadcrumbSchema, faqSchema, preload, photoUrl, MAIL, PHONE, WA, PIN, mapsLink, amp } from "../lib/html.mjs";
+import { collectionCard, ticks, statsBand, certs, steps, section, head, faqList, showroomBand } from "../lib/parts.mjs";
 import { COLLECTIONS, COMPLIANCE } from "../data/collections.mjs";
 import { SECTORS } from "../data/sectors.mjs";
 import { FAQ } from "../data/faq.mjs";
@@ -184,7 +184,7 @@ function contact(m) {
     body: section("", `<div class="contact-grid"><div>${enquiryForm(m)}</div>
 <aside><div class="cbox"><h3>Talk to us</h3>
 <a href="mailto:${m.email}">${MAIL}${m.email}</a><a href="${waLink(m)}" target="_blank" rel="noopener">${WA}WhatsApp ${m.whatsappDisplay}</a><a href="tel:${m.phoneHref}">${PHONE}${m.phone}</a>
-<p class="mt1">${m.hours}</p>${m.showroom ? `<p><b style="color:var(--cream)">Showroom</b><br>${m.showroom.full}</p>` : ""}</div>
+<p class="mt1">${m.hours}</p>${m.showroom ? `<p><b style="color:var(--cream)">Showroom</b><br>${m.showroom.full}<br>${m.showroom.hoursText}</p><a href="${mapsLink(m)}" target="_blank" rel="noopener">${PIN}Get directions</a><a href="/showroom/">${PIN}Plan your showroom visit</a>` : ""}</div>
 <div class="card mt2"><h3>Sending drawings?</h3><p>Large files are easiest by email or WhatsApp. Include house or unit types, quantities and your delivery dates.</p></div>
 <div class="card mt1"><h3>Want the catalogue first?</h3><p>Every door, colour, handle and cabinet with order codes.</p><p class="mt1"><a class="tlink" href="/catalogue/">Request the catalogue →</a></p></div></aside></div>`),
   };
@@ -235,7 +235,7 @@ function locations(m) {
     hero: { kicker: "Where we work", h1: "Across <b>the UAE</b>", lede: "Site measurement, design and delivery in every emirate, with our showroom in Deira, Dubai.", trail: [["Where we work"]], img: "b26-cover" },
     schema: [bc(m, [["Where we work", "/locations/"]])],
     body: section("", `<div class="grid g3">${EMIRATES.map(e => `<a class="icard" href="/locations/${e.slug}/"><div class="ph">${picture(e.img, { alt: `Sanyang kitchen for ${e.name} projects`, sizes: "(max-width:620px) 100vw, 33vw" })}</div><div class="tx"><h3>${e.name}</h3><p>${e.description}</p></div></a>`).join("")}</div>
-<div class="card mt2"><h3>Showroom</h3><p>${m.showroom.full}</p><p class="mt1"><a class="tlink" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.showroom.full)}" target="_blank" rel="noopener">Open in Google Maps →</a></p></div>`) + ctaBand(m),
+`) + showroomBand(m) + ctaBand(m),
   };
   return [hub, ...EMIRATES.map(e => ({
     id: `loc-${e.slug}`, path: `/locations/${e.slug}/`, nav: "about",
@@ -274,6 +274,46 @@ function legal(m) {
   }];
 }
 
+function showroom(m) {
+  if (!m.showroom) return [];
+  const r = m.showroom;
+  const faq = [
+    ["Where is the Sanyang showroom in Dubai?", `${r.full}. Use the map on this page or open Google Maps for directions.`],
+    ["When is the showroom open?", `${r.hoursText}. Message us on WhatsApp before you come and a designer will be ready for you.`],
+    ["Do I need an appointment?", "You are welcome to walk in during opening hours. Booking ahead on WhatsApp or by phone means a designer is free to go through your drawings with you."],
+    ["What should I bring?", "Floor plans or photos of the space, rough measurements, and any appliance models you have chosen. For developments, bring the unit mix and drawings or a BOQ."],
+  ];
+  return [{
+    id: "showroom", path: "/showroom/", nav: "showroom",
+    title: `Kitchen Showroom in ${r.area}, ${r.city}`,
+    description: `Visit the Sanyang kitchen showroom in ${r.area}, ${r.city}: door and colour samples, handles, worktops and cabinet construction, with our designers on hand.`,
+    hero: { kicker: "Showroom", h1: `Visit our showroom in <b>${r.area}, ${r.city}</b>`, lede: "See and feel the doors, finishes, handles and cabinets before you choose, and talk to a designer about your project.", trail: [["Showroom"]], img: "kitchen-design2",
+      after: `<div class="btns">${btn(mapsLink(m), "Get directions", "btn gold", ' target="_blank" rel="noopener"')}${waBtn(m, "Book a visit")}</div>` },
+    schema: [bc(m, [["Showroom", "/showroom/"]]), {
+      "@type": "HomeAndConstructionBusiness", "@id": `${m.url}/showroom/#showroom`, name: `${m.brand} showroom, ${r.area}`, url: `${m.url}/showroom/`,
+      image: photoUrl("kitchen-design2", 1200, m), telephone: m.phone, email: m.email, hasMap: mapsLink(m),
+      address: { "@type": "PostalAddress", streetAddress: r.street, addressLocality: r.city, addressRegion: r.area, addressCountry: r.country },
+      openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: r.days, opens: r.opens, closes: r.closes }],
+      parentOrganization: { "@id": `${m.url}/#organization` },
+    }, faqSchema(faq)],
+    body: section("", `<div class="contact-grid"><div class="prose">
+<h2>What you can see</h2>
+<p>Choosing a kitchen from a screen is hard. Colours shift under different light, and you cannot feel a soft-close hinge or a drawer runner in a photograph. At our ${r.area} showroom you can open the doors, compare finishes side by side and see how the cabinets are built.</p>
+${ticks(["Door samples from our 16 collections, from painted solid-wood shaker to acrylic gloss and super-matt slab", "Colour and woodgrain swatches from 300 door and colour options", "Handles, knobs and profiles in every finish", "Cabinet construction: plywood carcasses, dovetailed drawers, soft-close hinges and runners", "Worktop, panel and stone-effect samples", "Wardrobe, vanity and internal door options"])}
+<h2>Talk to a designer</h2>
+<p>Bring a floor plan, photos or a BOQ. Our in-house designers can go through layouts with you, suggest finishes for the UAE climate and arrange a site measurement in Dubai, Abu Dhabi, Sharjah or the northern emirates. See our <a href="/design-service/">design service</a> for how the process works.</p>
+<h2>Who it is for</h2>
+<p>Villa and apartment owners choosing a new kitchen, interior designers and architects bringing clients to approve samples, and developers and fit-out contractors reviewing finishes for a project. Trade buyers can also see our <a href="/kitchen-cabinets/">kitchen collections</a> before requesting a proposal.</p>
+</div>
+<aside><div class="cbox"><h3>Find us</h3>
+<p><b style="color:var(--cream)">Sanyang showroom</b><br>${r.full}</p>
+<p>${r.hoursText}</p>
+<a href="${mapsLink(m)}" target="_blank" rel="noopener">${PIN}Get directions</a><a href="tel:${m.phoneHref}">${PHONE}${m.phone}</a><a href="${waLink(m, "Hello Sanyang, I'd like to visit your Deira showroom.")}" target="_blank" rel="noopener">${WA}Book a visit on WhatsApp</a><a href="mailto:${m.email}">${MAIL}${m.email}</a></div>
+<div class="map mt2"><iframe title="Map showing the Sanyang showroom in ${r.area}, ${r.city}" src="https://www.google.com/maps?q=${encodeURIComponent(r.full)}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></aside></div>`) +
+      section("cream", `<div class="split" style="align-items:start"><div><p class="kicker">FAQ</p><h2>Visiting <b>the showroom</b></h2></div><div>${faqList(faq)}</div></div>`) + ctaBand(m),
+  }];
+}
+
 export function pages(m) {
-  return [sectorsHub(m), ...SECTORS[m.key].map(s => sectorPage(m, s)), about(m), factories(m), howItWorks(m), design(m), shipping(m), quality(m), warranty(m), faqPage(m), contact(m), gallery(m), ...locations(m), ...legal(m)];
+  return [sectorsHub(m), ...SECTORS[m.key].map(s => sectorPage(m, s)), about(m), factories(m), howItWorks(m), design(m), shipping(m), quality(m), warranty(m), faqPage(m), contact(m), ...showroom(m), gallery(m), ...locations(m), ...legal(m)];
 }

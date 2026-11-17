@@ -76,7 +76,9 @@ export const markets = {
       vat: "",
     },
     // Showroom address. Leave empty until confirmed; the contact page and schema then omit it.
-    showroom: { street: "Shop 6, Masaken, D78 Al Mateena Street", area: "Deira", city: "Dubai", country: "AE", full: "Shop 6, Masaken, D78 Al Mateena St, Deira, Dubai, United Arab Emirates" },
+    showroom: { street: "Shop 6, Masaken, D78 Al Mateena Street", area: "Deira", city: "Dubai", country: "AE", full: "Shop 6, Masaken, D78 Al Mateena St, Deira, Dubai, United Arab Emirates",
+      // Opening hours, shown on the showroom page and in Google's business data.
+      days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "19:00", hoursText: "Sunday to Friday, 9am to 7pm" },
     tagline: "Kitchens and joinery, designed for you and made in our own factories.",
     other: "uk",
   },

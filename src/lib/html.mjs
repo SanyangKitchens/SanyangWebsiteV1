@@ -16,6 +16,8 @@ export const ARROW = `<svg class="arr" viewBox="0 0 18 10" fill="none" stroke="c
 export const WA = `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></svg>`;
 export const MAIL = `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>`;
 export const PHONE = `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h3l2 5-2.5 1.5a11 11 0 0 0 7 7L16 14l5 2v3a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2Z"/></svg>`;
+export const PIN = `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>`;
+export const mapsLink = m => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.showroom.full)}`;
 export const CHECK = `<svg class="ico ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>`;
 
 // Responsive photo with AVIF and WebP, falling back to JPEG.
@@ -79,6 +81,7 @@ export function orgSchema(m) {
     hasCredential: ["ISO 9001:2015", "FSC chain of custody (certified timber available)", "E1 / CARB Phase 2 boards"].map(n => ({ "@type": "EducationalOccupationalCredential", name: n })),
     contactPoint: [{ "@type": "ContactPoint", contactType: "sales", email: m.email, telephone: m.phone, areaServed: m.areaServed, availableLanguage: ["en"] }],
     ...(sameAs.length && { sameAs }),
+    ...(m.showroom && { hasMap: mapsLink(m), openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: m.showroom.days, opens: m.showroom.opens, closes: m.showroom.closes }] }),
     ...(m.showroom && { address: { "@type": "PostalAddress", streetAddress: m.showroom.street, addressLocality: m.showroom.city, addressRegion: m.showroom.area, addressCountry: m.showroom.country } }),
   };
 }
@@ -95,6 +98,7 @@ export function nav(m) {
     { href: "/who-we-supply/", label: "Who we supply", key: "sectors", menu: "sectors" },
     { href: "/how-it-works/", label: "How it works", key: "how", menu: "how" },
     { href: "/about/", label: "About", key: "about", menu: "about" },
+    ...(m.showroom ? [{ href: "/showroom/", label: "Showroom", key: "showroom" }] : []),
     { href: "/journal/", label: "Journal", key: "journal" },
   ];
 }
@@ -149,6 +153,7 @@ function header(m, active, ctx) {
       ["/about/", "About Sanyang", "A manufacturer first"],
       ["/our-factories/", "Our factories", "China, Vietnam and Thailand"],
       ["/gallery/", "Gallery", "Kitchens and bathrooms"],
+      ...(m.showroom ? [["/showroom/", "Our showroom", `Visit us in ${m.showroom.area}, ${m.showroom.city}`]] : []),
       ...(m.key === "ae" ? [["/locations/", "Where we work", "Dubai, Abu Dhabi and across the UAE"]] : [["/ireland/", "Supplying Ireland", "Projects in the Republic and NI"]]),
       ["/contact/", "Contact", m.email],
     ]),
@@ -156,7 +161,7 @@ function header(m, active, ctx) {
   const links = nav(m).map(n => `<li class="${n.menu ? "has-menu" : ""}"><a href="${n.href}"${n.key === active ? ' aria-current="page"' : ""}>${n.label}</a>${n.menu ? menus[n.menu] : ""}</li>`).join("");
   return `<a class="skip" href="#main">Skip to content</a>
 <div class="topbar"><div class="wrap"><p>${m.proof.years} years manufacturing <i>·</i> ${m.proof.containers} containers a month <i>·</i> ${m.proof.warrantyYears}-year warranty <i>·</i> FSC · E1 · ISO 9001</p>
-<p class="tb-r"><a href="mailto:${m.email}">${MAIL}${m.email}</a>${m.key === "ae" ? `<a href="tel:${m.phoneHref}">${m.phone}</a>` : ""}<a href="${waLink(m)}" target="_blank" rel="noopener">${WA}${m.whatsappDisplay}</a></p></div></div>
+<p class="tb-r"><a href="mailto:${m.email}">${MAIL}${m.email}</a>${m.showroom ? `<a class="tb-show" href="/showroom/">${PIN}${m.showroom.area} showroom</a>` : ""}${m.key === "ae" ? `<a class="tb-phone" href="tel:${m.phoneHref}">${m.phone}</a>` : ""}<a href="${waLink(m)}" target="_blank" rel="noopener">${WA}${m.whatsappDisplay}</a></p></div></div>
 <header class="site-header" id="top"><div class="wrap">
 <a class="logo" href="/" aria-label="${m.brand} home"><picture><source type="image/webp" srcset="/img/logo/sy-logo.webp"><img src="/img/logo/sy-logo.png" width="640" height="163" alt="${m.brand}"></picture></a>
 <nav class="main-nav" aria-label="Main"><ul>${links}</ul></nav>
@@ -164,7 +169,7 @@ function header(m, active, ctx) {
 <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span></button>
 </div></header>
 <div class="drawer" id="drawer" hidden><div class="wrap">
-<ul>${nav(m).map(n => `<li><a href="${n.href}">${n.label}</a></li>`).join("")}<li><a href="/colours/">Colour finder</a></li><li><a href="/catalogue/">Catalogue</a></li><li><a href="/contact/">Contact</a></li></ul>
+<ul>${nav(m).map(n => `<li><a href="${n.href}">${n.label}</a></li>`).join("")}${m.showroom ? `<li><a href="/showroom/">Showroom</a></li>` : ""}<li><a href="/colours/">Colour finder</a></li><li><a href="/catalogue/">Catalogue</a></li><li><a href="/contact/">Contact</a></li></ul>
 <div class="btns">${btn("/contact/", t(m, { uk: "Get a quotation", ae: "Get a proposal" }))}${waBtn(m)}</div>
 </div></div>`;
 }
@@ -179,10 +184,10 @@ function footer(m, ctx) {
 <div class="f-top">
 <div class="f-brand"><picture><source type="image/webp" srcset="/img/logo/logo-light.webp"><img src="/img/logo/logo-light.png" width="640" height="163" alt="${m.brand}" loading="lazy"></picture>
 <p>${t(m, { uk: "Kitchen and bathroom cabinetry made in our own factories, for housebuilders, developers, contractors and the kitchen trade across the UK and Ireland.", ae: "Kitchens, wardrobes, vanities and doors, designed in-house and made in our own factories, for developers, contractors and the trade across the UAE." })}</p>
-<p class="f-contact"><a href="mailto:${m.email}">${MAIL}${m.email}</a><a href="tel:${m.phoneHref}">${PHONE}${m.phone}</a><a href="${waLink(m)}" target="_blank" rel="noopener">${WA}WhatsApp ${m.whatsappDisplay}</a></p></div>
+<p class="f-contact"><a href="mailto:${m.email}">${MAIL}${m.email}</a><a href="tel:${m.phoneHref}">${PHONE}${m.phone}</a><a href="${waLink(m)}" target="_blank" rel="noopener">${WA}WhatsApp ${m.whatsappDisplay}</a>${m.showroom ? `<a href="/showroom/">${PIN}Showroom: ${m.showroom.full}</a>` : ""}</p></div>
 ${col("Products", [["/kitchen-cabinets/", "Kitchen cabinets"], ["/colours/", "Colour finder"], ["/cabinet-units/", "Cabinet units"], ["/handles/", "Handles"], ["/bathroom-vanities/", "Bathroom vanities"], ["/construction/", "Construction"], ["/catalogue/", "Trade catalogue"]])}
 ${col("Who we supply", ctx.sectors.map(s => [`/who-we-supply/${s.slug}/`, s.short]))}
-${col("Company", [["/about/", "About Sanyang"], ["/our-factories/", "Our factories"], ["/how-it-works/", "How it works"], ["/quality/", "Quality"], ["/warranty/", "Warranty"], ["/journal/", "Journal"], ["/faq/", "FAQ"], ["/contact/", "Contact"]])}
+${col("Company", [["/about/", "About Sanyang"], ["/our-factories/", "Our factories"], ["/how-it-works/", "How it works"], ["/quality/", "Quality"], ["/warranty/", "Warranty"], ["/journal/", "Journal"], ["/faq/", "FAQ"], ...(m.showroom ? [["/showroom/", "Showroom"]] : []), ["/contact/", "Contact"]])}
 </div>
 <div class="f-certs"><span>ISO 9001:2015</span><span>FSC certified timber available</span><span>E1 · CARB P2</span><span>KCMA tested</span><span>${m.proof.warrantyYears}-year warranty</span></div>
 <div class="f-bottom"><p>${legal}</p><p class="f-legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/sitemap/">Sitemap</a><a href="${m.key === "uk" ? "https://sanyang.ae" : "https://sanyang.co.uk"}" hreflang="${m.key === "uk" ? "en-AE" : "en-GB"}">${m.key === "uk" ? "Sanyang UAE" : "Sanyang UK"}</a></p></div>

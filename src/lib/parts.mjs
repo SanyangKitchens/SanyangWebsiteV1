@@ -1,5 +1,5 @@
 // Reusable page sections.
-import { esc, amp, tile, picture, btn, t, CHECK, strip } from "./html.mjs";
+import { esc, amp, tile, picture, btn, t, CHECK, strip, PIN, mapsLink, waBtn } from "./html.mjs";
 
 export const doorTile = (d, { fr = false, eager = false } = {}) =>
   `<figure class="dt${fr ? " fr" : ""}"><div class="im">${tile(d.img, `${d.name} door${d.code ? `, code ${d.code}` : ""}`, { eager })}</div><figcaption>${d.code ? `<span class="cd">${d.code}</span>` : ""}<span class="nm">${amp(d.name)}</span>${d.style ? `<span class="st">${d.style}</span>` : ""}</figcaption></figure>`;
@@ -47,3 +47,14 @@ export function postCard(p) {
   return `<a class="post-card" href="${p.path}"><div class="ph">${picture(p.img, { alt: strip(p.title), sizes: "(max-width:620px) 100vw, 33vw" })}</div><span class="cat">${p.category}</span><h3>${amp(p.title)}</h3><p>${esc(p.excerpt)}</p></a>`;
 }
 export { strip };
+
+// "Visit our showroom" band, for sites with a showroom (the UAE site).
+export function showroomBand(m, { cls = "sand", img = "kitchen-design2" } = {}) {
+  if (!m.showroom) return "";
+  const r = m.showroom;
+  return section(cls, `<div class="split r"><div><p class="kicker">Visit our showroom</p><h2>See it in <b>${r.area}, ${r.city}</b></h2>
+<p class="lede mt1">Open the doors, feel the finishes and test the hardware before you decide. Our showroom has door and colour samples, handles, worktop options and cabinet construction on display, and a designer to talk through your project.</p>
+<div class="show-addr">${PIN}<div><b>Sanyang showroom</b><br>${r.full}<br><span class="muted">${r.hoursText}</span></div></div>
+<div class="btns">${btn(mapsLink(m), "Get directions", "btn primary", ' target="_blank" rel="noopener"')}${btn("/showroom/", "Plan your visit", "btn")}${waBtn(m, "Book a visit")}</div></div>
+<div class="ph">${picture(img, { alt: "Kitchen finishes and cabinets on display", sizes: "(max-width:860px) 100vw, 50vw" })}</div></div>`);
+}
