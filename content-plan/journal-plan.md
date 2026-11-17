@@ -38,7 +38,7 @@ search for (Search Console queries once available, then trade press, forums and 
 | [x] 2026-11-12 soft-close-kitchen-hinges-and-runners | Soft-close hinges and drawer runners: what to check | soft close kitchen hinges | Materials and construction | /construction/, /quality/ |
 | [x] 2026-11-13 factory-direct-kitchen-lead-times | Factory-direct kitchen lead times, explained | kitchen lead times | Buying guides | /how-it-works/, /shipping-and-delivery/ |
 | [x] 2026-11-16 new-build-kitchen-trends-2027 | Kitchen trends for UK new builds in 2027 | new build kitchen trends 2027 | Design and trends | /kitchen-cabinets/, /colours/ |
-| [ ] | Thermofoil vs painted vs lacquered kitchen doors | painted vs lacquered kitchen doors | Materials and construction | /kitchen-cabinets/, /construction/ |
+| [x] 2026-11-17 painted-vs-lacquered-kitchen-doors | Thermofoil vs painted vs lacquered kitchen doors | painted vs lacquered kitchen doors | Materials and construction | /kitchen-cabinets/, /construction/ |
 | [ ] | How to read a kitchen cabinet specification sheet | kitchen cabinet specification | Buying guides | /construction/, /cabinet-units/ |
 | [ ] | Build-to-rent kitchens: what drives the cost per unit | build to rent kitchen cost | Projects and procurement | /who-we-supply/build-to-rent-and-student/ |
 | [ ] | Fire safety and kitchen units in flats | kitchen fire safety regulations flats | Market insight | /quality/, /who-we-supply/build-to-rent-and-student/ |
@@ -103,7 +103,7 @@ search for (Search Console queries once available, then trade press, forums and 
 | [x] 2026-11-12 humidity-resistant-kitchen-cabinets | Kitchen finishes for high humidity | humidity resistant kitchen cabinets | Materials and construction | /journal/kitchen-cabinets-uae-climate/ |
 | [x] 2026-11-13 villa-kitchen-design-dubai | Villa kitchen timeline: design to handover | villa kitchen design dubai | Projects and procurement | /design-service/, /who-we-supply/villa-and-apartment-kitchens/ |
 | [x] 2026-11-16 kitchen-trends-dubai-2027 | Kitchen trends in UAE villas for 2027 | kitchen trends dubai 2027 | Design and trends | /kitchen-cabinets/ |
-| [ ] | Lacquer, acrylic or laminate doors for UAE kitchens | acrylic vs lacquer kitchen | Materials and construction | /kitchen-cabinets/lustre/ |
+| [x] 2026-11-17 acrylic-vs-lacquer-kitchen-doors | Lacquer, acrylic or laminate doors for UAE kitchens | acrylic vs lacquer kitchen | Materials and construction | /kitchen-cabinets/lustre/ |
 | [ ] | How to read a joinery BOQ for kitchens | joinery boq kitchen | Projects and procurement | /who-we-supply/fit-out-contractors/ |
 | [ ] | Wardrobes for apartment developments | fitted wardrobes dubai | Buying guides | /who-we-supply/property-developers/ |
 | [ ] | Civil Defence and consultant approvals for joinery | joinery approval dubai | Projects and procurement | /journal/kitchen-material-submittals-uae/ |
