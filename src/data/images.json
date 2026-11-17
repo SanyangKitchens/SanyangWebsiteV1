@@ -262,6 +262,83 @@
     1000
    ]
   },
+  "showroom-bedroom": {
+   "width": 1360,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    1200,
+    1360
+   ]
+  },
+  "showroom-gallery": {
+   "width": 765,
+   "height": 1020,
+   "widths": [
+    480,
+    765
+   ]
+  },
+  "showroom-glass-wardrobe": {
+   "width": 1360,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    1200,
+    1360
+   ]
+  },
+  "showroom-kitchen": {
+   "width": 1360,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    1200,
+    1360
+   ]
+  },
+  "showroom-lounge": {
+   "width": 1360,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    1200,
+    1360
+   ]
+  },
+  "showroom-media-wall": {
+   "width": 1360,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    1200,
+    1360
+   ]
+  },
+  "showroom-samples": {
+   "width": 932,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    932
+   ]
+  },
+  "showroom-wardrobe": {
+   "width": 1360,
+   "height": 1020,
+   "widths": [
+    480,
+    800,
+    1200,
+    1360
+   ]
+  },
   "sk-d2328": {
    "width": 2886,
    "height": 3100,
