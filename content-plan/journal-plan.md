@@ -41,7 +41,7 @@ search for (Search Console queries once available, then trade press, forums and 
 | [x] 2026-11-17 painted-vs-lacquered-kitchen-doors | Thermofoil vs painted vs lacquered kitchen doors | painted vs lacquered kitchen doors | Materials and construction | /kitchen-cabinets/, /construction/ |
 | [x] 2026-11-18 kitchen-cabinet-specification-sheet | How to read a kitchen cabinet specification sheet | kitchen cabinet specification | Buying guides | /construction/, /cabinet-units/ |
 | [x] 2026-11-19 build-to-rent-kitchen-cost | Build-to-rent kitchens: what drives the cost per unit | build to rent kitchen cost | Projects and procurement | /who-we-supply/build-to-rent-and-student/ |
-| [ ] | Fire safety and kitchen units in flats | kitchen fire safety regulations flats | Market insight | /quality/, /who-we-supply/build-to-rent-and-student/ |
+| [x] 2026-11-20 kitchen-fire-safety-regulations-flats | Fire safety and kitchen units in flats | kitchen fire safety regulations flats | Market insight | /quality/, /who-we-supply/build-to-rent-and-student/ |
 | [ ] | What FSC certification means for a kitchen order | FSC certified kitchens | Materials and construction | /quality/, /journal/uk-timber-regulation-kitchen-cabinets/ |
 | [ ] | Plot labelling and phased delivery for housebuilders | phased kitchen delivery housebuilders | Projects and procurement | /shipping-and-delivery/, /who-we-supply/housebuilders-and-developers/ |
 | [ ] | Kitchen replacement programmes for housing associations | social housing kitchen replacement | Projects and procurement | /who-we-supply/social-housing/ |
@@ -106,7 +106,7 @@ search for (Search Console queries once available, then trade press, forums and 
 | [x] 2026-11-17 acrylic-vs-lacquer-kitchen-doors | Lacquer, acrylic or laminate doors for UAE kitchens | acrylic vs lacquer kitchen | Materials and construction | /kitchen-cabinets/lustre/ |
 | [x] 2026-11-18 kitchen-joinery-boq | How to read a joinery BOQ for kitchens | joinery boq kitchen | Projects and procurement | /who-we-supply/fit-out-contractors/ |
 | [x] 2026-11-19 fitted-wardrobes-dubai-apartments | Wardrobes for apartment developments | fitted wardrobes dubai | Buying guides | /who-we-supply/property-developers/ |
-| [ ] | Civil Defence and consultant approvals for joinery | joinery approval dubai | Projects and procurement | /journal/kitchen-material-submittals-uae/ |
+| [x] 2026-11-20 joinery-approval-dubai | Civil Defence and consultant approvals for joinery | joinery approval dubai | Projects and procurement | /journal/kitchen-material-submittals-uae/ |
 | [ ] | Green building ratings and kitchen materials | sustainable kitchen uae | Market insight | /quality/ |
 | [ ] | Phased delivery for multi-tower projects | kitchen delivery for projects uae | Projects and procurement | /shipping-and-delivery/ |
 | [ ] | Kitchen refurbishment for older Dubai villas | kitchen renovation dubai | Projects and procurement | /locations/dubai/ |
