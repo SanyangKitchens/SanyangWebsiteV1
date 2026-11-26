@@ -45,7 +45,7 @@ search for (Search Console queries once available, then trade press, forums and 
 | [x] 2026-11-23 fsc-certified-kitchens | What FSC certification means for a kitchen order | FSC certified kitchens | Materials and construction | /quality/, /journal/uk-timber-regulation-kitchen-cabinets/ |
 | [x] 2026-11-24 phased-kitchen-delivery-housebuilders | Plot labelling and phased delivery for housebuilders | phased kitchen delivery housebuilders | Projects and procurement | /shipping-and-delivery/, /who-we-supply/housebuilders-and-developers/ |
 | [x] 2026-11-25 social-housing-kitchen-replacement | Kitchen replacement programmes for housing associations | social housing kitchen replacement | Projects and procurement | /who-we-supply/social-housing/ |
-| [ ] | Handleless kitchens: J-pull, true handleless and push-to-open | handleless kitchen | Design and trends | /handles/, /kitchen-cabinets/ |
+| [x] 2026-11-26 handleless-kitchen-guide | Handleless kitchens: J-pull, true handleless and push-to-open | handleless kitchen | Design and trends | /handles/, /kitchen-cabinets/ |
 | [ ] | Integrated appliance housings that fit first time | integrated appliance housing sizes | Buying guides | /cabinet-units/ |
 | [ ] | Importing kitchens to the UK: duty, VAT and paperwork | importing kitchens to UK duty | Market insight | /shipping-and-delivery/, /journal/incoterms-exw-fob-cif-ddp-kitchen-imports/ |
 | [ ] | Worktops for trade kitchens: laminate, quartz or solid surface | best kitchen worktop for new build | Materials and construction | /sample-kitchen/ |
@@ -110,7 +110,7 @@ search for (Search Console queries once available, then trade press, forums and 
 | [x] 2026-11-23 sustainable-kitchen-uae | Green building ratings and kitchen materials | sustainable kitchen uae | Market insight | /quality/ |
 | [x] 2026-11-24 kitchen-delivery-projects-uae | Phased delivery for multi-tower projects | kitchen delivery for projects uae | Projects and procurement | /shipping-and-delivery/ |
 | [x] 2026-11-25 kitchen-renovation-dubai | Kitchen refurbishment for older Dubai villas | kitchen renovation dubai | Projects and procurement | /locations/dubai/ |
-| [ ] | Handleless kitchens for modern UAE apartments | handleless kitchen dubai | Design and trends | /handles/ |
+| [x] 2026-11-26 handleless-kitchen-dubai | Handleless kitchens for modern UAE apartments | handleless kitchen dubai | Design and trends | /handles/ |
 | [ ] | Appliance housings for UAE kitchen layouts | built in oven cabinet | Buying guides | /cabinet-units/ |
 | [ ] | Importing kitchens into the UAE: duty and Jebel Ali | import kitchen cabinets to uae | Market insight | /shipping-and-delivery/ |
 | [ ] | Worktops for hot climates: quartz, granite or porcelain | kitchen countertop uae | Materials and construction | /design-service/ |
